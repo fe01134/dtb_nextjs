@@ -1,5 +1,8 @@
 // pages/ssr.js
+import Link from 'next/link'
+
 export default function SSR({ formattedDate }) {
+  const go_hom_url = "/"
     return (
       <>
         <h1>Server-side rendered page</h1>
@@ -7,7 +10,9 @@ export default function SSR({ formattedDate }) {
           This page is server-side rendered. It was rendered on {formattedDate}.
         </p>
         <p>
-          <a href="/">View a static page.</a>
+        <Link href={go_hom_url}>
+            return to home page
+        </Link>
         </p>
       </>
     );

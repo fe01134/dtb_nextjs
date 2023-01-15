@@ -1,11 +1,16 @@
 // pages/index.js
+import Link from 'next/link'
+
 export default function Home({ formattedDate }) {
+  const link_url = "/ssr"
   return (
     <>
       <h1>Static page</h1>
       <p>This page is static. It was built on {formattedDate}.</p>
       <p>
-        <a href="/ssr">View a server-side rendered page.</a>
+        <Link href={link_url}>
+            server side rendered page
+        </Link>
       </p>
     </>
   );
