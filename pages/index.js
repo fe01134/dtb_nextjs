@@ -6,7 +6,7 @@ export default function Home({ formattedDate }) {
   return (
     <>
       <h1>Static page</h1>
-      <p>This page is static. It was built on {formattedDate}.</p>
+      <p>This page is static but modified. It was built on {formattedDate}.</p>
       <p>
         <Link href={link_url}>
             server side rendered page
