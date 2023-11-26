@@ -1,5 +1,4 @@
 import { useRouter } from 'next/router'
-import Lane from '../../../../../../components/Lane'
 import LaneModel from '../../../../../../model/lane'
 import { useEffect, useState } from 'react'
 
@@ -35,8 +34,7 @@ export default function Home() {
 
   return lane ? (
     <div style={{display: "flex"}}>
-          <Lane
-        value={lane} />
+    
               </div>
       ) : <div>Nothing here for you</div>
 }

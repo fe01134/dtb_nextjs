@@ -1,4 +1,3 @@
-import Lane from '../../components/Lane'
 import LaneModel from '../../model/lane'
 import StepModel from '../../model/step'
 
@@ -14,7 +13,7 @@ export default function Home() {
     ], true)
 
   return(
-    <div style={{display: "flex"}}>   <Lane value={l1}  />
+    <div style={{display: "flex"}}> 
     </div>
 
   ) 
