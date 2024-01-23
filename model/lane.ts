@@ -14,13 +14,27 @@ export default class LaneModel {
     }
 
     static active(id: string, description: string, steps: StepModel[], selected = false) {
-        return new StepModel( description, true)
+        return new LaneModel(id, description, steps, selected )  
     }
     
     static inactive(id: string, description: string, steps: StepModel[], selected = false) {
-        return new StepModel( description, false)
+        return new LaneModel(id, description, steps, selected ) 
     }
 
+    desselected() {
+        const selected = false
+        return new LaneModel(this.id, this.description, this.steps, this.selected )        
+    }
+
+    alternarSelecao() {
+        const selected = !this.selected
+        return new LaneModel(this.id, this.description, this.steps,  this.selected )
+    }
+
+    abrir() {
+        const aberta = true
+        return new LaneModel(this.id, this.description, this.steps, this.selected )
+    }
 
     get id() {
         return this.#id
@@ -48,11 +62,12 @@ export default class LaneModel {
         return new LaneModel(this.#id, this.#description, respostasEmbaralhadas, this.#selected)
     }
 
+    // IF there are no steps set the value to null for them otherwise map them.
     paraObjeto() {
         return {
             id: this.#id,
             description: this.#description,
-            steps: this.#steps.map(step => step.paraObjeto()),
+            steps: this.#steps ? (this.#steps.map(step => step.paraObjeto())): null,
             selected: this.#selected
         }
     }

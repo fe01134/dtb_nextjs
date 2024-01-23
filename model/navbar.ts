@@ -1,4 +1,4 @@
-export default class StepModel {
+export default class NavbarModel {
     #id: string
     #value: string
     #selected: boolean
@@ -10,11 +10,11 @@ export default class StepModel {
     }
 
     static active(id:string, value: string) {
-        return new StepModel(id, value, true)
+        return new NavbarModel(id, value, true)
     }
     
     static inactive(id:string, value: string) {
-        return new StepModel(id, value, false)
+        return new NavbarModel(id, value, false)
     }
 
     get id() {
@@ -31,16 +31,16 @@ export default class StepModel {
 
     alternarSelecao() {
         const selecionada = !this.selected
-        return new StepModel(this.id, this.value, this.selected)
+        return new NavbarModel(this.id, this.value, this.selected)
     }
 
     abrir() {
         const aberta = true
-        return new StepModel(this.id, this.value, this.selected)
+        return new NavbarModel(this.id, this.value, this.selected)
     }
 
-    static criarUsandoObjeto(obj: StepModel): StepModel {
-        return new StepModel(obj.id, obj.value, obj.selected)
+    static criarUsandoObjeto(obj: NavbarModel): NavbarModel {
+        return new NavbarModel(obj.id, obj.value, obj.selected)
     }
 
     paraObjeto() {
