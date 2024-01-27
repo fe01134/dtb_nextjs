@@ -1,23 +1,23 @@
 import StepModel from "./step"
 
 export default class LaneModel {
-    #id: string
+    #id: number
     #description: string
     #steps: StepModel[]
     #selected: boolean
 
-    constructor(id: string, description: string, steps: StepModel[],selected = false) {
+    constructor(id: number, description: string, steps: StepModel[],selected = false) {
         this.#id = id
         this.#description = description
         this.#steps = steps
         this.#selected = selected
     }
 
-    static active(id: string, description: string, steps: StepModel[], selected = false) {
+    static active(id: number, description: string, steps: StepModel[], selected = false) {
         return new LaneModel(id, description, steps, selected )  
     }
     
-    static inactive(id: string, description: string, steps: StepModel[], selected = false) {
+    static inactive(id: number, description: string, steps: StepModel[], selected = false) {
         return new LaneModel(id, description, steps, selected ) 
     }
 
@@ -68,7 +68,7 @@ export default class LaneModel {
             id: this.#id,
             description: this.#description,
             steps: this.#steps ? (this.#steps.map(step => step.paraObjeto())): null,
-            selected: this.#selected
+            selected: this.#selected,
         }
     }
 }

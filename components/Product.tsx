@@ -1,6 +1,6 @@
 import styles from '../styles/Lane.module.css'
 import ProductModel from '../model/product'
-import Lane from '../Lane'
+import Lane from './Lane'
 import * as React from 'react'
 import "@emotion/styled"
 
@@ -30,18 +30,22 @@ export default function Product(props: ProductProps) {
   
         return product.lanes.map((lane, i) => {
             console.log ("product map i", {i})
+            console.log ("product map i lane", {lane})
             return (
                 <Lane
-                    key={`${product.id}-${i}`}
+                    key={`${lane.id}-${i}`} 
                     value={lane}
-                > {product.id} `${product.id}`</Lane>
+                    onChange={(lane) => console.log("on change")}
+                ></Lane>
+
+                
             )
         })
         
     }
 
     return (
-        <div className={styles.product}>
+        <div className={styles.product} onClick={changeSelection}>
             {product.id}
             {product.description}
             {renderSteps()} 

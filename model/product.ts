@@ -1,25 +1,25 @@
 import LaneModel from "./lane"
 
 export default class ProductModel {
-    #id: string
+    #id: number
     #description: string
     #version: string
     #milestone: string
     #lanes: LaneModel[]
     #selected: boolean
 
-    constructor(id: string, description: string, version: string, milestone: string, lanes: LaneModel[],selected = false) {
+    constructor(id: number, description: string, version: string, milestone: string, lanes: LaneModel[],selected = false) {
         this.#id = id
         this.#description = description
         this.#lanes = lanes
         this.#selected = selected
     }
 
-    static active(id: string, description: string, version: string, milestone: string, lanes: LaneModel[], selected = false) {
+    static active(id: number, description: string, version: string, milestone: string, lanes: LaneModel[], selected = false) {
         return new ProductModel(id, description, version, milestone, lanes, selected )  
     }
     
-    static inactive(id: string, description: string, version: string, milestone: string, lanes: LaneModel[], selected = false) {
+    static inactive(id: number, description: string, version: string, milestone: string, lanes: LaneModel[], selected = false) {
         return new ProductModel(id, description,  version, milestone, lanes, selected ) 
     }
 

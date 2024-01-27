@@ -13,11 +13,13 @@ interface LaneProps {
 
 export default function Lane(props: LaneProps) {
     const lane = props.value
-    console.log ("Component lane")
-    console.log ("lane id", lane.id)
+    console.log ("Component lane ID")
+    console.log ( lane.id)
     console.log ("lane description", lane.description)
 
+
     const selected = lane.selected
+
 
     // OnChange returns a lane and it calls component Lane to change it's color selection.
     const changeSelection = e => props.onChange(lane.alternarSelecao())  
@@ -30,18 +32,23 @@ export default function Lane(props: LaneProps) {
   
         return lane.steps.map((step, i) => {
             console.log ("lane map i", {i})
+            console.log ("lane map stetp ", {step})
             return (
-                <Step
-                    key={`${lane.id}-${i}`}
-                    value={step}
-                > {lane.id} `${lane.id}`</Step>
+                <div key={`${step.id}-${i}`} >
+                    
+                    <Step 
+                        key={`${step.id}-${i}`} 
+                        value={step} 
+                        onChange={(step) => console.log ("lane map step") } ></Step>
+                    
+                 </div>
             )
         })
         
     }
 
     return (
-        <div className={styles.lane}>
+        <div className={styles.lane} onClick={changeSelection}>
             {lane.id}
             {lane.description}
             {renderSteps()} 

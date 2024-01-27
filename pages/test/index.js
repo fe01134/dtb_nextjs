@@ -1,39 +1,25 @@
-// pages/index.js
-// Get templates from https://bulmatemplates.github.io/bulma-templates/  click on source code button
-// Apply styles from Bulma 
-// npm install  --save bulma
-// add import "../styles/globals.css" to pages/_app.js  
-// To test go to URL localhost:3000/test
-// Or use mui Material design https://mui.com/material-ui/getting-started/example-projects/
-//import Link from 'next/link'
-import * as React from 'react';
+import Lane from '../../components/Lane'
+import LaneModel from '../../model/lane'
+import StepModel from '../../model/step'
 
-import Footer from '../../components/Footer'
-import ResourceHighlight from '../../components/ResourceHighlight'
-import ResourceList from '../../components/ResourceList'
-import ResourceListModel from '../../model/resourcelist'
-import ResourceHighlightModel from '../../model/resourcehighlight'
-import FooterModel from '../../model/footer'
-import { resources } from './data';
+const BASE_URL = 'http://localhost:3000/api'
 
-import Layout from '../../components/Layout';
-//import { resources } from './data';
+export default function Home() {
 
-function Home() {
+    const l1 = new LaneModel(400,"Health", [
+        StepModel.inactive(700, "Imports Data"),
+        StepModel.inactive(701, "Cleans Data"),
+        StepModel.inactive(702, "Creates Notebook"),
+        StepModel.active(703, "Trains Model")
+    ], true)
+    console.debug("test index.js Lane ID")
+    console.debug(l1.id)
+    console.debug("Steps 0")
+    console.debug(l1.steps[0])
 
-  const h1 = new ResourceHighlightModel("400","HealthHighlight",true)
-  const l1 = new ResourceListModel("500","HealthList",true)
-  const f1 = new FooterModel("600","HealthFooter",true)
-  return (
-    <>
-    <Layout>
-      <ResourceHighlight value={h1} ></ResourceHighlight>
-      <ResourceList value={l1}></ResourceList>
-      <Footer value={f1}></Footer>
-    </Layout>
-    </>
+  return(
+    <div style={{display: "flex"}}>   <Lane value={l1}  />
+    </div>
 
-  )
+  ) 
 }
-
-export default Home;

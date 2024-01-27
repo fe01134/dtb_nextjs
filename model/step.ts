@@ -1,19 +1,19 @@
 export default class StepModel {
-    #id: string
+    #id: number
     #value: string
     #selected: boolean
 
-    constructor(id: string, value: string, selected: boolean) {
+    constructor(id: number, value: string, selected: boolean) {
         this.#id = id
         this.#value = value
         this.#selected = selected
     }
 
-    static active(id:string, value: string) {
+    static active(id:number, value: string) {
         return new StepModel(id, value, true)
     }
     
-    static inactive(id:string, value: string) {
+    static inactive(id:number, value: string) {
         return new StepModel(id, value, false)
     }
 

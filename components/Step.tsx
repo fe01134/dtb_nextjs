@@ -18,16 +18,16 @@ export default function Step(props: StepProps) {
     console.log("     styles", styles)
 
     // OnChange returns a new step and it calls component Door to change it's color selection.
-    //const changeSelection = e => props.onChange(step_props.alternarSelecao())  
-    //const abrir = e => {
-    //    e.stopPropagation()
-    //    props.onChange(step_props.abrir())
-    //}
+    const changeSelection = e => props.onChange(step.alternarSelecao())  
+    const abrir = e => {
+        e.stopPropagation()
+        props.onChange(step.abrir())
+    }
 
     function renderSteps(){
 
         return (           
-            <div className={styles.step}>
+            <div className={styles.step} onClick={abrir}>
                 {step.value}
             </div>
         )
@@ -35,7 +35,7 @@ export default function Step(props: StepProps) {
 
 
     return (
-            <div className={styles.area}>
+            <div className={styles.area} onClick={changeSelection} >
                 <div className={`${styles.letter} ${selected}`}>
                     {step.value ? 
                         renderSteps(): 
