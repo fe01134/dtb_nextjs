@@ -14,7 +14,7 @@ import ResourceList from '../../components/ResourceList'
 import ResourceListModel from '../../model/resourcelist'
 import ResourceHighlightModel from '../../model/resourcehighlight'
 import FooterModel from '../../model/footer'
-import { resources } from './data';
+//import { resources } from '../src/data';
 
 import Layout from '../../components/Layout';
 //import { resources } from './data';
