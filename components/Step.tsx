@@ -18,8 +18,8 @@ export default function Step(props: StepProps) {
     console.log("     styles", styles)
 
     // OnChange returns a new step and it calls component Door to change it's color selection.
-    const changeSelection = e => props.onChange(step.alternarSelecao())  
-    const abrir = e => {
+    const changeSelection = (e: any) => props.onChange(step.alternarSelecao())  
+    const abrir = (e: { stopPropagation: () => void }) => {
         e.stopPropagation()
         props.onChange(step.abrir())
     }

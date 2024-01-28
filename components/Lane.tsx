@@ -22,8 +22,8 @@ export default function Lane(props: LaneProps) {
 
 
     // OnChange returns a lane and it calls component Lane to change it's color selection.
-    const changeSelection = e => props.onChange(lane.alternarSelecao())  
-    const abrir = e => {
+    const changeSelection = (e: any) => props.onChange(lane.alternarSelecao())  
+    const abrir = (e: { stopPropagation: () => void }) => {
         e.stopPropagation()
         props.onChange(lane.abrir())
     }
@@ -39,7 +39,7 @@ export default function Lane(props: LaneProps) {
                     <Step 
                         key={`${step.id}-${i}`} 
                         value={step} 
-                        onChange={(step) => console.log ("lane map step") } ></Step>
+                        onChange={(step) => console.log ("lane map onChange step") } ></Step>
                     
                  </div>
             )

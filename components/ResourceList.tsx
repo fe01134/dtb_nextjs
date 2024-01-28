@@ -14,8 +14,8 @@ export default function ResourceList(props: ResourceListProps) {
     const selected = resourcelist.selected
 
     // OnChange returns a product and it calls component Lane to change it's color selection.
-    const changeSelection = e => props.onChange(resourcelist.alternarSelecao())  
-    const abrir = e => {
+    const changeSelection = (e: any) => props.onChange(resourcelist.alternarSelecao())  
+    const abrir = (e: { stopPropagation: () => void }) => {
         e.stopPropagation()
         props.onChange(resourcelist.abrir())
     }

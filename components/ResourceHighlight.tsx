@@ -15,8 +15,8 @@ export default function ResourceHighlight(props: ResourceHighlightProps) {
     const selected = resourcehighlight.selected
 
     // OnChange returns a product and it calls component Lane to change it's color selection.
-    const changeSelection = e => props.onChange(resourcehighlight.alternarSelecao())  
-    const abrir = e => {
+    const changeSelection = (e: any) => props.onChange(resourcehighlight.alternarSelecao())  
+    const abrir = (e: { stopPropagation: () => void }) => {
         e.stopPropagation()
         props.onChange(resourcehighlight.abrir())
     }

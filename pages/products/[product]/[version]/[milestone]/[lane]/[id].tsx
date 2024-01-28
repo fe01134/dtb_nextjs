@@ -15,7 +15,7 @@ export default function Home() {
   const version = router.query.version
   const milestone = router.query.milestone
   const laneID = router.query.laneID
-  const id = +router.query.id
+  const id = router.query.id
   console.log(product)
   console.log(version)
   console.log(milestone)

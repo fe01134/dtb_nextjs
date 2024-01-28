@@ -20,8 +20,8 @@ export default function Product(props: ProductProps) {
     const selected = product.selected
 
     // OnChange returns a product and it calls component Lane to change it's color selection.
-    const changeSelection = e => props.onChange(product.alternarSelecao())  
-    const abrir = e => {
+    const changeSelection = (e: any) => props.onChange(product.alternarSelecao())  
+    const abrir = (e: { stopPropagation: () => void }) => {
         e.stopPropagation()
         props.onChange(product.abrir())
     }
