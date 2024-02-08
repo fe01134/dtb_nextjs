@@ -8,12 +8,10 @@ export default function IndexPage() {
     <section className="container grid items-center gap-6 pb-8 pt-6 md:py-10">
       <div className="flex max-w-[980px] flex-col items-start gap-2">
         <h1 className="text-3xl font-extrabold leading-tight tracking-tighter md:text-4xl">
-        Learn about all the beautiful spots<br className="hidden sm:inline" />
-        to go to in Vale De Milho.
+        Learn and plan your visit to Algarve Portugal.<br className="hidden sm:inline" />
         </h1>
         <p className="max-w-[700px] text-lg text-muted-foreground">
-          Accessible and customizable components that you can copy and paste
-          into your apps. Free. Open Source. And Next.js 13 Ready.
+          This site currently is optimized for Carvoeiro Algarve.  Let us know what other areas you would like to use Algarve Visit for.
         </p>
       </div>
       <div className="flex gap-4">
@@ -28,10 +26,10 @@ export default function IndexPage() {
         <Link
           target="_blank"
           rel="noreferrer"
-          href={siteConfig.links.github}
+          href={siteConfig.links.facebook}
           className={buttonVariants({ variant: "outline" })}
         >
-          GitHub
+          Facebook
         </Link>
       </div>
     </section>

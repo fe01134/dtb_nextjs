@@ -1,9 +1,9 @@
 export type SiteConfig = typeof siteConfig
 
 export const siteConfig = {
-  name: "Vale Milho",
+  name: "Algarve Visit",
   description:
-    "Learn about all the beautiful spots you can go to in Vale De Milho.",
+    "Learn about and plan your visit to Algarve.",
   mainNav: [
     {
       title: "Home",
@@ -11,8 +11,8 @@ export const siteConfig = {
     },
   ],
   links: {
-    twitter: "https://twitter.com/shadcn",
-    github: "https://github.com/shadcn/ui",
+    instagram: "https://www.instagram.com/villa.vale.milho",
+    facebook: "https://www.facebook.com/villavalemilho",
     docs: "https://ui.shadcn.com",
   },
 }
