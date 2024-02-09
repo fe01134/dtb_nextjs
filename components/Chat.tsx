@@ -32,6 +32,8 @@ const Watson = ({ createWebChatInstance }) => {
     console.debug(process.env.INTEGRATIONID)
     const webChatOptions = {
       integrationID: process.env.NEXT_PUBLIC_INTEGRATIONID,
+
+
       region: "us-south",
       serviceInstanceID: "197df995-cf7a-42ac-87fb-58690b656407",
       onLoad: onWebChatLoad,
