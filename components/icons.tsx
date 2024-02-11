@@ -18,7 +18,7 @@ export const Icons = {
   logo: (props: LucideProps) => (
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50" {...props}>
 <g>
-<rect width="50" height="50" fill="#FD1F03" fill-opacity="0.1"/>
+<rect width="50" height="50" fill="#FD1F03" fillOpacity="0.1"/>
 <rect width="50" height="60" fill="#FD1F03"/>
 <circle cx="25" cy="25" r="25" fill="white" />
 <g filter="url(#filter0_d_1_2)">
