@@ -12,7 +12,7 @@ export default function IndexPage() {
         </h1>
         <br className="hidden sm:inline" />
         <p className="max-w-[700px] text-lg text-muted-foreground">
-          This site is optimized for Carvoeiro Algarve.  Let us know what other locations you would like!
+          This site is optimized for Carvoeiro Algarve.  Let us know what other locations you would like to see!
         </p>
       </div>
       <div className="flex gap-4">
