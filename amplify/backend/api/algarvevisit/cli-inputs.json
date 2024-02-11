@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "paths": {
+    "/items": {
+      "name": "/items",
+      "lambdaFunction": "dtbbackend604adf3e",
+      "permissions": {
+        "setting": "open"
+      }
+    }
+  }
+}
