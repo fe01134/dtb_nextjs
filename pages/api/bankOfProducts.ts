@@ -1,4 +1,4 @@
-import ProductModel from "../../model/product";
+import ProductModel from "../../model/productOrg";
 import LaneModel from "../../model/lane";
 import StepModel from "../../model/step";
   

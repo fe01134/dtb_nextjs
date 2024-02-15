@@ -1,5 +1,5 @@
 import styles from '../styles/Lane.module.css'
-import ProductModel from '../model/product'
+import ProductModel from '../model/productOrg'
 import Lane from './Lane'
 import * as React from 'react'
 import "@emotion/styled"
