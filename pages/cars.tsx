@@ -15,11 +15,20 @@ const CarsPage: React.FC = () => {
       try {
         const response = await fetch('/api/cars'); // Assuming your API endpoint is '/api/cars'
         const data = await response.json();
-        setCars(data.cars);
+
+        console.debug(data)
+
+        // Map received data to Product objects using the createProduct method
+        const carObjects = data.cars.map((carData) =>
+        Car.createCar(carData.id, carData.name)
+        );
+
+        setCars(carObjects);
       } catch (error) {
         console.error('Error fetching cars:', error);
       }
     };
+
 
     fetchCars();
   }, []); // Empty dependency array ensures the useEffect runs only once on component mount
@@ -29,7 +38,7 @@ const CarsPage: React.FC = () => {
       <h1>Car List</h1>
       <div>
         {cars.slice(0, 3).map((car) => (
-          <CarButton key={car.id} car={car} />
+          <CarButton key={car.getId()} car={car} />
         ))}
       </div>
     </div>

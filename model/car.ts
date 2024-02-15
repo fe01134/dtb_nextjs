@@ -1,11 +1,25 @@
-import { Caramel } from "next/font/google";
-
-// Works with http://localhost:3000/cars
 // models/Product.ts
-interface Car {
-    id: number;
-    name: string;
+class Car {
+  private id: number;
+  private name: string;
+
+  constructor(id: number, name: string) {
+    this.id = id;
+    this.name = name;
   }
+
+  getId(): number {
+    return this.id;
+  }
+
+  getName(): string {
+    return this.name;
+  }
+
+  static createCar(id: number, name: string): Car {
+    return new Car(id, name);
+  }
+}
   
   export default Car;
   
