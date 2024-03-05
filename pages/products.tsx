@@ -14,6 +14,7 @@ const ProductsPage: React.FC = () => {
         const data = await response.json();
 
         console.debug(data)
+        
         // Map received data to Product objects using the createProduct method
         const productObjects = data.products.map((productData) =>
           Product.createProduct(productData.id, productData.name)

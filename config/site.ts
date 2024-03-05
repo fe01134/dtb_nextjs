@@ -6,9 +6,26 @@ export const siteConfig = {
     "Learn about and plan your visit to Algarve.",
   mainNav: [
     {
-      title: "Home",
-      href: "/",
+      title: "Places",
+      href: "/places",
     },
+    {
+      title: "Thing To Do",
+      href: "/things_to_do",
+    },
+    {
+      title: "Events",
+      href: "/events",
+    },
+    {
+      title: "My Plans",
+      href: "/my_plans",
+    },
+    {
+      title: "About us",
+      href: "/about",
+    },
+
   ],
   links: {
     instagram: "https://www.instagram.com/villa.vale.milho",

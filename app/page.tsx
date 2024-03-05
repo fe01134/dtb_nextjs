@@ -3,7 +3,26 @@ import Link from "next/link"
 import { siteConfig } from "@/config/site"
 import { buttonVariants } from "@/components/ui/button"
 
-export default function IndexPage() {
+
+type  Location = {
+  id : number;
+  name : string;
+  full_name : string;
+
+};
+
+async function getRepo(): Promise<Location> {
+  const res = await fetch('http://localhost:3000/api/locations');
+  console.debug("calling locations API")
+  console.debug(res.body)
+  return res.json();
+}
+
+export default async function IndexPage() {
+  const[data]  = await Promise.all([getRepo()]);
+  console.debug("data.full_name") 
+  console.debug(data.full_name) 
+
   return (
     <section className="container grid items-center gap-6 pb-8 pt-6 md:py-10">
       <div className="flex max-w-[980px] flex-col items-start gap-2">
@@ -32,6 +51,7 @@ export default function IndexPage() {
         >
           Facebook
         </Link>
+        {data.full_name}
       </div>
     </section>
   )
