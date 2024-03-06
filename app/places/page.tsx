@@ -5,23 +5,24 @@ import Place from '../../model/place';
   export default async function PlacesPage(props:any) {
     const resp = await fetch("http://localhost:3000/api/places");
     const data = await resp.json();
+    console.debug("Place page returned data")
     console.debug(data)
 
-    // Map received data to Product objects using the createProduct method
-    const placesObjects = data.places.map((placeData) =>
+    // Map received data to Place objects using the createPlace method in /model/place.ts
+    const placesObjects = data.map((placeData) =>
     Place.createPlace(placeData.id, placeData.name, placeData.full_name)
     );
 
     return (
       <>
         <span className="font-bold text-4xl">Places</span>
-        Places Page Data
+        Places Page Data works
         {JSON.stringify(data)}
         <div>
         <h1>Places List</h1>
           <div>
             {placesObjects.map((place) => (
-              <div key={place.getId()}> {place.getName()}</div>
+              <div key={place.getId()}> {place.getFullName()}</div>
             ))}
           </div>
         </div>

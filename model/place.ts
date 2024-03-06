@@ -1,4 +1,4 @@
-// models/place.ts
+// model/place.ts
 class Place {
 
   private id : number;

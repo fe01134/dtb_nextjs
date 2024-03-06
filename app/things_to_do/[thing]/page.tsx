@@ -8,7 +8,7 @@ type  Thing = {
 };
 
   export default async function ThingPage(props:any) {
-    const resp = await fetch("http://localhost:3000/api/locations");
+    const resp = await fetch("http://localhost:3000/api/things");
     const data: Thing = await resp.json();
     return (
       <>

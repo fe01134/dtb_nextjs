@@ -5,10 +5,11 @@ import MyEvent from '../../model/myevent';
   export default async function MyEventsPage(props:any) {
     const resp = await fetch("http://localhost:3000/api/myevents");
     const data = await resp.json();
+    console.debug("Events page returned data")
     console.debug(data)
 
     // Map received data to Product objects using the createProduct method
-    const myeventsObjects = data.myevents.map((myeventData) =>
+    const myeventsObjects = data.map((myeventData) =>
     MyEvent.createMyEvent(myeventData.id, myeventData.name, myeventData.full_name)
     );
 
@@ -21,7 +22,7 @@ import MyEvent from '../../model/myevent';
         <h1>MyEvents List</h1>
           <div>
             {myeventsObjects.map((myevent) => (
-              <div key={myevent.getId()}> {myevent.getName()}</div>
+              <div key={myevent.getId()}> {myevent.getFullName()}</div>
             ))}
           </div>
         </div>

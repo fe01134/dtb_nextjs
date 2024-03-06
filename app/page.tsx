@@ -12,7 +12,7 @@ type  Location = {
 };
 
 async function getRepo(): Promise<Location> {
-  const res = await fetch('http://localhost:3000/api/locations');
+  const res = await fetch('http://localhost:3000/api/places');
   console.debug("calling locations API")
   console.debug(res.body)
   return res.json();

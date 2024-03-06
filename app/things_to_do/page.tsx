@@ -5,11 +5,12 @@ import Thing from '../../model/thing';
   export default async function ThingsToDoPage(props:any) {
     const resp = await fetch("http://localhost:3000/api/things");
     const data = await resp.json();
+    console.debug("Things to do page returned data")
     console.debug(data)
 
 
     // Map received data to Product objects using the createProduct method
-    const thingsObjects = data.things.map((thingData) =>
+    const thingsObjects = data.map((thingData) =>
     Thing.createThing(thingData.id, thingData.name, thingData.full_name)
     );
 
@@ -23,7 +24,7 @@ import Thing from '../../model/thing';
         <h1>Things to Do List</h1>
           <div>
             {thingsObjects.map((thing) => (
-              <div key={thing.getId()}> {thing.getName()}</div>
+              <div key={thing.getId()}> {thing.getFullName()}</div>
             ))}
           </div>
         </div>
