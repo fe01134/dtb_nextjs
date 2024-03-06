@@ -1,0 +1,8 @@
+[
+    { "id": 1, "name": "Place 1", "full_name": "Place Marathon Luz Algarve" },
+    { "id": 2, "name": "Place 2", "full_name": "Place F1" },
+    { "id": 3, "name": "Place 3", "full_name": "Place Volta De Portugal" },
+    { "id": 4, "name": "Place 4", "full_name": "Place Portimao Football" },
+    { "id": 5, "name": "Place 5", "full_name": "Place Kayak Racing" },
+    { "id": 6, "name": "Place 6", "full_name": "Place MotoGP" }
+  ]

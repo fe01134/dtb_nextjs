@@ -1,0 +1,375 @@
+{"Councils" : 
+[
+{"Carvoeiro": 
+    {"District" : "Lagoa",
+    "Areas" : 
+        [
+            {"Val Milho" : 
+                {"Activities" :
+                    [	
+                    {"Activity" : 
+                        {"Super Markets" : 
+                            [
+                                {"Place" :
+                                    {
+                                        "Name": "Intermarche",
+                                        "Tags": ["market", "food"]
+                                    }
+                                },
+                                {"Place" :
+                                    {
+                                        "Name":  "Pingo Doce",
+                                        "Tags": ["market", "food"]
+                                    }
+                                }
+                            ]
+                        }
+                    },
+
+					{"Activity" : 
+                        {"Golf" : 
+                            [
+                                {"Place" :
+                                    {
+                                        "Name": "Val Milho Golf",
+                                        "Tags": ["golf", "nine holes"]
+                                    }
+                                }
+
+                            ]
+                        }
+                    },
+                    {"Activity": 
+                        {"Beaches" : 
+                            [
+                                {"Place" :
+                                    { 
+                                        "Name": "Praia Vale Centeanes",
+                                        "Tags": ["cliffs", "town", "excursions", "tours", "swimming", "food", "bars", "restaurants"]
+                                    }
+                                },
+                                {"Place" :
+                                    { 
+                                        "Name":  "Praia Carvalho",
+                                        "Tags": ["cliffs", "cliff diving", "swimmming"]
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {"Activity": 
+                        {"Restaurants" :
+                            [
+                                {"Place" : 
+                                    {
+                                        "Name":"Gaspacho & Migas",
+                                        "Tags":["Mediterranean"]
+                                    }
+                                }
+
+                            ]
+                        }
+                    },
+                    {"Activity": 
+                        {"Recreation" : 
+                            [
+                                {"Place" :
+                                    {
+                                        "Name":"Algar Seco ",
+                                        "Tags":["cliff walk"]
+                                    }
+                                },
+                                {"Place":
+                                    {
+                                        "Name":"Seven Hills Trail ",
+                                        "Tags":["cliff walk"]
+                                    }
+                                }
+                            ]
+                        }
+                    }
+				    ]
+                }
+            },
+            {"Downtown Carvoeiro" :
+                {"Activities" :
+                    [
+                    {"Activity": 
+                        {"Excursion" :
+                            [
+                                {"Place" :
+                                    {
+                                        "Name": "Carvoeiro Tours",
+                                        "Tags": ["boat tours"]
+                                    } 
+                                }
+                            ]
+                        }
+                    },
+                    {"Activity": 
+                        {"Golf" :
+                            [
+                                {"Place" :
+                                    {
+                                        "Name": "Gramacho Golf Course",
+                                        "Tags": ["18-hole golf Course"]
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {"Activity": 
+                        {"Beaches" :
+                            [
+                            {"Place" : 
+                                {
+                                    "Name": "Praia Carvoeiro",
+                                    "Tags": ["beach"]
+                                }
+                            },
+                            {"Place" : 
+                                {
+                                    "Name": "Praia De Paraiso",
+                                    "Tags": ["beach"]
+                                }
+                            }
+                            ]
+                        }
+                    },
+                    {"Activity": 
+                        {"Restaurants" :
+                            [
+                            {"Place" :
+                                {
+                                    "Name": "Taste",
+                                    "Tags": ["International", "Portuguese", "European"]
+                                }
+                            },
+                            {"Place" :
+                                {
+                                    "Name": "Tasca 26 - Restaurante - Tapas & Grill",
+                                    "Tags": ["International", "Mediterranean", "Steakhouse"]
+                                }
+                            },
+                            {"Place" :
+                                {
+                                    "Name": "Mumbai Darbar Indian Restaurant",
+                                    "Tags": ["International", "Mediterranean", "Steakhouse"]
+                                }
+                            }
+                            ]
+                        }
+                    },
+                    {"Activity": 
+                        {"Recreation" :
+                            [
+                                {"Place" :
+                                    {
+                                        "Name":"Algar Seco ",
+                                        "Tags":["cliff walk"]
+                                    }
+                                },
+                                {"Place" :
+                                    {
+                                        "Name":"Carvoeiro Tours ",
+                                        "Tags":["boat tours"]
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                    ]    
+                }
+            }
+        ]
+    }
+}
+,
+{"Farragudo": 
+    {"District" : "Albufeira",
+    "Areas" : 
+        [
+            {"Val Milho" : 
+                {"Activities" :
+                    [	
+                    {"Activity" : 
+                        {"Super Markets" : 
+                            [
+                                {"Place" : 
+                                {
+                                    "Name": "F Intermarche",
+                                    "Tags": ["golf", "nine holes"]
+                                }
+                                },
+
+                                {"Place" : 
+                                {
+                                    "Name": "F Pingo Doce",
+                                    "Tags": ["golf", "nine holes"]
+                                }
+                                }
+                            ]
+                        }
+                    },
+
+					{"Activity" : 
+                        {"Golf" : 
+                            [
+                                {"Place" :
+                                    {
+                                        "Name": "F Val Milho Golf",
+                                        "Tags": ["golf", "nine holes"]
+                                    }
+                                }
+
+                            ]
+                        }
+                    },
+                    {"Activity": 
+                        {"Beaches" : 
+                            [
+                                {"Place" :
+                                    { 
+                                        "Name": "F Praia Vale Centeanes",
+                                        "Tags": ["cliffs", "town", "excursions", "tours", "swimming", "food", "bars", "restaurants"]
+                                    }
+                                },
+                                {"Place" :
+                                    { 
+                                        "Name":  "F Praia Carvalho",
+                                        "Tags": ["cliffs", "cliff diving", "swimmming"]
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {"Activity": 
+                        {"Restaurants" :
+                            [
+                                {"Place" : 
+                                    {
+                                        "Name": "F Gaspacho & Migas",
+                                        "Tags": ["Mediterranean"]
+                                    }
+                                }
+
+                            ]
+                        }
+                    },
+                    {"Activity": 
+                        {"Recreation" : 
+                            [
+                                {"Place" :
+                                    {
+                                        "Name": "F Algar Seco ",
+                                        "Tags": ["cliff walk"]
+                                    }
+                                },
+                                {"Place":
+                                    {
+                                        "Name": "F Seven Hills Trail ",
+                                        "Tags": ["cliff walk"]
+                                    }
+                                }
+                            ]
+                        }
+                    }
+				    ]
+                }
+            },
+            {"Downtown Carvoeiro" :
+                {"Activities" :
+                    [
+                    {"Activity": 
+                        {"Excursion" :
+                            [
+                                {"Place" :
+                                    {
+                                        "Name": "F Carvoeiro Tours",
+                                        "Tags": ["boat tours"]
+                                    } 
+                                }
+                            ]
+                        }
+                    },
+                    {"Activity": 
+                        {"Golf" :
+                            [
+                                {"Place" :
+                                    {
+                                        "Name": "F Gramacho Golf Course",
+                                        "Tags": ["18-hole golf Course"]
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {"Activity": 
+                        {"Beaches" :
+                            [
+                            {"Place" :
+                                {
+                                    "Name": "F Praia Carvoeiro",
+                                    "Tags": ["International", "Portuguese", "European"]
+                                }
+                            },
+                                
+                            {"Place" :
+                                {
+                                    "Name": "F Praia De Paraiso",
+                                    "Tags": ["International", "Portuguese", "European"]
+                                }
+                            }
+                            ]
+                        }
+                    },
+                    {"Activity": 
+                        {"Restaurants" :
+                            [
+                            {"Place" :
+                                {
+                                    "Name": "F Taste",
+                                    "Tags": ["International", "Portuguese", "European"]
+                                }
+                            },
+                            {"Place" :
+                                {
+                                    "Name": "F Tasca 26 - Restaurante - Tapas & Grill",
+                                    "Tags": ["International", "Mediterranean", "Steakhouse"]
+                                }
+                            },
+                            {"Place" :
+                                {
+                                    "Name": "F Mumbai Darbar Indian Restaurant",
+                                    "Tags": ["International", "Mediterranean", "Steakhouse"]
+                                }
+                            }
+                            ]
+                        }
+                    },
+                    {"Activity": 
+                        {"Recreation" :
+                            [
+                                {"Place" :
+                                    {
+                                        "Name":"F Algar Seco ",
+                                        "Tags":["cliff walk"]
+                                    }
+                                },
+                                {"Place" :
+                                    {
+                                        "Name":"F Carvoeiro Tours ",
+                                        "Tags":["boat tours"]
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                    ]    
+                }
+            }
+        ]
+    }
+}
+]
+}
