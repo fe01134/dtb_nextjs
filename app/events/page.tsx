@@ -6,7 +6,7 @@ import MyEvent from '../../model/myevent';
     const resp = await fetch("http://localhost:3000/api/myevents");
     const data = await resp.json();
     console.debug("Events page returned data")
-    console.debug(data)
+    console.debug(data);
 
     // Map received data to Product objects using the createProduct method
     const myeventsObjects = data.map((myeventData) =>
@@ -22,7 +22,7 @@ import MyEvent from '../../model/myevent';
         <h1>MyEvents List</h1>
           <div>
             {myeventsObjects.map((myevent) => (
-              <div key={myevent.getId()}> {myevent.getFullName()}</div>
+              <div key={myevent.getId()}> {myevent.getName()}</div>
             ))}
           </div>
         </div>

@@ -1,0 +1,143 @@
+{
+    "council": "Lagoa",
+    "areas": [
+        {
+            "area": "Val Milho",
+            "activities": [
+                {
+                    "activity": "super_market",
+                    "type": "place",
+                    "places": [
+                        {
+                            "name": "Intermarche",
+                            "tags": ["market", "food"]
+                        },
+                        {
+                            "name": "Pingo Doce",
+                            "tags": ["market", "food"]
+                        }
+                    ]
+                },
+                {
+                    "activity": "Golf",
+                    "type": "place",
+                    "places": [
+                        {
+                            "name": "Val Milho Golf",
+                            "tags": ["golf", "nine holes"]
+                        }
+                    ]
+                },
+                {
+                    "activity": "Beaches",
+                    "type": "place",
+                    "places": [
+                        {
+                            "name": "Praia Vale Centeanes",
+                            "tags": ["cliffs", "town", "excursions", "tours", "swimming", "food", "bars", "restaurants"]
+                        },
+                        {
+                            "name": "Praia Carvalho",
+                            "tags": ["cliffs", "cliff diving", "swimming"]
+                        }
+                    ]
+                },
+                {
+                    "activity": "restaurants",
+                    "type": "place",
+                    "places": [
+                        {
+                            "name": "Gaspacho & Migas",
+                            "tags": ["Mediterranean"]
+                        }
+                    ]
+                },
+                {
+                    "activity": "recreation",
+                    "type": "place",
+                    "places": [
+                        {
+                            "name": "Algar Seco",
+                            "tags": ["cliff walk"]
+                        },
+                        {
+                            "name": "Seven Hills Trail",
+                            "tags": ["cliff walk"]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "area": "Downtown Carvoeiro",
+            "activities": [
+                {
+                    "activity": "Excursion",
+                    "type": "place",
+                    "places": [
+                        {
+                            "name": "Carvoeiro Tours",
+                            "tags": ["boat tours"]
+                        }
+                    ]
+                },
+                {
+                    "activity": "golf",
+                    "type": "place",
+                    "places": [
+                        {
+                            "name": "Gramacho Golf Course",
+                            "tags": ["18-hole golf Course"]
+                        }
+                    ]
+                },
+                {
+                    "activity": "beaches",
+                    "type": "place",
+                    "places": [
+                        {
+                            "name": "Praia Carvoeiro",
+                            "tags": ["Beach", "Praia"]
+                        },
+                        {
+                            "name": "Praia De Paraiso",
+                            "tags": ["Beach", "Praia"]
+                        }
+                    ]
+                },
+                {
+                    "activity": "restaurants",
+                    "type": "place",
+                    "places": [
+                        {
+                            "name": "Taste",
+                            "tags": ["international", "portuguese", "European"]
+                        },
+                        {
+                            "name": "Tasca 26 - Restaurante - Tapas & Grill",
+                            "tags": ["international", "Mediterranean", "Steakhouse"]
+                        },
+                        {
+                            "name": "Mumbai Darbar Indian Restaurant",
+                            "tags": ["international", "Mediterranean", "Steakhouse"]
+                        }
+                    ]
+                },
+                {
+                    "activity": "recreation",
+                    "type": "place",
+                    "places": [
+                        {
+                            "name": "Algar Seco",
+                            "tags": ["cliff walk"]
+                        },
+                        {
+                            "name": "Carvoeiro Tours",
+                            "tags": ["boat tours"]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
