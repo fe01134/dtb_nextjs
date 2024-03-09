@@ -22,14 +22,19 @@ import Area from '../../model/activity';
         
         <h1>Beach Activities City</h1>
       <div>
-
-        <ul>    
-          {myactivityObjects.map((area: any, index: number) => (
-            <li key={index}>
-              <strong>Area:</strong> {area.name}
+      
+      {myactivityObjects.map((area) => (
+      <ul>        
+          {area.getPlaceNames().map((one_area) => 
+            
+            <li key={one_area}>
+              <strong>Area:</strong> {one_area}
             </li>
-          ))}
+            )
+          }
         </ul>
+      ))}
+
       </div>
 
         <div className="flex items-center text-sm font-medium text-muted-foreground">sub heading</div>
