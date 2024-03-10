@@ -5,7 +5,7 @@
             "area": "Val Milho",
             "activities": [
                 {
-                    "activity": "super_market",
+                    "activity": "Supermarket",
                     "type": "place",
                     "places": [
                         {
@@ -43,7 +43,7 @@
                     ]
                 },
                 {
-                    "activity": "restaurants",
+                    "activity": "Restaurants",
                     "type": "place",
                     "places": [
                         {
@@ -53,7 +53,7 @@
                     ]
                 },
                 {
-                    "activity": "recreation",
+                    "activity": "Recreation",
                     "type": "place",
                     "places": [
                         {
@@ -82,7 +82,7 @@
                     ]
                 },
                 {
-                    "activity": "golf",
+                    "activity": "Golf",
                     "type": "place",
                     "places": [
                         {
@@ -92,7 +92,7 @@
                     ]
                 },
                 {
-                    "activity": "beaches",
+                    "activity": "Beaches",
                     "type": "place",
                     "places": [
                         {
@@ -106,7 +106,7 @@
                     ]
                 },
                 {
-                    "activity": "restaurants",
+                    "activity": "Restaurants",
                     "type": "place",
                     "places": [
                         {
@@ -124,7 +124,7 @@
                     ]
                 },
                 {
-                    "activity": "recreation",
+                    "activity": "Recreation",
                     "type": "place",
                     "places": [
                         {
