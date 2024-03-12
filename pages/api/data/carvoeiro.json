@@ -1,68 +1,100 @@
 {
-    "council": "Lagoa",
+    "district": "Lagoa",
+    "council": "Carvoeiro",
     "areas": [
         {
             "area": "Val Milho",
             "activities": [
                 {
-                    "activity": "Supermarket",
-                    "type": "place",
+                    "type": "supermarkets",
                     "places": [
                         {
+                            "uid": "1",
                             "name": "Intermarche",
-                            "tags": ["market", "food"]
+                            "description": "International supermarket with locations across Portugal. Offers fresh fruit, vegtables and fish, national and international products. Open daily from 08:30-22:00 in Summer and 08:30-21:30 in Winter.",
+                            "photoName": "intermarche.jpeg",
+                            "tags": ["market", "food"],
+                            "activity": ["shop", "eat"]
                         },
                         {
+                            "uid": "2",
                             "name": "Pingo Doce",
-                            "tags": ["market", "food"]
+                            "description": "Portuguese supermarket with locations all over Portugal.",
+                            "photoName": "pingo_doce.png",
+                            "tags": ["market", "food"],
+                            "activity": ["shop", "eat"]
                         }
                     ]
                 },
                 {
-                    "activity": "Golf",
-                    "type": "place",
+                    
+                    "type": "golf",
                     "places": [
                         {
+                            "uid": "3",
                             "name": "Val Milho Golf",
-                            "tags": ["golf", "nine holes"]
+                            "description": "International supermarket with locations across Portugal. Offers fresh fruit, vegtables and fish, national and international products. Open daily from 08:30-22:00 in Summer and 08:30-21:30 in Winter.",
+                            "photoName": "intermarche.jpeg",
+                            "tags": ["golf", "nine holes"],
+                            "activity": ["golf", "eat", "bar", "music"]
                         }
                     ]
                 },
                 {
-                    "activity": "Beaches",
-                    "type": "place",
+                    
+                    "type": "beach",
                     "places": [
                         {
+                            "uid": "4",
                             "name": "Praia Vale Centeanes",
-                            "tags": ["cliffs", "town", "excursions", "tours", "swimming", "food", "bars", "restaurants"]
+                            "description": "International supermarket with locations across Portugal. Offers fresh fruit, vegtables and fish, national and international products. Open daily from 08:30-22:00 in Summer and 08:30-21:30 in Winter.",
+                            "photoName": "intermarche.jpeg",
+                            "tags": ["cliffs", "town", "excursions", "tours", "swimming", "food", "bars", "restaurants"],
+                            "activity": ["swim", "fish", "sun bath", "walk"]
                         },
                         {
+                            "uid": "5",
                             "name": "Praia Carvalho",
-                            "tags": ["cliffs", "cliff diving", "swimming"]
+                            "description": "International supermarket with locations across Portugal. Offers fresh fruit, vegtables and fish, national and international products. Open daily from 08:30-22:00 in Summer and 08:30-21:30 in Winter.",
+                            "photoName": "intermarche.jpeg",
+                            "tags": ["cliffs", "cliff diving", "swimming"],
+                            "activity": ["swim", "fish", "sun bath", "walk", "cliff diving"]
                         }
                     ]
                 },
                 {
-                    "activity": "Restaurants",
-                    "type": "place",
+                    
+                    "type": "restaurants",
                     "places": [
                         {
+                            "uid": "6",
                             "name": "Gaspacho & Migas",
-                            "tags": ["Mediterranean"]
+                            "description": "International supermarket with locations across Portugal. Offers fresh fruit, vegtables and fish, national and international products. Open daily from 08:30-22:00 in Summer and 08:30-21:30 in Winter.",
+                            "photoName": "intermarche.jpeg",
+                            "tags": ["Mediterranean"],
+                            "activity": ["food", "eat", "bar", "music"]
                         }
                     ]
                 },
                 {
-                    "activity": "Recreation",
-                    "type": "place",
+                    
+                    "type": "walks",
                     "places": [
                         {
+                            "uid": "7",
                             "name": "Algar Seco",
-                            "tags": ["cliff walk"]
+                            "description": "International supermarket with locations across Portugal. Offers fresh fruit, vegtables and fish, national and international products. Open daily from 08:30-22:00 in Summer and 08:30-21:30 in Winter.",
+                            "photoName": "intermarche.jpeg",
+                            "tags": ["cliff walk"],
+                            "activity": ["fish", "sun bath", "walk", "cliff diving"]
                         },
                         {
+                            "uid": "8",
                             "name": "Seven Hills Trail",
-                            "tags": ["cliff walk"]
+                            "description": "International supermarket with locations across Portugal. Offers fresh fruit, vegtables and fish, national and international products. Open daily from 08:30-22:00 in Summer and 08:30-21:30 in Winter.",
+                            "photoName": "intermarche.jpeg",
+                            "tags": ["cliff walk"],
+                            "activity": ["swim", "fish", "sun bath", "walk", "cliff diving"]
                         }
                     ]
                 }
@@ -72,68 +104,100 @@
             "area": "Downtown Carvoeiro",
             "activities": [
                 {
-                    "activity": "Excursion",
-                    "type": "place",
+                    "type": "excursion",
                     "places": [
                         {
+                            "uid": "9",
                             "name": "Carvoeiro Tours",
-                            "tags": ["boat tours"]
+                            "description": "International supermarket with locations across Portugal. Offers fresh fruit, vegtables and fish, national and international products. Open daily from 08:30-22:00 in Summer and 08:30-21:30 in Winter.",
+                            "photoName": "intermarche.jpeg",
+                            "tags": ["boat tours"],
+                            "activity": ["boat tours", "cave tours"]
                         }
                     ]
                 },
                 {
-                    "activity": "Golf",
-                    "type": "place",
+                    "type": "golf",
                     "places": [
                         {
+                            "uid": "10",
                             "name": "Gramacho Golf Course",
-                            "tags": ["18-hole golf Course"]
+                            "description": "International supermarket with locations across Portugal. Offers fresh fruit, vegtables and fish, national and international products. Open daily from 08:30-22:00 in Summer and 08:30-21:30 in Winter.",
+                            "photoName": "intermarche.jpeg",
+                            "tags": ["18-hole golf Course"],
+                            "activity": ["golf", "eat", "bar", "music"]
                         }
                     ]
                 },
                 {
-                    "activity": "Beaches",
-                    "type": "place",
+                    
+                    "type": "beach",
                     "places": [
                         {
+                            "uid": "11",
                             "name": "Praia Carvoeiro",
-                            "tags": ["Beach", "Praia"]
+                            "description": "International supermarket with locations across Portugal. Offers fresh fruit, vegtables and fish, national and international products. Open daily from 08:30-22:00 in Summer and 08:30-21:30 in Winter.",
+                            "photoName": "intermarche.jpeg",
+                            "tags": ["Beach", "Praia"],
+                            "activity": ["fish", "sun bath", "walk"]
                         },
                         {
+                            "uid": "12",
                             "name": "Praia De Paraiso",
-                            "tags": ["Beach", "Praia"]
+                            "description": "International supermarket with locations across Portugal. Offers fresh fruit, vegtables and fish, national and international products. Open daily from 08:30-22:00 in Summer and 08:30-21:30 in Winter.",
+                            "photoName": "intermarche.jpeg",
+                            "tags": ["Beach", "Praia"],
+                            "activity": ["fish", "sun bath", "walk"]
                         }
                     ]
                 },
                 {
-                    "activity": "Restaurants",
-                    "type": "place",
+                    "type": "restaurants",
                     "places": [
                         {
+                            "uid": "13",
                             "name": "Taste",
-                            "tags": ["international", "portuguese", "European"]
+                            "description": "International supermarket with locations across Portugal. Offers fresh fruit, vegtables and fish, national and international products. Open daily from 08:30-22:00 in Summer and 08:30-21:30 in Winter.",
+                            "photoName": "intermarche.jpeg",
+                            "tags": ["international", "portuguese", "European"],
+                            "activity": ["food", "eat", "bar", "music"]
                         },
                         {
-                            "name": "Tasca 26 - Restaurante - Tapas & Grill",
-                            "tags": ["international", "Mediterranean", "Steakhouse"]
+                            "uid": "14",
+                            "name": "Tasca 26 - Eat Oute - Tapas & Grill",
+                            "description": "International supermarket with locations across Portugal. Offers fresh fruit, vegtables and fish, national and international products. Open daily from 08:30-22:00 in Summer and 08:30-21:30 in Winter.",
+                            "photoName": "intermarche.jpeg",
+                            "tags": ["international", "Mediterranean", "Steakhouse"],
+                            "activity": ["food", "eat", "bar", "music"]
                         },
                         {
-                            "name": "Mumbai Darbar Indian Restaurant",
-                            "tags": ["international", "Mediterranean", "Steakhouse"]
+                            "uid": "15",
+                            "name": "Mumbai Darbar Indian Eat Out",
+                            "description": "International supermarket with locations across Portugal. Offers fresh fruit, vegtables and fish, national and international products. Open daily from 08:30-22:00 in Summer and 08:30-21:30 in Winter.",
+                            "photoName": "intermarche.jpeg",
+                            "tags": ["international", "Mediterranean", "Steakhouse"],
+                            "activity": ["food", "eat", "bar", "music"]
                         }
                     ]
                 },
                 {
-                    "activity": "Recreation",
+                    "activity": "Walk",
                     "type": "place",
                     "places": [
                         {
+                            "uid": "7",
                             "name": "Algar Seco",
-                            "tags": ["cliff walk"]
+                            "description": "International supermarket with locations across Portugal. Offers fresh fruit, vegtables and fish, national and international products. Open daily from 08:30-22:00 in Summer and 08:30-21:30 in Winter.",
+                            "photoName": "intermarche.jpeg",
+                            "tags": ["cliff walk"],
+                            "activity": ["fish", "sun bath", "walk", "cliff diving"]
                         },
                         {
-                            "name": "Carvoeiro Tours",
-                            "tags": ["boat tours"]
+                            "uid": "17",
+                            "name": "Walk to downtown Carveiro",
+                            "description": "International supermarket with locations across Portugal. Offers fresh fruit, vegtables and fish, national and international products. Open daily from 08:30-22:00 in Summer and 08:30-21:30 in Winter.",
+                            "photoName": "intermarche.jpeg",
+                            "tags": ["walk"]
                         }
                     ]
                 }

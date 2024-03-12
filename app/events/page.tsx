@@ -1,3 +1,4 @@
+"use client";
 import React from 'react';
 import ClientPagination from '@/components/client-pagination';
 import MyEvent from '../../model/myevent';
@@ -5,17 +6,17 @@ import MyEvent from '../../model/myevent';
 
 function displayValue(value: string | number | boolean | object){
   if (typeof value === "string") {
-console.log(`The value is a string: &quot;${value}&quot;`);
-} else if (typeof value === "number") {
-console.log(`The value is a number: ${value}`);
-} else if (typeof value === "boolean") {
-console.log(`The value is a boolean: ${value}`);
-} else if (typeof value === "object") {
-console.log(`The value is a object: ${value}`);
-} else {
-console.log(`The value is of unsupported type: ${typeof value}`);
-}
-}
+    console.log(`The value is a string: &quot;${value}&quot;`);
+    } else if (typeof value === "number") {
+    console.log(`The value is a number: ${value}`);
+    } else if (typeof value === "boolean") {
+    console.log(`The value is a boolean: ${value}`);
+    } else if (typeof value === "object") {
+    console.log(`The value is a object: ${value}`);
+    } else {
+    console.log(`The value is of unsupported type: ${typeof value}`);
+    }
+  }
 
   export default async function MyEventsPage(props:any) {
     const resp = await fetch("http://localhost:3000/api/myevents");

@@ -11,17 +11,19 @@ type  Location = {
 
 };
 
+/*
 async function getRepo(): Promise<Location> {
   const res = await fetch('http://localhost:3000/api/places');
   console.debug("calling locations API")
   console.debug(res.body)
   return res.json();
 }
+*/
 
 export default async function IndexPage() {
-  const[data]  = await Promise.all([getRepo()]);
-  console.debug("data.full_name") 
-  console.debug(data.full_name) 
+  //const[data]  = await Promise.all([getRepo()]);
+  //console.debug("data.full_name") 
+  //console.debug(data.full_name) 
 
   return (
     <section className="container grid items-center gap-6 pb-8 pt-6 md:py-10">
@@ -51,7 +53,7 @@ export default async function IndexPage() {
         >
           Facebook
         </Link>
-        {data.full_name}
+        
       </div>
     </section>
   )

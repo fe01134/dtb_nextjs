@@ -5,28 +5,76 @@ import Place from '../../model/place';
   export default async function PlacesPage(props:any) {
     const resp = await fetch("http://localhost:3000/api/places");
     const data = await resp.json();
-    console.debug("Place page returned data")
-    console.debug(data)
+    console.debug("Place page returned new carvoeiro data");
+    //console.debug(data);
+    // {JSON.stringify(data)}
+    const placeObjects = data.areas.map((area) =>
+    area.activities.map((activity) =>
+      activity.places.map((place) =>
+        Place.createPlace(
+          activity.type,
+          place.uid,
+          place.name,
+          data.district,
+          data.council,
+          area.area,
+          place.description,
+          place.photoName,
+          place.tags,
+          place.activity
+        )
+      )
+    )
+  );
 
-    // Map received data to Place objects using the createPlace method in /model/place.ts
-    const placesObjects = data.map((placeData) =>
-    Place.createPlace(placeData.id, placeData.name, placeData.full_name)
-    );
-
+  // Iterating through the array of areas
+  data.areas.forEach((area) => {
+    console.log(`Area: ${area.area}`);
+  
+    // Iterating through the array of activities within each area
+    area.activities.forEach((activity) => {
+      console.log(`  Activity Type: ${activity.type}`);
+    
+      // Iterating through the array of places within each activity
+      activity.places.forEach((place) => {
+        console.log(`    Place Name: ${place.name}`);
+        // Add more logic here based on your needs
+      });
+    });
+});
+  
     return (
       <>
         <span className="font-bold text-4xl">Places</span>
         Places Page Data works
-        {JSON.stringify(data)}
+       
         <div>
         <h1>Places List</h1>
           <div>
-            {placesObjects.map((place) => (
-              <div key={place.getId()}> {place.getFullName()}</div>
+          Before
+          
+            {placeObjects[0][0].map((myplace) => (
+
+            
+            <div key={myplace.getUid()}> 
+              UID {myplace.getUid()} <br/>
+              Name {myplace.getName()} <br/>
+              Description {myplace.getDescription()} <br/>
+              Area {myplace.getArea()} <br/>
+              Council {myplace.getCouncil()} <br/>
+              District {myplace.getDistrict()} <br/>
+              Photo {myplace.getPhotoName()} <br/>
+              Tags {myplace.getTags()} <br/>
+              Activities {myplace.getActivities()} <br/>
+ 
+            </div>
             ))}
           </div>
         </div>
 
+        <div>
+ 
+        </div>
         <div className="flex items-center text-sm font-medium text-muted-foreground">sub heading</div>
         <div className="border-dashed border border-zinc-500 w-full h-64 rounded-lg">
         <ClientPagination></ClientPagination>
