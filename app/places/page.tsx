@@ -1,6 +1,7 @@
 import React from 'react';
 import ClientPagination from '@/components/client-pagination';
 import Place from '../../model/place';
+import PlaceTile from '../../components/PlaceTile';
 
   export default async function PlacesPage(props:any) {
     const resp = await fetch("http://localhost:3000/api/places");
@@ -29,7 +30,7 @@ import Place from '../../model/place';
 
   // Iterating through the array of areas
   data.areas.forEach((area) => {
-    console.log(`Area: ${area.area}`);
+    console.log(` Iterate Area: ${area.area}`);
   
     // Iterating through the array of activities within each area
     area.activities.forEach((activity) => {
@@ -39,6 +40,8 @@ import Place from '../../model/place';
       activity.places.forEach((place) => {
         console.log(`    Place Name: ${place.name}`);
         // Add more logic here based on your needs
+ 
+
       });
     });
 });
@@ -51,24 +54,9 @@ import Place from '../../model/place';
         <div>
         <h1>Places List</h1>
           <div>
-          Before
-          
             {placeObjects[0][0].map((myplace) => (
-
-            
-            <div key={myplace.getUid()}> 
-              UID {myplace.getUid()} <br/>
-              Name {myplace.getName()} <br/>
-              Description {myplace.getDescription()} <br/>
-              Area {myplace.getArea()} <br/>
-              Council {myplace.getCouncil()} <br/>
-              District {myplace.getDistrict()} <br/>
-              Photo {myplace.getPhotoName()} <br/>
-              Tags {myplace.getTags()} <br/>
-              Activities {myplace.getActivities()} <br/>
- 
-            </div>
-            ))}
+                  <PlaceTile key={myplace.getUid()} value={myplace}></PlaceTile>
+               ))}
           </div>
         </div>
 
