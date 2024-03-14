@@ -4,6 +4,7 @@
     "areas": [
         {
             "area": "Val Milho",
+            "description": "Quite peaceful residential area with many quaint white traditional villas with red and yellow tile roofs.",
             "activities": [
                 {
                     "type": "supermarkets",
@@ -102,6 +103,7 @@
         },
         {
             "area": "Downtown Carvoeiro",
+            "description": "Originally a small fishing area that has become a tourist destination for families.  Many small quaint shops restaurants, bars and pubs. Pleny of places to get gifts or find real estate, lawyers and other service providers.",
             "activities": [
                 {
                     "type": "excursion",
@@ -193,7 +195,7 @@
                             "activity": ["fish", "sun bath", "walk", "cliff diving"]
                         },
                         {
-                            "uid": "17",
+                            "uid": "18",
                             "name": "Walk to downtown Carveiro",
                             "description": "International supermarket with locations across Portugal. Offers fresh fruit, vegtables and fish, national and international products. Open daily from 08:30-22:00 in Summer and 08:30-21:30 in Winter.",
                             "photoName": "intermarche.jpeg",

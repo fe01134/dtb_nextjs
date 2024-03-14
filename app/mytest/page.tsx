@@ -55,6 +55,34 @@ export default async function Page() {
        
        <br/>
 
+      <div>
+      {data.areas.map((area) =>(
+        
+          area.activities.map((activity) => (
+            
+            
+            activity.places.map((place) => (
+              <>
+              <div>{activity.type}</div>                
+              <div>{area.area}</div>
+              <div>{data.district}</div>
+              <div>{data.council}</div>
+              <div>{place.uid}</div>  
+              <div>{place.name}</div>  
+              <div>{place.description}</div>  
+              <div>{place.photoName}</div>  
+              <div>{place.tags}</div>  
+              <div>{place.activity}</div> 
+              </>
+              )
+              )
+            )
+            )
+            )
+          )
+        }
+      </div>
+
       <Link href="/blog/21">About Blog post 12</Link>
       </div>
     </main>
