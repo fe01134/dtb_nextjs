@@ -1,5 +1,3 @@
-import Activity from "./activity";
-
 // model/place.ts
 class Place {
   private type : string;
