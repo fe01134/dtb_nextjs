@@ -1,4 +1,4 @@
-// Test using url http://localhost:3000/mytest 
+// Works test using url http://localhost:3000/mytest 
 // uses API http:localhost:3000/api/places
 // Go to root/test   to see hello world page
 // in this case our page is asynchronous and loads data from server to see 70107786
