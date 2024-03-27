@@ -1,0 +1,228 @@
+{
+    "district": "Vila Real de Santo António",
+    "council": "Vila Real de Santo António",
+    "areas": [
+        {
+            "area": "Vila Real de Santo António",
+            "description": "Quite peaceful residential area with many quaint white traditional villa and shops.  On a river and boarding Spain, this city was originall a fishing village where the caught and canned Sardines.   With a grid layout you can find old historical factory building and warehouses that were used to can sardines.",
+            "activities": [
+                {
+                    "type": "Marinas and Harbours",
+                    "places": [
+                        {
+                            "uid": "19",
+                            "name": "Porto de Recreio do Guadiana",
+                            "description": "Travelling to and about the Algarve coastline is possible using this Marina located on the boarder with Spain. Yacht Harbours offer anothe way to experience Algrave coastline and nature by boat.  As well as sea water sports, recreation and adventures.",
+                            "photoName": "guadiana.jpeg",
+                            "tags": ["Marina type River",
+                                "Radio Frequency VHF 12, 16, 20",
+                                "Tide information",
+                                "Guiding lights",
+                                "Filling station",
+                                "Water supply",
+                                "Power supply available",
+                                "Sea ramp available",
+                                "Travel lift available",
+                                "Lifting gear available",
+                                "Number of permanent mooring sites : 360",
+                                "Maximum ship hull size at berthing point : 3 m",
+                                "Maximum length at berthing point : 20 m",
+                                "Restaurant",
+                                "Shops"],
+                            "activity": ["shop", "eat"],
+                            "address": "Av. da República s/n - Apartado 40 8901-909 Vila Real de Santo António",
+                            "telephone": "+351 281 513 769",
+                            "fax": "+351 281 511 140",
+                            "e-mail": "anguadiana@mail.telepac.pt",
+                            "website": "http://www.anguadiana.com"
+                        },
+                        {
+                            "uid": "2",
+                            "name": "Pingo Doce",
+                            "description": "Portuguese supermarket with locations all over Portugal.",
+                            "photoName": "pingo_doce.png",
+                            "tags": ["market", "food"],
+                            "activity": ["shop", "eat"]
+                        }
+                    ]
+                },
+                {
+                    
+                    "type": "golf",
+                    "places": [
+                        {
+                            "uid": "3",
+                            "name": "Vale Milho Golf",
+                            "description": "International supermarket with locations across Portugal. Offers fresh fruit, vegtables and fish, national and international products. Open daily from 08:30-22:00 in Summer and 08:30-21:30 in Winter.",
+                            "photoName": "intermarche.jpeg",
+                            "tags": ["golf", "nine holes"],
+                            "activity": ["golf", "eat", "bar", "music"]
+                        }
+                    ]
+                },
+                {
+                    
+                    "type": "beach",
+                    "places": [
+                        {
+                            "uid": "4",
+                            "name": "Praia Vale Centeanes",
+                            "description": "International supermarket with locations across Portugal. Offers fresh fruit, vegtables and fish, national and international products. Open daily from 08:30-22:00 in Summer and 08:30-21:30 in Winter.",
+                            "photoName": "intermarche.jpeg",
+                            "tags": ["cliffs", "town", "excursions", "tours", "swimming", "food", "bars", "restaurants"],
+                            "activity": ["swim", "fish", "sun bath", "walk"]
+                        },
+                        {
+                            "uid": "5",
+                            "name": "Praia Carvalho",
+                            "description": "International supermarket with locations across Portugal. Offers fresh fruit, vegtables and fish, national and international products. Open daily from 08:30-22:00 in Summer and 08:30-21:30 in Winter.",
+                            "photoName": "intermarche.jpeg",
+                            "tags": ["cliffs", "cliff diving", "swimming"],
+                            "activity": ["swim", "fish", "sun bath", "walk", "cliff diving"]
+                        }
+                    ]
+                },
+                {
+                    
+                    "type": "restaurants",
+                    "places": [
+                        {
+                            "uid": "6",
+                            "name": "Gaspacho & Migas",
+                            "description": "International supermarket with locations across Portugal. Offers fresh fruit, vegtables and fish, national and international products. Open daily from 08:30-22:00 in Summer and 08:30-21:30 in Winter.",
+                            "photoName": "intermarche.jpeg",
+                            "tags": ["Mediterranean"],
+                            "activity": ["food", "eat", "bar", "music"]
+                        }
+                    ]
+                },
+                {
+                    
+                    "type": "walks",
+                    "places": [
+                        {
+                            "uid": "7",
+                            "name": "Algar Seco",
+                            "description": "International supermarket with locations across Portugal. Offers fresh fruit, vegtables and fish, national and international products. Open daily from 08:30-22:00 in Summer and 08:30-21:30 in Winter.",
+                            "photoName": "intermarche.jpeg",
+                            "tags": ["cliff walk"],
+                            "activity": ["fish", "sun bath", "walk", "cliff diving"]
+                        },
+                        {
+                            "uid": "8",
+                            "name": "Seven Hills Trail",
+                            "description": "International supermarket with locations across Portugal. Offers fresh fruit, vegtables and fish, national and international products. Open daily from 08:30-22:00 in Summer and 08:30-21:30 in Winter.",
+                            "photoName": "intermarche.jpeg",
+                            "tags": ["cliff walk"],
+                            "activity": ["swim", "fish", "sun bath", "walk", "cliff diving"]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "area": "Gordo",
+            "description": "Originally a small fishing area that has become a tourist destination for families.  Many small quaint shops restaurants, bars and pubs. Pleny of places to get gifts or find real estate, lawyers and other service providers.",
+            "activities": [
+                {
+                    "type": "excursion",
+                    "places": [
+                        {
+                            "uid": "9",
+                            "name": "Carvoeiro Tours",
+                            "description": "International supermarket with locations across Portugal. Offers fresh fruit, vegtables and fish, national and international products. Open daily from 08:30-22:00 in Summer and 08:30-21:30 in Winter.",
+                            "photoName": "intermarche.jpeg",
+                            "tags": ["boat tours"],
+                            "activity": ["boat tours", "cave tours"]
+                        }
+                    ]
+                },
+                {
+                    "type": "golf",
+                    "places": [
+                        {
+                            "uid": "10",
+                            "name": "Gramacho Golf Course",
+                            "description": "International supermarket with locations across Portugal. Offers fresh fruit, vegtables and fish, national and international products. Open daily from 08:30-22:00 in Summer and 08:30-21:30 in Winter.",
+                            "photoName": "intermarche.jpeg",
+                            "tags": ["18-hole golf Course"],
+                            "activity": ["golf", "eat", "bar", "music"]
+                        }
+                    ]
+                },
+                {
+                    
+                    "type": "beach",
+                    "places": [
+                        {
+                            "uid": "11",
+                            "name": "Praia Carvoeiro",
+                            "description": "International supermarket with locations across Portugal. Offers fresh fruit, vegtables and fish, national and international products. Open daily from 08:30-22:00 in Summer and 08:30-21:30 in Winter.",
+                            "photoName": "intermarche.jpeg",
+                            "tags": ["Beach", "Praia"],
+                            "activity": ["fish", "sun bath", "walk"]
+                        },
+                        {
+                            "uid": "12",
+                            "name": "Praia De Paraiso",
+                            "description": "International supermarket with locations across Portugal. Offers fresh fruit, vegtables and fish, national and international products. Open daily from 08:30-22:00 in Summer and 08:30-21:30 in Winter.",
+                            "photoName": "intermarche.jpeg",
+                            "tags": ["Beach", "Praia"],
+                            "activity": ["fish", "sun bath", "walk"]
+                        }
+                    ]
+                },
+                {
+                    "type": "restaurants",
+                    "places": [
+                        {
+                            "uid": "13",
+                            "name": "Taste",
+                            "description": "International supermarket with locations across Portugal. Offers fresh fruit, vegtables and fish, national and international products. Open daily from 08:30-22:00 in Summer and 08:30-21:30 in Winter.",
+                            "photoName": "intermarche.jpeg",
+                            "tags": ["international", "portuguese", "European"],
+                            "activity": ["food", "eat", "bar", "music"]
+                        },
+                        {
+                            "uid": "14",
+                            "name": "Tasca 26 - Eat Oute - Tapas & Grill",
+                            "description": "International supermarket with locations across Portugal. Offers fresh fruit, vegtables and fish, national and international products. Open daily from 08:30-22:00 in Summer and 08:30-21:30 in Winter.",
+                            "photoName": "intermarche.jpeg",
+                            "tags": ["international", "Mediterranean", "Steakhouse"],
+                            "activity": ["food", "eat", "bar", "music"]
+                        },
+                        {
+                            "uid": "15",
+                            "name": "Mumbai Darbar Indian Eat Out",
+                            "description": "Offers authentic Indian food for those days that you are missing it. Indian dining is quite popular in Algarve with many Indian restaurant options. Culturally Portugues dishes reflect the Indian influence of the Exploration periods when the Portugues brought back spices from India.",
+                            "photoName": "intermarche.jpeg",
+                            "tags": ["international", "Mediterranean", "Steakhouse"],
+                            "activity": ["food", "eat", "bar", "music"]
+                        }
+                    ]
+                },
+                {
+                    "activity": "Walk",
+                    "type": "place",
+                    "places": [
+                        {
+                            "uid": "7",
+                            "name": "Algar Seco",
+                            "description": "There is a wood boardwalk access along the tops of the cliffs starting at Boneca Bar restaurant to downtoen Carvoeiro.  There are scenic ocean views from the cliff.  You can see spectacular sunsets and sun rises.",
+                            "photoName": "intermarche.jpeg",
+                            "tags": ["cliff walk"],
+                            "activity": ["fish", "sun bath", "walk", "cliff diving"]
+                        },
+                        {
+                            "uid": "18",
+                            "name": "Walk to downtown Carveiro",
+                            "description": "There is sidewalk access in most of the main roads in downtown Carvoeiro.   Scenic walks are avaialble along the coast as well if you prefer to be off the street.  Walking times are about 30 minutes to downtown Carvoeiro from Vale de Milho.  Taxi's are often available downtown if you are too tired or had too much fun to walk back.",
+                            "photoName": "intermarche.jpeg",
+                            "tags": ["walk"]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
