@@ -3,7 +3,7 @@
 //  Works http://localhost:3000/cars
 //
 import { useEffect, useState } from 'react';
-import CarButton from '../components/CarButton';
+import CarButton from 'src/layouts/components'
 import Car from '../model/car';
 
 const CarsPage: React.FC = () => {

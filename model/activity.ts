@@ -2,14 +2,14 @@ import Place from "./place";
 
 class Activity {
 
-  private uid : string;
   private name : string;
-  private desription : string;
+  private description : string;
   
   private places :Place[];
 
   constructor(name: string, description: string,places: Place[]) {
     this.name = name;
+    this.description = description;
     this.places = places;
   }
 

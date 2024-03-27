@@ -175,7 +175,7 @@
                         {
                             "uid": "15",
                             "name": "Mumbai Darbar Indian Eat Out",
-                            "description": "International supermarket with locations across Portugal. Offers fresh fruit, vegtables and fish, national and international products. Open daily from 08:30-22:00 in Summer and 08:30-21:30 in Winter.",
+                            "description": "Offers authentic Indian food for those days that you are missing it. Indian dining is quite popular in Algarve with many Indian restaurant options. Culturally Portugues dishes reflect the Indian influence of the Exploration periods when the Portugues brought back spices from India.",
                             "photoName": "intermarche.jpeg",
                             "tags": ["international", "Mediterranean", "Steakhouse"],
                             "activity": ["food", "eat", "bar", "music"]
@@ -183,13 +183,12 @@
                     ]
                 },
                 {
-                    "activity": "Walk",
                     "type": "place",
                     "places": [
                         {
                             "uid": "7",
                             "name": "Algar Seco",
-                            "description": "International supermarket with locations across Portugal. Offers fresh fruit, vegtables and fish, national and international products. Open daily from 08:30-22:00 in Summer and 08:30-21:30 in Winter.",
+                            "description": "There is a wood boardwalk access along the tops of the cliffs starting at Boneca Bar restaurant to downtoen Carvoeiro.  There are scenic ocean views from the cliff.  You can see spectacular sunsets and sun rises.",
                             "photoName": "intermarche.jpeg",
                             "tags": ["cliff walk"],
                             "activity": ["fish", "sun bath", "walk", "cliff diving"]
@@ -197,7 +196,7 @@
                         {
                             "uid": "18",
                             "name": "Walk to downtown Carveiro",
-                            "description": "International supermarket with locations across Portugal. Offers fresh fruit, vegtables and fish, national and international products. Open daily from 08:30-22:00 in Summer and 08:30-21:30 in Winter.",
+                            "description": "There is sidewalk access in most of the main roads in downtown Carvoeiro.   Scenic walks are avaialble along the coast as well if you prefer to be off the street.  Walking times are about 30 minutes to downtown Carvoeiro from Vale de Milho.  Taxi's are often available downtown if you are too tired or had too much fun to walk back.",
                             "photoName": "intermarche.jpeg",
                             "tags": ["walk"]
                         }

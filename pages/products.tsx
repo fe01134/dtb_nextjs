@@ -1,6 +1,6 @@
 // pages/products.tsx
 import { useEffect, useState } from 'react';
-import ProductButton from '../components/ProductButton';
+import ProductButton from 'src/layouts/components'
 import Product from '../model/product';
 
 const ProductsPage: React.FC = () => {
