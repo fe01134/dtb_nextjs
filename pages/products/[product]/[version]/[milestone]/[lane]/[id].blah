@@ -6,7 +6,7 @@ import Link from "next/link";
 import {useRouter} from "next/router";
 
 // to run use http://localhost:3001/products/product/version/milestone/lane/[id or all])
-const BASE_URL = 'http://localhost:3000/api'
+//const BASE_URL = 'http://localhost:3000/api'
 
 export default function Lanes(){
   const router = useRouter()

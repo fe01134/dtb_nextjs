@@ -4,7 +4,8 @@ import { useEffect, useState } from 'react'
 
 // Test using URL http://localhost:3001/products/rational/v1/m3/24/306
 
-const BASE_URL = 'http://localhost:3000/api'
+
+const BASE_URL =  process.env.NEXT_PUBLIC_API_URL;
 
 export default function Home() {
 

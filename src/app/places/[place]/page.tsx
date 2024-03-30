@@ -8,7 +8,8 @@ type  Place = {
 };
 
   export default async function PlacesPage(props:any) {
-    const resp = await fetch("http://localhost:3000/api/locations");
+    const apiUrl = process.env.NEXT_PUBLIC_API_URL;
+    const resp = await fetch(`${apiUrl}/locations`);
     const data: Place = await resp.json();
     
     

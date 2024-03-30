@@ -31,7 +31,9 @@ type PageData = {
 
 export default async function Page(props:any) {
   
-  const res = await fetch ('http:localhost:3000/api/places');
+  const apiUrl = process.env.NEXT_PUBLIC_API_URL;
+  const res = await fetch(`${apiUrl}/places`);
+  //const res = await fetch ('http:localhost:3000/api/places');
   const data = await res.json()
   console.debug("data in my test page")
   console.debug(data)

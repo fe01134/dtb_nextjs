@@ -2,7 +2,7 @@ import Lane from '../components/Lane'
 import LaneModel from '../../../model/lane'
 import StepModel from '../../../model/step'
 
-const BASE_URL = 'http://localhost:3000/api'
+//const BASE_URL = 'http://localhost:3000/api'
 
 
 export default function Home() {
