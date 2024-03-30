@@ -1,0 +1,8 @@
+[
+    { "id": 1, "name": "Thing 1", "full_name": "Thing Marathon Luz Algarve" },
+    { "id": 2, "name": "Thing 2", "full_name": "Thing F1" },
+    { "id": 3, "name": "Thing 3", "full_name": "Thing Volta De Portugal" },
+    { "id": 4, "name": "Thing 4", "full_name": "Thing Portimao Football" },
+    { "id": 5, "name": "Thing 5", "full_name": "Thing Kayak Racing" },
+    { "id": 6, "name": "Thing 6", "full_name": "Thing MotoGP" }
+  ]

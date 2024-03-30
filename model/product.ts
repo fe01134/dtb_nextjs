@@ -1,4 +1,4 @@
-// models/Product.ts
+// model/Product.ts
 class Product {
     private id: number;
     private name: string;
