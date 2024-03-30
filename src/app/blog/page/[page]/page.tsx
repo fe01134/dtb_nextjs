@@ -7,8 +7,10 @@ import { sortByDate } from "src/lib/utils/sortFunctions";
 import PageHeader from "@/partials/PageHeader";
 import PostSidebar from "@/partials/PostSidebar";
 import SeoMeta from "@/partials/SeoMeta";
-import { Post } from "@/types";
+import { Post } from "../../../../types/index";
 
+
+console.debug("blog page")
 const { blog_folder, pagination } = config.settings;
 
 // remove dynamicParams
@@ -31,7 +33,7 @@ export const generateStaticParams = () => {
 };
 
 function spreadPages(num: number): number[] {
-  let pages = [];
+  let pages : number[] = [];
 
   for (let i = 2; i <= num; i++) {
     pages.push(i);

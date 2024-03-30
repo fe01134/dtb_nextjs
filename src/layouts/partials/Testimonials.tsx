@@ -3,7 +3,7 @@
 
 import ImageFallback from "../helpers/ImageFallback";
 import { markdownify } from "@/src/lib/utils/textConverter";
-import { Testimonial } from "src/types";
+import { Testimonial } from "../../types/index";
 import "swiper/css";
 
 import { Autoplay, Pagination } from "swiper/modules";

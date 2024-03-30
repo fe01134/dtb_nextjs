@@ -7,7 +7,7 @@ import { sortByDate } from "src/lib/utils/sortFunctions";
 import PageHeader from "@/partials/PageHeader";
 import PostSidebar from "@/partials/PostSidebar";
 import SeoMeta from "@/partials/SeoMeta";
-import { Post } from "@/types";
+import { Post } from "../../types/index";
 const { blog_folder, pagination } = config.settings;
 
 // for all regular pages
@@ -18,6 +18,8 @@ const Posts = () => {
   const allCategories = getAllTaxonomy(blog_folder, "categories");
   const categories = getTaxonomy(blog_folder, "categories");
   const tags = getTaxonomy(blog_folder, "tags");
+  console.debug("tags");
+  console.debug(tags);
   const sortedPosts = sortByDate(posts);
   const totalPages = Math.ceil(posts.length / pagination);
   const currentPosts = sortedPosts.slice(0, pagination);

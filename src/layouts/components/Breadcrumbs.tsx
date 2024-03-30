@@ -1,13 +1,14 @@
 "use client";
 
-import { humanize } from "@/src/lib/utils/textConverter";
+import { humanize } from "../../lib/utils/textConverter";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 
 const Breadcrumbs = ({ className }: { className?: string }) => {
-  const pathname = usePathname();
+  const pathname = usePathname() ?? '/';
   console.debug(pathname);
   console.debug("pathname");
+   
   const paths = pathname.split("/").filter((x) => x);
   let parts = [
     {

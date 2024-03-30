@@ -4,7 +4,7 @@ import { markdownify } from "@/src/lib/utils/textConverter";
 import CallToAction from "../layouts/partials/CallToAction";
 import SeoMeta from "../layouts/partials/SeoMeta";
 import Testimonials from "../layouts/partials/Testimonials";
-import { Button, Feature } from "@/types";
+import { Button, Feature } from "../types/index";
 import Link from "next/link";
 import { FaCheck } from "react-icons/fa";
 

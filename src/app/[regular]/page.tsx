@@ -3,7 +3,7 @@ import MDXContent from "@/helpers/MDXContent";
 import { getSinglePage } from "@/src/lib/contentParser";
 import PageHeader from "@/partials/PageHeader";
 import SeoMeta from "@/partials/SeoMeta";
-import { RegularPage } from "@/types";
+import { RegularPage } from "../../types/index";
 
 // remove dynamicParams
 export const dynamicParams = false;

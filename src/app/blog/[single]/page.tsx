@@ -9,9 +9,12 @@ import dateFormat from "../../../lib/utils/dateFormat";
 import similerItems from "../../../lib/utils/similarItems";
 import { humanize, markdownify, slugify } from "../../../lib/utils/textConverter";
 import SeoMeta from "@/partials/SeoMeta";
-import { Post } from "@/types";
+import { Post } from "../../../types/index";
 import Link from "next/link";
 import { FaRegClock, FaRegFolder, FaRegUserCircle } from "react-icons/fa";
+
+console.debug("blog page");
+
 
 const { blog_folder } = config.settings;
 
@@ -25,6 +28,11 @@ export const generateStaticParams: () => { single: string }[] = () => {
   const paths = posts.map((post) => ({
     single: post.slug!,
   }));
+
+  console.debug(paths);
+
+  paths.forEach((path: any) => {
+    console.log(` Iterate Area: ${path}`)});
 
   return paths;
 };

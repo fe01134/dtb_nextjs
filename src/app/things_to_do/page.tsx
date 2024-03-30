@@ -38,20 +38,48 @@ export default async function Page(props:any) {
   console.debug(data)
   
   return (
-    <>
+    <div className="container">
     <h1>Things to Do</h1>
-  
+
     <Link href="/myplans">Plan your visit.  Look for things to do</Link> in Algarve.  
     Add them to your <Link href="/myplans">plans</Link>  
 
       {data.areas.map((area: any) => (
-          <div key = {area.area}>{area.description}
+          <div className="section-sm bg-gradient" key = {area.area}>
           
-          {area.activities.map((activity: any) => (
-            <div key = {area.area + '-' + activity.type}>Activity: {activity.type}</div>
-          )
+            <h2>{area.area}</h2>
+
+            {area.description}
+            
+            {area.activities.map((activity: any) => (          
+              <div className="row items-center justify-between" key = {area.area + '-' + activity.type}>Activity: {activity.type}
+
+
+                <h3>{activity.type}</h3>
+                {activity.places.map((place: any) => (
+
+
+                    <div className="row items-center justify-between" key = {place.uid}>Place: 
+                        <div>{activity.type}</div>                
+                        <div>{area.area}</div>
+                        <div>{data.district}</div>
+                        <div>{data.council}</div>
+                        <div>{place.uid}</div>  
+                        <div>{place.name}</div>  
+                        <div>{place.description}</div>  
+                        <div>{place.photoName}</div>  
+                        <div>{place.tags}</div>  
+                        <div>{place.activity}</div> 
+                    </div>
+                  )
+                  )};
+
+
+              </div>
+            )
           )};
-          </div>
+
+        </div>
       ))
       };
       
@@ -85,7 +113,7 @@ export default async function Page(props:any) {
         <div className="border-dashed border border-zinc-500 w-full h-64 rounded-lg">
         <ClientPagination></ClientPagination>
         </div>
-      </>   
+      </div>   
   );
 
 }

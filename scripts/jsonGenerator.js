@@ -6,6 +6,11 @@ const CONTENT_DEPTH = 2;
 const JSON_FOLDER = "./.json";
 const BLOG_FOLDER = "src/content/blog";
 
+console.debug("JSON_FOLDER");
+console.debug(JSON_FOLDER);
+console.debug("BLOG_FOLDER");
+console.debug(BLOG_FOLDER);
+
 // get data from markdown
 const getData = (folder, groupDepth) => {
   const getPath = fs.readdirSync(folder);
@@ -17,9 +22,13 @@ const getData = (folder, groupDepth) => {
     const isFolder = stats.isDirectory();
 
     if (isFolder) {
+      console.debug("isFolder");
+      console.debug(isFolder);
       return getData(filepath, groupDepth);
     } else if (filename.endsWith(".md") || filename.endsWith(".mdx")) {
       const file = fs.readFileSync(filepath, "utf-8");
+      console.debug("file");
+      console.debug(file);
       const { data, content } = matter(file);
       const pathParts = filepath.split(path.sep);
       const slug =

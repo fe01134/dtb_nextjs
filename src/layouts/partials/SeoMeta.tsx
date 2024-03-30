@@ -21,7 +21,7 @@ const SeoMeta = ({
 }) => {
   const { meta_image, meta_author, meta_description } = config.metadata;
   const { base_url } = config.site;
-  const pathname = usePathname();
+  const pathname = usePathname()?.replace("/", "");
 
   return (
     <>
@@ -61,7 +61,7 @@ const SeoMeta = ({
       <meta property="og:type" content="website" />
       <meta
         property="og:url"
-        content={`${base_url}/${pathname.replace("/", "")}`}
+        content={`${base_url}/${pathname}`}
       />
 
       {/* twitter-title */}

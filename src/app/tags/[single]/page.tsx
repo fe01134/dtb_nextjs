@@ -11,23 +11,24 @@ import { Post } from "../../../types/index";
 const { blog_folder } = config.settings;
 type StaticParams = () => { single: string }[];
 
+console.debug("Single tags page");
 // remove dynamicParams
 export const dynamicParams = false;
 
 // generate static params
 export const generateStaticParams: StaticParams = () => {
-  const categories = getTaxonomy(blog_folder, "categories");
+  const tags = getTaxonomy(blog_folder, "tags");
 
-  const paths = categories.map((category) => ({
-    single: category,
+  const paths = tags.map((tag) => ({
+    single: tag,
   }));
 
   return paths;
 };
 
-const CategorySingle = ({ params }: { params: { single: string } }) => {
+const TagSingle = ({ params }: { params: { single: string } }) => {
   const posts: Post[] = getSinglePage(blog_folder);
-  const filterByCategories = taxonomyFilter(posts, "categories", params.single);
+  const filterByTags = taxonomyFilter(posts, "tags", params.single);
 
   return (
     <>
@@ -36,7 +37,7 @@ const CategorySingle = ({ params }: { params: { single: string } }) => {
       <div className="section-sm pb-0">
         <div className="container">
           <div className="row">
-            {filterByCategories.map((post: Post, index: number) => (
+            {filterByTags.map((post: Post, index: number) => (
               <div className="mb-14 md:col-6 lg:col-4" key={index}>
                 <BlogCard data={post} />
               </div>
@@ -48,4 +49,4 @@ const CategorySingle = ({ params }: { params: { single: string } }) => {
   );
 };
 
-export default CategorySingle;
+export default TagSingle;

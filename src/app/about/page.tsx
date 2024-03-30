@@ -3,7 +3,7 @@ import MDXContent from "@/helpers/MDXContent";
 import { getListPage } from "@/src/lib/contentParser";
 import { markdownify } from "@/src/lib/utils/textConverter";
 import SeoMeta from "@/partials/SeoMeta";
-import { RegularPage } from "@/types";
+import { RegularPage } from "../../types/index";
 
 const About = () => {
   const data: RegularPage = getListPage("about/_index.md");

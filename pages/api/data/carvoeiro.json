@@ -3,7 +3,7 @@
     "council": "Carvoeiro",
     "areas": [
         {
-            "area": "Val Milho",
+            "area": "Vale Milho",
             "description": "Quite peaceful residential area with many quaint white traditional villas with red and yellow tile roofs.",
             "activities": [
                 {
@@ -15,7 +15,15 @@
                             "description": "International supermarket with locations across Portugal. Offers fresh fruit, vegtables and fish, national and international products. Open daily from 08:30-22:00 in Summer and 08:30-21:30 in Winter.",
                             "photoName": "intermarche.jpeg",
                             "tags": ["market", "food"],
-                            "activity": ["shop", "eat"]
+                            "activity": [
+                                "shop", 
+                                "eat"
+                            ],
+                            "categories": [
+                                "Lagoa",
+                                "Carvoeiro",
+                                "Vale Milho"
+                            ]
                         },
                         {
                             "uid": "2",
@@ -23,7 +31,15 @@
                             "description": "Portuguese supermarket with locations all over Portugal.",
                             "photoName": "pingo_doce.png",
                             "tags": ["market", "food"],
-                            "activity": ["shop", "eat"]
+                            "activity": [
+                                "shop", 
+                                "eat"
+                            ],
+                            "categories": [
+                                "Lagoa",
+                                "Carvoeiro",
+                                "Vale Milho"
+                            ]
                         }
                     ]
                 },
@@ -37,7 +53,12 @@
                             "description": "International supermarket with locations across Portugal. Offers fresh fruit, vegtables and fish, national and international products. Open daily from 08:30-22:00 in Summer and 08:30-21:30 in Winter.",
                             "photoName": "intermarche.jpeg",
                             "tags": ["golf", "nine holes"],
-                            "activity": ["golf", "eat", "bar", "music"]
+                            "activity": ["golf", "eat", "bar", "music"],
+                            "categories": [
+                                "Lagoa",
+                                "Carvoeiro",
+                                "Vale Milho"
+                            ]
                         }
                     ]
                 },
@@ -51,7 +72,12 @@
                             "description": "International supermarket with locations across Portugal. Offers fresh fruit, vegtables and fish, national and international products. Open daily from 08:30-22:00 in Summer and 08:30-21:30 in Winter.",
                             "photoName": "intermarche.jpeg",
                             "tags": ["cliffs", "town", "excursions", "tours", "swimming", "food", "bars", "restaurants"],
-                            "activity": ["swim", "fish", "sun bath", "walk"]
+                            "activity": ["swim", "fish", "sun bath", "walk"],
+                            "categories": [
+                                "Lagoa",
+                                "Carvoeiro",
+                                "Vale Milho"
+                            ]
                         },
                         {
                             "uid": "5",
@@ -59,7 +85,12 @@
                             "description": "International supermarket with locations across Portugal. Offers fresh fruit, vegtables and fish, national and international products. Open daily from 08:30-22:00 in Summer and 08:30-21:30 in Winter.",
                             "photoName": "intermarche.jpeg",
                             "tags": ["cliffs", "cliff diving", "swimming"],
-                            "activity": ["swim", "fish", "sun bath", "walk", "cliff diving"]
+                            "activity": ["swim", "fish", "sun bath", "walk", "cliff diving"],
+                            "categories": [
+                                "Lagoa",
+                                "Carvoeiro",
+                                "Vale Milho"
+                            ]
                         }
                     ]
                 },
@@ -73,7 +104,12 @@
                             "description": "International supermarket with locations across Portugal. Offers fresh fruit, vegtables and fish, national and international products. Open daily from 08:30-22:00 in Summer and 08:30-21:30 in Winter.",
                             "photoName": "intermarche.jpeg",
                             "tags": ["Mediterranean"],
-                            "activity": ["food", "eat", "bar", "music"]
+                            "activity": ["food", "eat", "bar", "music"],
+                            "categories": [
+                                "Lagoa",
+                                "Carvoeiro",
+                                "Vale Milho"
+                            ]
                         }
                     ]
                 },
@@ -87,7 +123,12 @@
                             "description": "International supermarket with locations across Portugal. Offers fresh fruit, vegtables and fish, national and international products. Open daily from 08:30-22:00 in Summer and 08:30-21:30 in Winter.",
                             "photoName": "intermarche.jpeg",
                             "tags": ["cliff walk"],
-                            "activity": ["fish", "sun bath", "walk", "cliff diving"]
+                            "activity": ["fish", "sun bath", "walk", "cliff diving"],
+                            "categories": [
+                                "Lagoa",
+                                "Carvoeiro",
+                                "Vale Milho"
+                            ]
                         },
                         {
                             "uid": "8",
@@ -95,7 +136,12 @@
                             "description": "International supermarket with locations across Portugal. Offers fresh fruit, vegtables and fish, national and international products. Open daily from 08:30-22:00 in Summer and 08:30-21:30 in Winter.",
                             "photoName": "intermarche.jpeg",
                             "tags": ["cliff walk"],
-                            "activity": ["swim", "fish", "sun bath", "walk", "cliff diving"]
+                            "activity": ["swim", "fish", "sun bath", "walk", "cliff diving"],
+                            "categories": [
+                                "Lagoa",
+                                "Carvoeiro",
+                                "Vale Milho"
+                            ]
                         }
                     ]
                 }
@@ -114,7 +160,12 @@
                             "description": "International supermarket with locations across Portugal. Offers fresh fruit, vegtables and fish, national and international products. Open daily from 08:30-22:00 in Summer and 08:30-21:30 in Winter.",
                             "photoName": "intermarche.jpeg",
                             "tags": ["boat tours"],
-                            "activity": ["boat tours", "cave tours"]
+                            "activity": ["boat tours", "cave tours"],
+                            "categories": [
+                                "Lagoa",
+                                "Carvoeiro",
+                                "Downtown Carvoeiro"
+                            ]
                         }
                     ]
                 },
@@ -127,7 +178,12 @@
                             "description": "International supermarket with locations across Portugal. Offers fresh fruit, vegtables and fish, national and international products. Open daily from 08:30-22:00 in Summer and 08:30-21:30 in Winter.",
                             "photoName": "intermarche.jpeg",
                             "tags": ["18-hole golf Course"],
-                            "activity": ["golf", "eat", "bar", "music"]
+                            "activity": ["golf", "eat", "bar", "music"],
+                            "categories": [
+                                "Lagoa",
+                                "Carvoeiro",
+                                "Downtown Carvoeiro"
+                            ]
                         }
                     ]
                 },
@@ -141,7 +197,12 @@
                             "description": "International supermarket with locations across Portugal. Offers fresh fruit, vegtables and fish, national and international products. Open daily from 08:30-22:00 in Summer and 08:30-21:30 in Winter.",
                             "photoName": "intermarche.jpeg",
                             "tags": ["Beach", "Praia"],
-                            "activity": ["fish", "sun bath", "walk"]
+                            "activity": ["fish", "sun bath", "walk"],
+                            "categories": [
+                                "Lagoa",
+                                "Carvoeiro",
+                                "Downtown Carvoeiro"
+                            ]
                         },
                         {
                             "uid": "12",
@@ -149,7 +210,12 @@
                             "description": "International supermarket with locations across Portugal. Offers fresh fruit, vegtables and fish, national and international products. Open daily from 08:30-22:00 in Summer and 08:30-21:30 in Winter.",
                             "photoName": "intermarche.jpeg",
                             "tags": ["Beach", "Praia"],
-                            "activity": ["fish", "sun bath", "walk"]
+                            "activity": ["fish", "sun bath", "walk"],
+                            "categories": [
+                                "Lagoa",
+                                "Carvoeiro",
+                                "Downtown Carvoeiro"
+                            ]
                         }
                     ]
                 },
@@ -162,7 +228,12 @@
                             "description": "International supermarket with locations across Portugal. Offers fresh fruit, vegtables and fish, national and international products. Open daily from 08:30-22:00 in Summer and 08:30-21:30 in Winter.",
                             "photoName": "intermarche.jpeg",
                             "tags": ["international", "portuguese", "European"],
-                            "activity": ["food", "eat", "bar", "music"]
+                            "activity": ["food", "eat", "bar", "music"],
+                            "categories": [
+                                "Lagoa",
+                                "Carvoeiro",
+                                "Downtown Carvoeiro"
+                            ]
                         },
                         {
                             "uid": "14",
@@ -170,7 +241,12 @@
                             "description": "International supermarket with locations across Portugal. Offers fresh fruit, vegtables and fish, national and international products. Open daily from 08:30-22:00 in Summer and 08:30-21:30 in Winter.",
                             "photoName": "intermarche.jpeg",
                             "tags": ["international", "Mediterranean", "Steakhouse"],
-                            "activity": ["food", "eat", "bar", "music"]
+                            "activity": ["food", "eat", "bar", "music"],
+                            "categories": [
+                                "Lagoa",
+                                "Carvoeiro",
+                                "Downtown Carvoeiro"
+                            ]
                         },
                         {
                             "uid": "15",
@@ -178,12 +254,17 @@
                             "description": "Offers authentic Indian food for those days that you are missing it. Indian dining is quite popular in Algarve with many Indian restaurant options. Culturally Portugues dishes reflect the Indian influence of the Exploration periods when the Portugues brought back spices from India.",
                             "photoName": "intermarche.jpeg",
                             "tags": ["international", "Mediterranean", "Steakhouse"],
-                            "activity": ["food", "eat", "bar", "music"]
+                            "activity": ["food", "eat", "bar", "music"],
+                            "categories": [
+                                "Lagoa",
+                                "Carvoeiro",
+                                "Downtown Carvoeiro"
+                            ]
                         }
                     ]
                 },
                 {
-                    "type": "place",
+                    "type": "Walks",
                     "places": [
                         {
                             "uid": "7",
@@ -191,14 +272,25 @@
                             "description": "There is a wood boardwalk access along the tops of the cliffs starting at Boneca Bar restaurant to downtoen Carvoeiro.  There are scenic ocean views from the cliff.  You can see spectacular sunsets and sun rises.",
                             "photoName": "intermarche.jpeg",
                             "tags": ["cliff walk"],
-                            "activity": ["fish", "sun bath", "walk", "cliff diving"]
+                            "activity": ["fish", "sun bath", "walk", "cliff diving"],
+                            "categories": [
+                                "Lagoa",
+                                "Carvoeiro",
+                                "Downtown Carvoeiro"
+                            ]
                         },
                         {
                             "uid": "18",
                             "name": "Walk to downtown Carveiro",
                             "description": "There is sidewalk access in most of the main roads in downtown Carvoeiro.   Scenic walks are avaialble along the coast as well if you prefer to be off the street.  Walking times are about 30 minutes to downtown Carvoeiro from Vale de Milho.  Taxi's are often available downtown if you are too tired or had too much fun to walk back.",
                             "photoName": "intermarche.jpeg",
-                            "tags": ["walk"]
+                            "tags": ["walk"],
+                            "activity": ["fish", "sun bath", "walk", "cliff diving"],
+                            "categories": [
+                                "Lagoa",
+                                "Carvoeiro",
+                                "Downtown Carvoeiro"
+                            ]
                         }
                     ]
                 }

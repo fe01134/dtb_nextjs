@@ -2,7 +2,6 @@ import React from 'react';
 import Link from "next/link";
 import ClientPagination from '../../../layouts/components/client-pagination';
 
-
 type Place  = {
   uid: string;
   name: string;
