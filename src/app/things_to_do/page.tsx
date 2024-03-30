@@ -33,115 +33,117 @@ type PageData = {
 export default async function Page(props:any) {
 
   try{
-  const apiUrl = process.env.NEXT_PUBLIC_API_URL;
-  const res = await fetch(`${apiUrl}/places`);
-  const data = await res.json()
-  console.debug("data from api/places ")
-  console.debug(data)
-  
-  return (
-    <div className="container">
-    <h1>Things to Do</h1>
+    const apiUrl = process.env.NEXT_PUBLIC_API_URL;
+    console.debug("data from api/places ")
+    console.debug(apiUrl)
+    const res = await fetch(`${apiUrl}/places`);
+    const data = await res.json()
+    console.debug("data from api/places ")
+    console.debug(data)
+    
+    return (
+      <div className="container">
+      <h1>Things to Do</h1>
 
-    <Link href="/myplans">Plan your visit.  Look for things to do</Link> in Algarve.  
-    Add them to your <Link href="/myplans">plans</Link>  
+      <Link href="/myplans">Plan your visit.  Look for things to do</Link> in Algarve.  
+      Add them to your <Link href="/myplans">plans</Link>  
 
-      {data.areas.map((area: any) => (
-          <div className="section-sm bg-gradient" key = {area.area}>
-          
-            <h2>{area.area}</h2>
-
-            {area.description}
+        {data.areas.map((area: any) => (
+            <div className="section-sm bg-gradient" key = {area.area}>
             
-            {area.activities.map((activity: any) => (          
-              <div className="row items-center justify-between" key = {area.area + '-' + activity.type}>Activity: {activity.type}
+              <h2>{area.area}</h2>
+
+              {area.description}
+              
+              {area.activities.map((activity: any) => (          
+                <div className="row items-center justify-between" key = {area.area + '-' + activity.type}>Activity: {activity.type}
 
 
-                <h3>{activity.type}</h3>
-                {activity.places.map((place: any) => (
+                  <h3>{activity.type}</h3>
+                  {activity.places.map((place: any) => (
 
 
-                    <div className="row items-center justify-between" key = {place.uid}>Place: 
-                        <div>{activity.type}</div>                
-                        <div>{area.area}</div>
-                        <div>{data.district}</div>
-                        <div>{data.council}</div>
-                        <div>{place.uid}</div>  
-                        <div>{place.name}</div>  
-                        <div>{place.description}</div>  
-                        <div>{place.photoName}</div>  
-                        <div>{place.tags}</div>  
-                        <div>{place.activity}</div> 
-                    </div>
-                  )
-                  )};
+                      <div className="row items-center justify-between" key = {place.uid}>Place: 
+                          <div>{activity.type}</div>                
+                          <div>{area.area}</div>
+                          <div>{data.district}</div>
+                          <div>{data.council}</div>
+                          <div>{place.uid}</div>  
+                          <div>{place.name}</div>  
+                          <div>{place.description}</div>  
+                          <div>{place.photoName}</div>  
+                          <div>{place.tags}</div>  
+                          <div>{place.activity}</div> 
+                      </div>
+                    )
+                    )};
 
 
-              </div>
+                </div>
+              )
+            )};
+
+          </div>
+        ))
+        };
+        
+        
+        <div>
+        {data.areas.map((area: any) =>( 
+            area.activities.map((activity: any) => (
+              activity.places.map((place: any) => (
+                <>
+                <div>{activity.type}</div>                
+                <div>{area.area}</div>
+                <div>{data.district}</div>
+                <div>{data.council}</div>
+                <div>{place.uid}</div>  
+                <div>{place.name}</div>  
+                <div>{place.description}</div>  
+                <div>{place.photoName}</div>  
+                <div>{place.tags}</div>  
+                <div>{place.activity}</div> 
+                </>
+                )
+                )
+              )
+              )
+              )
             )
-          )};
+          }
+        </div>
+
+        <div className="flex items-center text-sm font-medium text-muted-foreground">sub heading</div>
+          <div className="border-dashed border border-zinc-500 w-full h-64 rounded-lg">
+          <ClientPagination></ClientPagination>
+          </div>
+        </div>   
+    );
+
+  }
+  catch (error) {
+
+    return (
+      <>
+        <span className="font-bold text-4xl">Things To Do</span>
+        Things Page Data works
+      
+        <div>
+        <h1>Things List</h1>
+          <div>
+          None
+          </div>
+        </div>
+
+        <div>
 
         </div>
-      ))
-      };
-      
-      
-      <div>
-      {data.areas.map((area: any) =>( 
-          area.activities.map((activity: any) => (
-            activity.places.map((place: any) => (
-              <>
-              <div>{activity.type}</div>                
-              <div>{area.area}</div>
-              <div>{data.district}</div>
-              <div>{data.council}</div>
-              <div>{place.uid}</div>  
-              <div>{place.name}</div>  
-              <div>{place.description}</div>  
-              <div>{place.photoName}</div>  
-              <div>{place.tags}</div>  
-              <div>{place.activity}</div> 
-              </>
-              )
-              )
-            )
-            )
-            )
-          )
-        }
-      </div>
-
-      <div className="flex items-center text-sm font-medium text-muted-foreground">sub heading</div>
+        <div className="flex items-center text-sm font-medium text-muted-foreground">sub heading</div>
         <div className="border-dashed border border-zinc-500 w-full h-64 rounded-lg">
         <ClientPagination></ClientPagination>
         </div>
-      </div>   
+      </>
   );
-
-}
-catch (error) {
-
-  return (
-    <>
-      <span className="font-bold text-4xl">Things To Do</span>
-      Things Page Data works
-    
-      <div>
-      <h1>Things List</h1>
-        <div>
-         None
-        </div>
-      </div>
-
-      <div>
-
-      </div>
-      <div className="flex items-center text-sm font-medium text-muted-foreground">sub heading</div>
-      <div className="border-dashed border border-zinc-500 w-full h-64 rounded-lg">
-      <ClientPagination></ClientPagination>
-      </div>
-    </>
-);
 
 };
 
