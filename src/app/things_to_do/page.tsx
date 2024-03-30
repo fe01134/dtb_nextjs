@@ -1,7 +1,7 @@
 import React from 'react';
 import Link from "next/link";
 import ClientPagination from '../../layouts/components/client-pagination';
-
+import { useState } from 'react';
 
 type Place  = {
   uid: string;
@@ -31,6 +31,8 @@ type PageData = {
 
 
 export default async function Page(props:any) {
+
+  try{
   const apiUrl = process.env.NEXT_PUBLIC_API_URL;
   const res = await fetch(`${apiUrl}/places`);
   const data = await res.json()
@@ -115,5 +117,32 @@ export default async function Page(props:any) {
         </div>
       </div>   
   );
+
+}
+catch (error) {
+
+  return (
+    <>
+      <span className="font-bold text-4xl">Things To Do</span>
+      Things Page Data works
+    
+      <div>
+      <h1>Things List</h1>
+        <div>
+         None
+        </div>
+      </div>
+
+      <div>
+
+      </div>
+      <div className="flex items-center text-sm font-medium text-muted-foreground">sub heading</div>
+      <div className="border-dashed border border-zinc-500 w-full h-64 rounded-lg">
+      <ClientPagination></ClientPagination>
+      </div>
+    </>
+);
+
+};
 
 }
