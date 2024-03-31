@@ -5,26 +5,26 @@ import PageHeader from "@/partials/PageHeader";
 import SeoMeta from "@/partials/SeoMeta";
 import Link from "next/link";
 
-const Categories = () => {
+const Locations = () => {
   const { blog_folder } = config.settings;
-  const categories = getTaxonomy(blog_folder, "categories");
-  const allCategories = getAllTaxonomy(blog_folder, "categories");
+  const locations = getTaxonomy(blog_folder, "locations");
+  const allLocations = getAllTaxonomy(blog_folder, "locations");
 
   return (
     <>
-      <SeoMeta title={"Categories"} />
-      <PageHeader title={"Categories"} />
+      <SeoMeta title={"Locations"} />
+      <PageHeader title={"Locations"} />
       <section className="section">
         <div className="container text-center">
           <ul>
-            {categories.map((category: string) => {
-              const count = allCategories.filter(
+            {locations.map((category: string) => {
+              const count = allLocations.filter(
                 (c: string) => c === category,
               ).length;
               return (
                 <li className="m-3 inline-block" key={category}>
                   <Link
-                    href={`/categories/${category}`}
+                    href={`/locations/${category}`}
                     className="block rounded bg-theme-light px-4 py-2 text-xl text-dark dark:bg-darkmode-theme-light dark:text-darkmode-dark"
                   >
                     {humanize(category)}{" "}
@@ -42,4 +42,4 @@ const Categories = () => {
   );
 };
 
-export default Categories;
+export default Locations;

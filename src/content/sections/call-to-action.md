@@ -6,5 +6,5 @@ description: "Find things to do and add them to your planned visits. Review your
 button:
   enable: true
   label: "Get Started Now"
-  link: "https://github.com/zeon-studio/nextplate"
+  link: "/things_to_do"
 ---

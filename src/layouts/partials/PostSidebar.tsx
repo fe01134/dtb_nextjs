@@ -3,29 +3,29 @@ import Link from "next/link";
 
 const PostSidebar = ({
   tags,
-  categories,
-  allCategories,
+  locations,
+  allLocations,
 }: {
   tags: string[];
-  categories: string[];
-  allCategories: string[];
+  locations: string[];
+  allLocations: string[];
 }) => {
   return (
     <div className="lg:col-4">
-      {/* <!-- categories --> */}
+      {/* <!-- locations --> */}
       <div className="mb-8">
-        <h5 className="mb-6">Categories</h5>
+        <h5 className="mb-6">Locations</h5>
         <div className="rounded bg-theme-light p-8 dark:bg-darkmode-theme-light">
           <ul className="space-y-4">
-            {categories.map((category: string) => {
-              const count = allCategories.filter(
+            {locations.map((category: string) => {
+              const count = allLocations.filter(
                 (c: string) => c === category,
               ).length;
               return (
                 <li key={category}>
                   <Link
                     className="flex justify-between hover:text-primary dark:hover:text-darkmode-primary"
-                    href={`/categories/${category}`}
+                    href={`/locations/${category}`}
                   >
                     {humanize(category)} <span>({count})</span>
                   </Link>

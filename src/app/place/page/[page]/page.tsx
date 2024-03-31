@@ -47,8 +47,8 @@ const Posts = ({ params }: { params: { page: number } }) => {
   const postIndex: Post = getListPage(`${blog_folder}/_index.md`);
   const { title, meta_title, description, image } = postIndex.frontmatter;
   const posts: Post[] = getSinglePage(blog_folder);
-  const allCategories = getAllTaxonomy(blog_folder, "categories");
-  const categories = getTaxonomy(blog_folder, "categories");
+  const allLocations = getAllTaxonomy(blog_folder, "locations");
+  const locations = getTaxonomy(blog_folder, "locations");
   const tags = getTaxonomy(blog_folder, "tags");
   const sortedPosts = sortByDate(posts);
   const totalPages = Math.ceil(posts.length / pagination);
@@ -86,9 +86,9 @@ const Posts = ({ params }: { params: { page: number } }) => {
             </div>
 
             <PostSidebar
-              categories={categories}
+              locations={locations}
               tags={tags}
-              allCategories={allCategories}
+              allLocations={allLocations}
             />
           </div>
         </div>

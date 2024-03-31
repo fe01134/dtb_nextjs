@@ -10,7 +10,7 @@ export interface ISearchItem {
     title: string;
     image?: string;
     description?: string;
-    categories?: string[];
+    locations?: string[];
     tags?: string[];
   };
   content: string;
@@ -24,7 +24,7 @@ export interface ISearchGroup {
       title: string;
       image?: string;
       description?: string;
-      categories?: string[];
+      locations?: string[];
       tags?: string[];
     };
     content: string;
@@ -176,7 +176,7 @@ const SearchResult = ({
                         </p>
                       )}
                       <div className="search-result-item-taxonomies">
-                        {item.frontmatter.categories && (
+                        {item.frontmatter.locations && (
                           <div className="mr-2">
                             <svg
                               width="14"
@@ -186,13 +186,13 @@ const SearchResult = ({
                             >
                               <path d="M11 0H3a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2 2 2 0 0 0 2-2V4a2 2 0 0 0-2-2 2 2 0 0 0-2-2zm2 3a1 1 0 0 1 1 1v8a1 1 0 0 1-1 1V3zM2 2a1 1 0 0 1 1-1h8a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V2z"></path>
                             </svg>
-                            {item.frontmatter.categories.map(
+                            {item.frontmatter.locations.map(
                               (category, index) => (
                                 <span key={category}>
                                   {matchUnderline(category, searchString)}
-                                  {item.frontmatter.categories &&
+                                  {item.frontmatter.locations &&
                                     index !==
-                                      item.frontmatter.categories.length -
+                                      item.frontmatter.locations.length -
                                         1 && <>, </>}
                                 </span>
                               ),

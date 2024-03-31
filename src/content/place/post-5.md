@@ -1,12 +1,12 @@
 ---
-title: "How to build an Application with modern Technology"
+title: "Carvoeiro Rocks"
 meta_title: ""
-description: "this is meta description"
+description: "this is meta description for Carvoeiro"
 date: 2022-04-04T05:00:00Z
 image: "/images/image-placeholder.png"
-categories: ["Application", "Data"]
-author: "John Doe"
-tags: ["nextjs", "tailwind"]
+locations: ["Carvoeiro", "Lagoa"]
+author: "Carlos Ferreira"
+tags: ["walks", "swimming","test"]
 draft: false
 ---
 

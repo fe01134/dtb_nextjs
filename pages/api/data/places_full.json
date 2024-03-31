@@ -4,7 +4,7 @@
     {"District" : "Lagoa",
     "Areas" : 
         [
-            {"Val Milho" : 
+            {"Vale Milho" : 
                 {"Activities" :
                     [	
                     {"Activity" : 
@@ -31,7 +31,7 @@
                             [
                                 {"Place" :
                                     {
-                                        "Name": "Val Milho Golf",
+                                        "Name": "Vale Milho Golf",
                                         "Tags": ["golf", "nine holes"]
                                     }
                                 }
@@ -189,7 +189,7 @@
     {"District" : "Albufeira",
     "Areas" : 
         [
-            {"Val Milho" : 
+            {"Vale Milho" : 
                 {"Activities" :
                     [	
                     {"Activity" : 
@@ -217,7 +217,7 @@
                             [
                                 {"Place" :
                                     {
-                                        "Name": "F Val Milho Golf",
+                                        "Name": "F Vale Milho Golf",
                                         "Tags": ["golf", "nine holes"]
                                     }
                                 }

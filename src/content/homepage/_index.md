@@ -7,7 +7,7 @@ banner:
   button:
     enable: true
     label: "Find things to do!"
-    link: "https://github.com/zeon-studio/nextplate"
+    link: "/things_to_do"
 
 # Features
 features:

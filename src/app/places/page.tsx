@@ -8,6 +8,8 @@ import PlaceTile from '../../layouts/components/PlaceTile';
       try{
       const apiUrl = process.env.NEXT_PUBLIC_API_URL;
       const resp = await fetch(`${apiUrl}/places`);
+      console.debug("data from api/places ")
+      console.debug(apiUrl)
       const data = await resp.json();
       console.debug("Place page returned new carvoeiro data");
       //console.debug(data);

@@ -16,9 +16,9 @@ export const dynamicParams = false;
 
 // generate static params
 export const generateStaticParams: StaticParams = () => {
-  const categories = getTaxonomy(blog_folder, "categories");
+  const locations = getTaxonomy(blog_folder, "locations");
 
-  const paths = categories.map((category) => ({
+  const paths = locations.map((category) => ({
     single: category,
   }));
 
@@ -27,7 +27,7 @@ export const generateStaticParams: StaticParams = () => {
 
 const CategorySingle = ({ params }: { params: { single: string } }) => {
   const posts: Post[] = getSinglePage(blog_folder);
-  const filterByCategories = taxonomyFilter(posts, "categories", params.single);
+  const filterByLocations = taxonomyFilter(posts, "locations", params.single);
 
   return (
     <>
@@ -36,7 +36,7 @@ const CategorySingle = ({ params }: { params: { single: string } }) => {
       <div className="section-sm pb-0">
         <div className="container">
           <div className="row">
-            {filterByCategories.map((post: Post, index: number) => (
+            {filterByLocations.map((post: Post, index: number) => (
               <div className="mb-14 md:col-6 lg:col-4" key={index}>
                 <BlogCard data={post} />
               </div>

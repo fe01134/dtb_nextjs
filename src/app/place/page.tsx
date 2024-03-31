@@ -15,8 +15,8 @@ const Posts = () => {
   const postIndex: Post = getListPage(`${blog_folder}/_index.md`);
   const { title, meta_title, description, image } = postIndex.frontmatter;
   const posts: Post[] = getSinglePage(blog_folder);
-  const allCategories = getAllTaxonomy(blog_folder, "categories");
-  const categories = getTaxonomy(blog_folder, "categories");
+  const allLocations = getAllTaxonomy(blog_folder, "locations");
+  const locations = getTaxonomy(blog_folder, "locations");
   const tags = getTaxonomy(blog_folder, "tags");
   console.debug("tags");
   console.debug(tags);
@@ -52,9 +52,9 @@ const Posts = () => {
             </div>
 
             <PostSidebar
-              categories={categories}
+              locations={locations}
               tags={tags}
-              allCategories={allCategories}
+              allLocations={allLocations}
             />
           </div>
         </div>

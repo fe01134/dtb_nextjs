@@ -48,7 +48,7 @@ const PostSingle = ({ params }: { params: { single: string } }) => {
     description,
     image,
     author,
-    categories,
+    locations,
     date,
     tags,
   } = frontmatter;
@@ -90,13 +90,13 @@ const PostSingle = ({ params }: { params: { single: string } }) => {
                 </li>
                 <li className="mr-4 inline-block">
                   <FaRegFolder className={"-mt-1 mr-2 inline-block"} />
-                  {categories?.map((category: string, index: number) => (
+                  {locations?.map((category: string, index: number) => (
                     <Link
                       key={category}
-                      href={`/categories/${slugify(category)}`}
+                      href={`/locations/${slugify(category)}`}
                     >
                       {humanize(category)}
-                      {index !== categories.length - 1 && ", "}
+                      {index !== locations.length - 1 && ", "}
                     </Link>
                   ))}
                 </li>
