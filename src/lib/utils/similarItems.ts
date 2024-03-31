@@ -6,12 +6,12 @@ const similerItems = (
   allItems: Post[],
   slug: string,
 ): Post[] => {
-  let categories: string[] = [];
+  let locations: string[] = [];
   let tags: string[] = [];
 
-  // set categories
-  if (currentItem.frontmatter.categories.length > 0) {
-    categories = currentItem.frontmatter.categories;
+  // set locations
+  if (currentItem.frontmatter.locations.length > 0) {
+    locations = currentItem.frontmatter.locations;
   }
 
   // set tags
@@ -19,10 +19,10 @@ const similerItems = (
     tags = currentItem.frontmatter.tags;
   }
 
-  // filter by categories
-  const filterByCategories = allItems.filter((item: any) =>
-    categories.find((category) =>
-      item.frontmatter.categories.includes(category),
+  // filter by locations
+  const filterByLocations = allItems.filter((item: any) =>
+    locations.find((category) =>
+      item.frontmatter.locations.includes(category),
     ),
   );
 
@@ -32,7 +32,7 @@ const similerItems = (
   );
 
   // merged after filter
-  const mergedItems = [...new Set([...filterByCategories, ...filterByTags])];
+  const mergedItems = [...new Set([...filterByLocations, ...filterByTags])];
 
   // filter by slug
   const filterBySlug = mergedItems.filter((product) => product.slug !== slug);

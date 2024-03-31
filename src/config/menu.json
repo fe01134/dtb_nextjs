@@ -22,16 +22,16 @@
           "url": "/contact"
         },
         {
-          "name": "Blog",
-          "url": "/blog"
+          "name": "Place",
+          "url": "/place"
         },
         {
           "name": "Authors",
           "url": "/authors"
         },
         {
-          "name": "Categories",
-          "url": "/categories"
+          "name": "Locations",
+          "url": "/locations"
         },
         {
           "name": "Tags",

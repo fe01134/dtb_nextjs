@@ -8,7 +8,7 @@ import { FaRegFolder, FaRegUserCircle } from "react-icons/fa";
 
 const BlogCard = ({ data }: { data: Post }) => {
   const { summary_length, blog_folder } = config.settings;
-  const { title, image, author, categories, date } = data.frontmatter;
+  const { title, image, author, locations, date } = data.frontmatter;
   return (
     <div className="bg-body dark:bg-darkmode-body">
       {image && (
@@ -32,10 +32,10 @@ const BlogCard = ({ data }: { data: Post }) => {
         </li>
         <li className="mr-4 inline-block">
           <FaRegFolder className={"-mt-1 mr-2 inline-block"} />
-          {categories?.map((category: string, index: number) => (
-            <Link key={index} href={`/categories/${slugify(category)}`}>
+          {locations?.map((category: string, index: number) => (
+            <Link key={index} href={`/locations/${slugify(category)}`}>
               {humanize(category)}
-              {index !== categories.length - 1 && ", "}
+              {index !== locations.length - 1 && ", "}
             </Link>
           ))}
         </li>

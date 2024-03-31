@@ -23,7 +23,7 @@ const SearchModal = () => {
         const description = item.frontmatter.description
           ?.toLowerCase()
           .match(regex);
-        const categories = item.frontmatter.categories
+        const locations = item.frontmatter.locations
           ?.join(" ")
           .toLowerCase()
           .match(regex);
@@ -33,7 +33,7 @@ const SearchModal = () => {
           .match(regex);
         const content = item.content.toLowerCase().match(regex);
 
-        if (title || content || description || categories || tags) {
+        if (title || content || description || locations || tags) {
           return item;
         }
       });
