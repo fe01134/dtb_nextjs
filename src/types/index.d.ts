@@ -25,7 +25,7 @@ export type Post = {
     description?: string;
     image?: string;
     locations: string[];
-    author: string;
+    trip: string;
     tags: string[];
     date?: string;
     draft?: boolean;
@@ -34,7 +34,7 @@ export type Post = {
   content?: string;
 };
 
-export type Author = {
+export type Trip = {
   frontmatter: {
     title: string;
     image?: string;

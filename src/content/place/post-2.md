@@ -1,11 +1,11 @@
 ---
-title: "How to build an Application with modern Technology"
+title: "See the Dolphins"
 meta_title: ""
 description: "this is meta description"
 date: 2022-04-04T05:00:00Z
 image: "/images/image-placeholder.png"
 locations: ["Carvoeiro", "Vale Milho"]
-author: "Sam Wilson"
+trip: "Beach Diversity"
 tags: ["beach", "surfing","test"]
 draft: false
 ---

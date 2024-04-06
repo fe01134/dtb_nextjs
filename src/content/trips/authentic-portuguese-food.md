@@ -1,6 +1,6 @@
 ---
-title: John Doe
-email: johndoe@email.com
+title: Authentic Portuguese Food
+email: samwilson@email.com
 image: "/images/avatar.png"
 description: this is meta description
 social:
@@ -8,9 +8,9 @@ social:
     icon: FaGithub
     link: https://github.com
 
-  - name: twitter
-    icon: FaTwitter
-    link: https://twitter.com
+ - name: instagram
+    icon: FaInstagram
+    link: https://instagram.com/villa.vale.milho
 
   - name: linkedin
     icon: FaLinkedin

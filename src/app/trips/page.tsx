@@ -1,13 +1,13 @@
-import AuthorCard from "../../layouts/components/AuthorCard";
+import TripCard from "../../layouts/components/TripCard";
 import { getListPage, getSinglePage } from "src/lib/contentParser";
 import PageHeader from "@/partials/PageHeader";
 import SeoMeta from "@/partials/SeoMeta";
-import { Author } from "../../types/index";
+import { Trip } from "../../types/index";
 
-const Authors = () => {
-  const authorIndex: Author = getListPage("authors/_index.md");
-  const authors: Author[] = getSinglePage("authors");
-  const { title, meta_title, description, image } = authorIndex.frontmatter;
+const Trips = () => {
+  const tripIndex: Trip = getListPage("trips/_index.md");
+  const trips: Trip[] = getSinglePage("trips");
+  const { title, meta_title, description, image } = tripIndex.frontmatter;
   return (
     <>
       <SeoMeta
@@ -20,9 +20,9 @@ const Authors = () => {
       <section className="section-sm pb-0">
         <div className="container">
           <div className="row justify-center">
-            {authors.map((author: Author, index: number) => (
+            {trips.map((trip: Trip, index: number) => (
               <div className="mb-14 md:col-6 lg:col-4" key={index}>
-                <AuthorCard data={author} />
+                <TripCard data={trip} />
               </div>
             ))}
           </div>
@@ -32,4 +32,4 @@ const Authors = () => {
   );
 };
 
-export default Authors;
+export default Trips;
