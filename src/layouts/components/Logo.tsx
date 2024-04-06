@@ -34,6 +34,9 @@ const Logo = ({ src }: { src?: string }) => {
       : logo;
   const logoPath = src ? src : resolvedLogo;
 
+  console.debug("logoPath");
+  console.debug(logoPath);
+  
   return (
     <Link href="/" className="navbar-brand inline-block">
       {logoPath ? (

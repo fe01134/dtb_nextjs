@@ -7,7 +7,7 @@
             "description": "Quite peaceful residential area with many quaint white traditional villas with red and yellow tile roofs.",
             "activities": [
                 {
-                    "type": "supermarkets",
+                    "type": "Supermarket",
                     "places": [
                         {
                             "uid": "1",
@@ -45,11 +45,11 @@
                 },
                 {
                     
-                    "type": "golf",
+                    "type": "Golf",
                     "places": [
                         {
                             "uid": "3",
-                            "name": "Val Milho Golf",
+                            "name": "Vale Milho Golf",
                             "description": "International supermarket with locations across Portugal. Offers fresh fruit, vegtables and fish, national and international products. Open daily from 08:30-22:00 in Summer and 08:30-21:30 in Winter.",
                             "image": "intermarche.jpeg",
                             "tags": ["golf", "nine holes"],
@@ -64,14 +64,14 @@
                 },
                 {
                     
-                    "type": "beach",
+                    "type": "Beach",
                     "places": [
                         {
                             "uid": "4",
                             "name": "Praia Vale Centeanes",
                             "description": "International supermarket with locations across Portugal. Offers fresh fruit, vegtables and fish, national and international products. Open daily from 08:30-22:00 in Summer and 08:30-21:30 in Winter.",
                             "image": "intermarche.jpeg",
-                            "tags": ["cliffs", "town", "excursions", "tours", "swimming", "food", "bars", "restaurants"],
+                            "tags": ["cliffs", "town", "excursions", "tours", "swimming", "food", "bars", "eating"],
                             "activity": ["swim", "fish", "sun bath", "walk"],
                             "locations": [
                                 "Lagoa",
@@ -96,7 +96,7 @@
                 },
                 {
                     
-                    "type": "restaurants",
+                    "type": "Restaurant",
                     "places": [
                         {
                             "uid": "6",
@@ -115,7 +115,7 @@
                 },
                 {
                     
-                    "type": "walks",
+                    "type": "Walk",
                     "places": [
                         {
                             "uid": "7",
@@ -149,10 +149,10 @@
         },
         {
             "area": "Downtown Carvoeiro",
-            "description": "Originally a small fishing area that has become a tourist destination for families.  Many small quaint shops restaurants, bars and pubs. Pleny of places to get gifts or find real estate, lawyers and other service providers.",
+            "description": "Originally a small fishing area that has become a tourist destination for families.  Many small quaint shops eating, bars and pubs. Pleny of places to get gifts or find real estate, lawyers and other service providers.",
             "activities": [
                 {
-                    "type": "excursion",
+                    "type": "Excursion",
                     "places": [
                         {
                             "uid": "9",
@@ -170,7 +170,7 @@
                     ]
                 },
                 {
-                    "type": "golf",
+                    "type": "Golf",
                     "places": [
                         {
                             "uid": "10",
@@ -189,7 +189,7 @@
                 },
                 {
                     
-                    "type": "beach",
+                    "type": "Beach",
                     "places": [
                         {
                             "uid": "11",
@@ -220,7 +220,7 @@
                     ]
                 },
                 {
-                    "type": "restaurants",
+                    "type": "Restaurant",
                     "places": [
                         {
                             "uid": "13",
@@ -264,7 +264,7 @@
                     ]
                 },
                 {
-                    "type": "Walks",
+                    "type": "Walk",
                     "places": [
                         {
                             "uid": "7",

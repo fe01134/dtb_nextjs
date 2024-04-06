@@ -3,7 +3,7 @@ User-agent: *
 Allow: /
 
 # Host
-Host: https://example.com
+Host: https://algarvevisit.com
 
 # Sitemaps
-Sitemap: https://example.com/sitemap.xml
+Sitemap: https://algarvevisit.com/sitemap.xml

@@ -5,7 +5,7 @@ description: "this is meta description for Carvoeiro"
 date: 2022-04-04T05:00:00Z
 image: "/images/image-placeholder.png"
 locations: ["Carvoeiro", "Lagoa"]
-author: "Carlos Ferreira"
+trip: "Culture and History"
 tags: ["walks", "swimming","test"]
 draft: false
 ---

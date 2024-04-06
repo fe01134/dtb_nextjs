@@ -5,7 +5,7 @@ description: "this is meta description"
 date: 2022-04-04T05:00:00Z
 image: "/images/image-placeholder.png"
 locations: ["Albufeira"]
-author: "John Doe"
+trip: "Beach Diversity"
 tags: ["eating", "fishing","test"]
 draft: false
 ---

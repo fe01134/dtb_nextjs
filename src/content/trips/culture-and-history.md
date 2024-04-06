@@ -1,5 +1,5 @@
 ---
-title: William Jacob
+title: Culture and History
 email: williamjacob@email.com
 image: "/images/avatar.png"
 description: this is meta description
@@ -8,9 +8,9 @@ social:
     icon: FaGithub
     link: https://github.com
 
-  - name: twitter
-    icon: FaTwitter
-    link: https://twitter.com
+  - name: instagram
+    icon: FaInstagram
+    link: https://instagram.com/villa.vale.milho
 
   - name: linkedin
     icon: FaLinkedin

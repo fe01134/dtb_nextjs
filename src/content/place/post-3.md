@@ -1,11 +1,11 @@
 ---
-title: "How to build an Application with modern Technology"
+title: "Praia Da Luz"
 meta_title: ""
-description: "this is meta description"
+description: "Family friendly beach.  Promenade and views of Rocha Negra cliff."
 date: 2022-04-04T05:00:00Z
 image: "/images/image-placeholder.png"
 locations: ["Albufeira"]
-author: "John Doe"
+trip: "Beach Diversity"
 tags: ["beach", "surfing","test"]
 draft: false
 ---
