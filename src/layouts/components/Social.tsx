@@ -15,7 +15,7 @@ const Social = ({
 }) => {
   return (
     <ul className={className}>
-      {source.map((social) => (
+      {source.map((social) => ( 
         <li key={social.name}>
           <a
             aria-label={social.name}
