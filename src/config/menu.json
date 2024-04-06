@@ -9,11 +9,7 @@
       "url": "/things_to_do"
     },
     {
-      "name": "Elements",
-      "url": "/elements"
-    },
-    {
-      "name": "Pages",
+      "name": "Plan Travel",
       "url": "",
       "hasChildren": true,
       "children": [
@@ -26,7 +22,7 @@
           "url": "/place"
         },
         {
-          "name": "Travel Plans",
+          "name": "Trips",
           "url": "/trips"
         },
         {

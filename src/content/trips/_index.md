@@ -1,3 +1,3 @@
 ---
-title: "Travel Plans"
+title: "Travel Plan Suggestions"
 ---

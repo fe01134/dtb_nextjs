@@ -17,9 +17,8 @@ export default function Footer(props: FooterProps) {
                     <footer className="footer">
                         <div className="content has-text-centered">
                         <p>
-                            <strong>       {footer.value} - Blog theme</strong> by <a href="https://gonzalojs.com">Gonzalo Gutierrez</a>. Based on the <a
-                            href="http://jigsaw-blog-staging.tighten.co/">jigsaw-blog</a>. The source code is licensed
-                            <a href="http://opensource.org/licenses/mit-license.php">MIT</a>
+                            <strong>{footer.value} - Blog theme</strong>
+                            
                         </p>
                         </div>
                     </footer>

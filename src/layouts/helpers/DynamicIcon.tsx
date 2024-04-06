@@ -1,8 +1,10 @@
 import { FC } from "react";
 import type { IconType } from "react-icons";
 import * as FaIcons6 from "react-icons/fa6";
+//import FaInstagram from "react-icons/fa6";
+
 // import * as AiIcons from "react-icons/ai";
-// import * as BsIcons from "react-icons/bs";
+//import * as BsIcons from "react-icons/bs";
 // import * as FiIcons from "react-icons/fi";
 // import * as Io5Icons from "react-icons/io5";
 // import * as RiIcons from "react-icons/ri";
