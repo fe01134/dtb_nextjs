@@ -2,16 +2,11 @@
 title: Beach Diversity 
 email: johndoe@email.com
 image: "/images/avatar.png"
-description: This travel plan allows you to enjoy the diversity of beach experiences that exist in Algarve.
-
+description: This travel plan allows you to enjoy the diversity of beaches in Algarve.
 social:
   - name: github
     icon: FaGithub
     link: https://github.com
-
-  - name: instagram
-    icon: FaInstagram
-    link: https://instagram.com/villa.vale.milho
 
 ---
 

@@ -8,13 +8,6 @@ social:
     icon: FaGithub
     link: https://github.com
 
- - name: instagram
-    icon: FaInstagram
-    link: https://instagram.com/villa.vale.milho
-
-  - name: linkedin
-    icon: FaLinkedin
-    link: https://linkedin.com
 ---
 
 lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostr navigation et dolore magna aliqua.
