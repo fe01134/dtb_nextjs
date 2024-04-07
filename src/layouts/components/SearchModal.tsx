@@ -14,6 +14,8 @@ const SearchModal = () => {
 
   // generate search result
   const doSearch = (searchData: ISearchItem[]) => {
+    //console.debug("Component SearchModal searchData")
+    //console.debug(searchData);
     const regex = new RegExp(`${searchString}`, "gi");
     if (searchString === "") {
       return [];

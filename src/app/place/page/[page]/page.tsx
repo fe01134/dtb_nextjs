@@ -4,14 +4,16 @@ import config from "src/config/config.json";
 import { getListPage, getSinglePage } from "src/lib/contentParser";
 import { getAllTaxonomy, getTaxonomy } from "src/lib/taxonomyParser";
 import { sortByDate } from "src/lib/utils/sortFunctions";
-import PageHeader from "@/partials/PageHeader";
-import PostSidebar from "@/partials/PostSidebar";
-import SeoMeta from "@/partials/SeoMeta";
+import PageHeader from "src/layouts/partials/PageHeader";
+import PostSidebar from "src/layouts/partials/PostSidebar";
+import SeoMeta from "src/layouts/partials/SeoMeta";
 import { Post } from "../../../../types/index";
 
 
 console.debug("blog page")
 const { blog_folder, pagination } = config.settings;
+console.debug("Place Page blogfolder");
+console.debug(blog_folder);
 
 // remove dynamicParams
 export const dynamicParams = false;

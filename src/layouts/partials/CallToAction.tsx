@@ -1,5 +1,5 @@
 import ImageFallback from "../helpers/ImageFallback";
-import { markdownify } from "@/src/lib/utils/textConverter";
+import { markdownify } from "src/lib/utils/textConverter";
 import { Call_to_action } from "../../types/index";
 import Link from "next/link";
 

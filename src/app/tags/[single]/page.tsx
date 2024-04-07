@@ -4,8 +4,8 @@ import { getSinglePage } from "src/lib/contentParser";
 import { getTaxonomy } from "src/lib/taxonomyParser";
 import taxonomyFilter from "src/lib/utils/taxonomyFilter";
 import { humanize } from "src/lib/utils/textConverter";
-import PageHeader from "@/partials/PageHeader";
-import SeoMeta from "@/partials/SeoMeta";
+import PageHeader from "src/layouts/partials/PageHeader";
+import SeoMeta from "src/layouts/partials/SeoMeta";
 import { Post } from "../../../types/index";
 
 const { blog_folder } = config.settings;

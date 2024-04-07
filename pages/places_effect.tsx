@@ -15,7 +15,7 @@ const PlacesPage: React.FC = () => {
         const response = await fetch('/api/places'); // Assuming your API endpoint is '/api/cars'
         const data = await response.json();
 
-        console.debug(data)
+        //console.debug(data)
 
       // Iterating through the array of areas
       data.areas.forEach((area) => {
@@ -51,7 +51,7 @@ const PlacesPage: React.FC = () => {
   
 
         setPlaces(places);
-        console.debug("checking place names");
+        //console.debug("checking place names");
 
         places.map((checkplace) => {
           console.debug(checkplace.getName());

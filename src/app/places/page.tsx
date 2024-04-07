@@ -8,10 +8,10 @@ import PlaceTile from '../../layouts/components/PlaceTile';
       try{
       const apiUrl = process.env.NEXT_PUBLIC_API_URL;
       const resp = await fetch(`${apiUrl}/places`);
-      console.debug("data from api/places ")
-      console.debug(apiUrl)
+     //console.debug("data from api/places ")
+     //console.debug(apiUrl)
       const data = await resp.json();
-      console.debug("Place page returned new carvoeiro data");
+     //console.debug("Place page returned new carvoeiro data");
       //console.debug(data);
       // {JSON.stringify(data)}
 
@@ -36,15 +36,15 @@ import PlaceTile from '../../layouts/components/PlaceTile';
 
     // Iterating through the array of areas
     data.areas.forEach((area: any) => {
-      console.log(` Iterate Area: ${area.area}`);
+     //console.log(` Iterate Area: ${area.area}`);
     
       // Iterating through the array of activities within each area
       area.activities.forEach((activity: any) => {
-        console.log(`  Activity Type: ${activity.type}`);
+       //console.log(`  Activity Type: ${activity.type}`);
       
         // Iterating through the array of places within each activity
         activity.places.forEach((place : any) => {
-          console.log(`    Place Name: ${place.name}`);
+         //console.log(`    Place Name: ${place.name}`);
           // Add more logic here based on your needs
   
 

@@ -1,6 +1,6 @@
 import ImageFallback from "../layouts/helpers/ImageFallback";
-import { getListPage } from "@/src/lib/contentParser";
-import { markdownify } from "@/src/lib/utils/textConverter";
+import { getListPage } from "src/lib/contentParser";
+import { markdownify } from "src/lib/utils/textConverter";
 import CallToAction from "../layouts/partials/CallToAction";
 import SeoMeta from "../layouts/partials/SeoMeta";
 import Testimonials from "../layouts/partials/Testimonials";
@@ -10,6 +10,8 @@ import { FaCheck } from "react-icons/fa";
 
 const Home = () => {
   const homepage = getListPage("homepage/_index.md");
+ //console.debug("place getListPage");
+ //console.debug(homepage);
   const testimonial = getListPage("sections/testimonial.md");
   const callToAction = getListPage("sections/call-to-action.md");
   const { frontmatter } = homepage;

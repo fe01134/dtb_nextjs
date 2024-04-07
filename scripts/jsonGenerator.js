@@ -4,7 +4,7 @@ const matter = require("gray-matter");
 
 const CONTENT_DEPTH = 2;
 const JSON_FOLDER = "./.json";
-const BLOG_FOLDER = "src/content/blog";
+const BLOG_FOLDER = "src/content/place";
 
 console.debug("JSON_FOLDER");
 console.debug(JSON_FOLDER);
@@ -13,6 +13,8 @@ console.debug(BLOG_FOLDER);
 
 // get data from markdown
 const getData = (folder, groupDepth) => {
+  console.debug("folder");
+  console.debug(folder);
   const getPath = fs.readdirSync(folder);
   const removeIndex = getPath.filter((item) => !item.startsWith("_"));
 

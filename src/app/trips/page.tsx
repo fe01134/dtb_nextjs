@@ -1,7 +1,7 @@
 import TripCard from "../../layouts/components/TripCard";
 import { getListPage, getSinglePage } from "src/lib/contentParser";
-import PageHeader from "@/partials/PageHeader";
-import SeoMeta from "@/partials/SeoMeta";
+import PageHeader from "src/layouts/partials/PageHeader";
+import SeoMeta from "src/layouts/partials/SeoMeta";
 import { Trip } from "../../types/index";
 
 const Trips = () => {
