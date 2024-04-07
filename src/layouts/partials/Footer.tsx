@@ -5,7 +5,7 @@ import Social from "../components/Social";
 import config from "src/config/config.json"
 import menu from "src/config/menu.json";
 import social from "src/config/social.json";
-import { markdownify } from "@/src/lib/utils/textConverter";
+import { markdownify } from "src/lib/utils/textConverter";
 import Link from "next/link";
 
 const Footer = () => {

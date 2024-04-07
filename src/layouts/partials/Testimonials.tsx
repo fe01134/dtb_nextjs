@@ -2,7 +2,7 @@
 
 
 import ImageFallback from "../helpers/ImageFallback";
-import { markdownify } from "@/src/lib/utils/textConverter";
+import { markdownify } from "src/lib/utils/textConverter";
 import { Testimonial } from "../../types/index";
 import "swiper/css";
 

@@ -3,6 +3,8 @@ import { marked } from "marked";
 
 // slugify
 export const slugify = (content: string) => {
+ //console.debug("Text Converter content");
+ //console.debug(content);
   return slug(content);
 };
 
@@ -55,6 +57,8 @@ const htmlEntityDecoder = (htmlWithEntities: string): string => {
   let htmlWithoutEntities: string = htmlWithEntities.replace(
     /(&amp;|&lt;|&gt;|&quot;|&#39;)/g,
     (entity: string): string => {
+     //console.debug("Entity list textConverter");
+     //console.debug(entityList[entity]);
       return entityList[entity];
     },
   );

@@ -2,13 +2,13 @@ import BlogCard from "../../../layouts/components/BlogCard";
 import Disqus from "../../../layouts/components/Disqus";
 import Share from "../../../layouts/components/Share";
 import config from "src/config/config.json";
-import ImageFallback from "@/helpers/ImageFallback";
-import MDXContent from "@/helpers/MDXContent";
+import ImageFallback from "src/layouts/helpers/ImageFallback";
+import MDXContent from "src/layouts/helpers/MDXContent";
 import { getSinglePage } from "../../../lib/contentParser";
 import dateFormat from "../../../lib/utils/dateFormat";
 import similerItems from "../../../lib/utils/similarItems";
 import { humanize, markdownify, slugify } from "../../../lib/utils/textConverter";
-import SeoMeta from "@/partials/SeoMeta";
+import SeoMeta from "src/layouts/partials/SeoMeta";
 import { Post } from "../../../types/index";
 import Link from "next/link";
 import { FaRegClock, FaRegFolder, FaRegUserCircle } from "react-icons/fa";
@@ -17,6 +17,8 @@ console.debug("blog page");
 
 
 const { blog_folder } = config.settings;
+//console.debug("Place Single Place blogfolder");
+//console.debug(blog_folder);
 
 // remove dynamicParams
 export const dynamicParams = false;
@@ -29,7 +31,7 @@ export const generateStaticParams: () => { single: string }[] = () => {
     single: post.slug!,
   }));
 
-  console.debug(paths);
+  //console.debug(paths);
 
   paths.forEach((path: any) => {
     console.log(` Iterate Area: ${path}`)});
@@ -142,7 +144,7 @@ const PostSingle = ({ params }: { params: { single: string } }) => {
 
           {/* <!-- Related posts --> */}
           <div className="section pb-0">
-            <h2 className="h3 mb-12 text-center">Related Posts</h2>
+            <h2 className="h3 mb-12 text-center">Related Things to Do</h2>
             <div className="row justify-center">
               {similarPosts.map((post) => (
                 <div key={post.slug} className="lg:col-4 mb-7">

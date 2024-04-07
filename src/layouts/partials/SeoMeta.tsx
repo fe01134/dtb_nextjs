@@ -1,7 +1,7 @@
 "use client";
 
 import config from "src/config/config.json"
-import { plainify } from "@/src/lib/utils/textConverter";
+import { plainify } from "src/lib/utils/textConverter";
 import { usePathname } from "next/navigation";
 
 const SeoMeta = ({

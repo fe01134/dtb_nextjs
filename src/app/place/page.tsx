@@ -4,9 +4,9 @@ import config from "src/config/config.json";
 import { getListPage, getSinglePage } from "src/lib/contentParser";
 import { getAllTaxonomy, getTaxonomy } from "src/lib/taxonomyParser";
 import { sortByDate } from "src/lib/utils/sortFunctions";
-import PageHeader from "@/partials/PageHeader";
-import PostSidebar from "@/partials/PostSidebar";
-import SeoMeta from "@/partials/SeoMeta";
+import PageHeader from "src/layouts/partials/PageHeader";
+import PostSidebar from "src/layouts/partials/PostSidebar";
+import SeoMeta from "src/layouts/partials/SeoMeta";
 import { Post } from "../../types/index";
 const { blog_folder, pagination } = config.settings;
 
@@ -18,8 +18,8 @@ const Posts = () => {
   const allLocations = getAllTaxonomy(blog_folder, "locations");
   const locations = getTaxonomy(blog_folder, "locations");
   const tags = getTaxonomy(blog_folder, "tags");
-  console.debug("tags");
-  console.debug(tags);
+ //console.debug("tags");
+ //console.debug(tags);
   const sortedPosts = sortByDate(posts);
   const totalPages = Math.ceil(posts.length / pagination);
   const currentPosts = sortedPosts.slice(0, pagination);

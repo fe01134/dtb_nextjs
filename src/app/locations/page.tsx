@@ -1,12 +1,15 @@
 import config from "src/config/config.json";
 import { getAllTaxonomy, getTaxonomy } from "src/lib/taxonomyParser";
 import { humanize } from "src/lib/utils/textConverter";
-import PageHeader from "@/partials/PageHeader";
-import SeoMeta from "@/partials/SeoMeta";
+import PageHeader from "src/layouts/partials/PageHeader";
+import SeoMeta from "src/layouts/partials/SeoMeta";
 import Link from "next/link";
 
 const Locations = () => {
   const { blog_folder } = config.settings;
+ //console.debug("Locations blogfolder");
+ //console.debug(blog_folder);
+
   const locations = getTaxonomy(blog_folder, "locations");
   const allLocations = getAllTaxonomy(blog_folder, "locations");
 

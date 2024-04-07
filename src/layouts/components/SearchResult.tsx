@@ -1,6 +1,6 @@
 "use client";
 
-import { plainify, titleify } from "@/src/lib/utils/textConverter";
+import { plainify, titleify } from "src/lib/utils/textConverter";
 import Image from "next/image";
 
 export interface ISearchItem {
@@ -41,6 +41,8 @@ const SearchResult = ({
 }) => {
   // generate search result group
   const generateSearchGroup = (searchResult: ISearchItem[]) => {
+    console.debug(" generateSearchGroup searchResult");
+    console.debug(searchResult);
     const joinDataByGroup: ISearchGroup[] = searchResult.reduce(
       (groupItems: ISearchGroup[], item: ISearchItem) => {
         const groupIndex = groupItems.findIndex(
@@ -72,6 +74,8 @@ const SearchResult = ({
     return joinDataByGroup;
   };
   const finalResult = generateSearchGroup(searchResult);
+  console.debug("finalResult");
+  console.debug(finalResult);
 
   // match marker
   const matchMarker = (text: string, substring: string) => {
@@ -101,6 +105,9 @@ const SearchResult = ({
 
   // match content
   const matchContent = (content: string, substring: string) => {
+    console.debug("Component SearchResult content");
+    console.debug(content);
+
     const plainContent = plainify(content);
     const position = plainContent
       .toLowerCase()

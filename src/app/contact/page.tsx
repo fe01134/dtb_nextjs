@@ -1,7 +1,7 @@
 
-import { getListPage } from "@/src/lib/contentParser";
-import PageHeader from "@/partials/PageHeader";
-import SeoMeta from "@/partials/SeoMeta";
+import { getListPage } from "src/lib/contentParser";
+import PageHeader from "src/layouts/partials/PageHeader";
+import SeoMeta from "src/layouts/partials/SeoMeta";
 import { RegularPage } from "../../types/index";
 
 // Server Action
@@ -25,14 +25,14 @@ import send from "../../actions/sendEmail";
       fromEmail: 'help@pursuitassistant.com',
       message: formData.get('message'),
     };
-    console.debug("ToEmail", rawFormData.toEmail);
-    console.debug("firstName",rawFormData.firstName);
-    console.debug("fromEmail", rawFormData.fromEmail);
-    console.debug("message", rawFormData.message); 
-    console.debug("messlastNameage", rawFormData.lastName);   
+   //console.debug("ToEmail", rawFormData.toEmail);
+   //console.debug("firstName",rawFormData.firstName);
+   //console.debug("fromEmail", rawFormData.fromEmail);
+   //console.debug("message", rawFormData.message); 
+   //console.debug("messlastNameage", rawFormData.lastName);   
     
-    console.debug("before sending to email service");
-    console.debug(rawFormData);
+   //console.debug("before sending to email service");
+   //console.debug(rawFormData);
     send(rawFormData);
 }
   

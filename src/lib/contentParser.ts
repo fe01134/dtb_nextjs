@@ -7,6 +7,8 @@ const contentPath = "src/content";
 
 // Helper function to read file content
 const readFile = (filePath: string) => {
+  //console.debug("ContentParser filePath");
+  //console.debug(filePath);
   return fs.readFileSync(filePath, "utf-8");
 };
 
@@ -19,6 +21,8 @@ const parseFrontmatter = (frontmatter: any) => {
 // get list page data, ex: _index.md
 export const getListPage = (filePath: string) => {
   const pageDataPath = path.join(contentPath, filePath);
+  //console.debug("ContentParser pageDataPath");
+  //console.debug(pageDataPath);
 
   if (!fs.existsSync(pageDataPath)) {
     notFound();
@@ -37,7 +41,11 @@ export const getListPage = (filePath: string) => {
 export const getSinglePage = (folder: string) => {
   const folderPath = path.join(contentPath, folder);
 
+  //console.debug("ContentParser folderPath");
+  //console.debug(folderPath)
+
   if (!fs.existsSync(folderPath) || !fs.lstatSync(folderPath).isDirectory()) {
+   //console.debug("folderPath not found");
     notFound();
   }
 

@@ -1,11 +1,11 @@
 import BlogCard from "../../../layouts/components/BlogCard";
 import Social from "../../../layouts/components/Social";
 import config from "src/config/config.json";
-import ImageFallback from "@/helpers/ImageFallback";
-import MDXContent from "@/helpers/MDXContent";
+import ImageFallback from "src/layouts/helpers/ImageFallback";
+import MDXContent from "src/layouts/helpers/MDXContent";
 import { getSinglePage } from "src/lib/contentParser";
 import { slugify } from "src/lib/utils/textConverter";
-import SeoMeta from "@/partials/SeoMeta";
+import SeoMeta from "src/layouts/partials/SeoMeta";
 import { Trip, Post } from "../../../types/index";
 
 // remove dynamicParams

@@ -1,12 +1,12 @@
 import SearchModal from "../layouts/components/SearchModal";
 import theme from "src/config/theme.json";
-import TwSizeIndicator from "../layouts/helpers/TwSizeIndicator";
+import TwSizeIndicator from "src/layouts/helpers/TwSizeIndicator";
 import Footer from "../layouts/partials/Footer";
 import Header from "../layouts/partials/Header";
 import Providers from "../layouts/partials/Providers";
 import config from "src/config/config.json";
 import "../styles/main.scss";
-import Script from 'next/script'
+//import Script from 'next/script'
 
 export default function RootLayout({
   children,
@@ -54,21 +54,6 @@ export default function RootLayout({
           }&display=swap`}
           rel="stylesheet"
         />
-
-        <Script
-          async
-          src="https://www.googletagmanager.com/gtag/js?id=G-143RVT1450"
-        />
-
-        <Script id="google-analytics">
-          {`
-              window.dataLayer = window.dataLayer || [];
-              function gtag(){dataLayer.push(arguments);}
-              gtag('js', new Date());
-              gtag('config', ${'${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}'});
-          `}
-        </Script>
-
       </head>
 
       <body suppressHydrationWarning={true}>

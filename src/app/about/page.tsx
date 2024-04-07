@@ -1,8 +1,8 @@
-import ImageFallback from "@/helpers/ImageFallback";
-import MDXContent from "@/helpers/MDXContent";
-import { getListPage } from "@/src/lib/contentParser";
-import { markdownify } from "@/src/lib/utils/textConverter";
-import SeoMeta from "@/partials/SeoMeta";
+import ImageFallback from "src/layouts/helpers/ImageFallback";
+import MDXContent from "src/layouts/helpers/MDXContent";
+import { getListPage } from "src/lib/contentParser";
+import { markdownify } from "src/lib/utils/textConverter";
+import SeoMeta from "src/layouts/partials/SeoMeta";
 import { RegularPage } from "../../types/index";
 
 const About = () => {
