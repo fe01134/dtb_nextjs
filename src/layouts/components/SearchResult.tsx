@@ -41,8 +41,8 @@ const SearchResult = ({
 }) => {
   // generate search result group
   const generateSearchGroup = (searchResult: ISearchItem[]) => {
-    console.debug(" generateSearchGroup searchResult");
-    console.debug(searchResult);
+    //console.debug(" generateSearchGroup searchResult");
+    //console.debug(searchResult);
     const joinDataByGroup: ISearchGroup[] = searchResult.reduce(
       (groupItems: ISearchGroup[], item: ISearchItem) => {
         const groupIndex = groupItems.findIndex(

@@ -2,15 +2,16 @@
 title: "Carlitos Donkeys"
 meta_title: "Say hi to and pet Carlitos Donkeys"
 description: "this is meta description"
-date: 2022-04-04T05:00:00Z
-image: "/images/intermarche.jpeg"
-locations: ["Lagoa", "Carvoeiro", "Vale Milho"]
-trip: "Authentic Portuguese Food"
-tags: ["kids", "animals","test"]
+date: 2024-04-07T05:00:00Z
+image: "/images/excursions/carlitos.jpg"
+locations: ["Lagoa", "Carvoeiro", "Vale de Milho"]
+trip: "Authentic Portuguese Experiences"
+tags: ["kids", "animals", "excursion"]
 draft: false
 district: "Lagoa"
 council: "Carvoeiro"
 area: "Vale Milho"
+activity: "Petting Zoo"
 
 ---
 

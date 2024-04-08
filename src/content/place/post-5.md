@@ -1,23 +1,54 @@
 ---
-title: "Carvoeiro Rocks"
-meta_title: ""
-description: "this is meta description for Carvoeiro"
-date: 2022-04-04T05:00:00Z
-image: "/images/image-placeholder.png"
-locations: ["Carvoeiro", "Lagoa"]
-trip: "Culture and History"
-tags: ["walks", "swimming","test"]
+title: "Praia de Carvalho"
+meta_title: "Cliff beach in Carvoeiro Algarve Portugal"
+description: "Cliff beach located Carvoeiro near Vale de Milho"
+date: 2024-04-07T05:00:00Z
+image: "/images/carvalho.jpg"
+locations: ["Carvoeiro", "Vale de El-Rei"]
+trip: "Add Me"
+tags: ["tunnel", "swimming", "secluded"]
 draft: false
+activity: "Beach"
 ---
 
-Nemo vel ad consectetur namut rutrum ex, venenatis sollicitudin urna. Aliquam erat volutpat. Integer eu ipsum sem. Ut bibendum lacus vestibulum maximus suscipit. Quisque vitae nibh iaculis neque blandit euismod.
+One of the more secluded beaches in Carvoeiro.  An easy walk to many of the villas that are for rent nearby in Vale de Milho Carvoeiro.   It is also in close proximity and easy walking distance to Rocha Brava Resort.  You have to walk down lots of steps to get to the beach.  People with less mobility may pass on this beach. Two tunnel were carved into the cliff to provide visitors access to the beach.  You might have to give way so that a single person can pass going down or up in the tunnel.  
 
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo vel ad consectetur ut aperiam. Itaque eligendi natus aperiam? Excepturi repellendus consequatur quibusdam optio expedita praesentium est adipisci dolorem ut eius!
+While rock falls rarely happen in the summer it is worth considering not laying your blanket next to the cliffs just to be safe.  The beach has a large iconic cliff column jetting out in the middle of the beach area.  
 
-## Creative Design
 
-Nam ut rutrum ex, venenatis sollicitudin urna. Aliquam erat volutpat. Integer eu ipsum sem. Ut bibendum lacus vestibulum maximus suscipit. Quisque vitae nibh iaculis neque blandit euismod.
+## Good to know
 
-> Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo vel ad consectetur ut aperiam. Itaque eligendi natus aperiam? Excepturi repellendus consequatur quibusdam optio expedita praesentium est adipisci dolorem ut eius!
+### Where to eat?
 
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo vel ad consectetur ut aperiam. Itaque eligendi natus aperiam? Excepturi repellendus consequatur quibusdam optio expedita praesentium est adipisci dolorem ut eius!
+While the Praia de Carvalho doesn't have a restaurant, there are usually food trucks at the entrance area of the beach. You can buy drinks, ice cream and sandwiches there.
+
+
+### Parking
+
+Praia de Carvalho has very limited parking.  The street access is through a residential area and very narrow which also limits street parking.  Come early to get a parking space in the summer.
+
+
+### Surf
+
+Good for cooling off and families to enjoy the water.   The beach is rather small  and deep into the cliff side which means waves tend to be smaller than other cliff beaches. It also means that that seaweed tends to pile up sometimes on the beach making it difficult to get into the water to go for a swim.
+
+
+### "How Busy"
+
+Like some other cliff beaches it can get tight for a place to lay your beach blanket in the summer, especially during high tide.
+
+
+### Activities"
+
+Plenty of activities to do at Carvalho beach.
+
+- Swimming
+- Sunbathing. Be very careful walking along the cliffs as very few areas are actually fenced.
+- Picnicing on the beach
+- Watching sunsets.  
+- Walks.  It is a short walk to Benegil beach from here.  Consider going there by foot along the cliff walks if there is too much seaweed.  This beach is one the ones you will hike through on the Seven Hanging Valleys Trail. 
+
+
+### Cost
+
+Free.
