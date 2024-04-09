@@ -2,9 +2,13 @@ import { Html, Head, Main, NextScript } from 'next/document'
 //Provides Google Analytics
 
 import { GA_TRACKING_ID } from "../src/lib/utils/gtag";
+console.debug ("GA_TRACKING_ID");
+console.debug (GA_TRACKING_ID);
 
 export default function Document() {
 {
+  console.debug ("GA_TRACKING_ID");
+  console.debug (GA_TRACKING_ID);
     return (
       <Html>
         <Head>
