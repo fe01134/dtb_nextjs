@@ -4,9 +4,9 @@ meta_title: "Cliff beach in Carvoeiro Algarve Portugal"
 description: "Cliff beach located Carvoeiro near Vale de Milho"
 date: 2024-04-07T05:00:00Z
 image: "/images/beaches/carvalho.jpg"
-locations: ["Carvoeiro", "Vale de El-Rei"]
+locations: ["Lagoa", "Carvoeiro", "Vale de El-Rei"]
 trip: "Add Me"
-tags: ["tunnel", "swimming", "secluded"]
+tags: ["tunnel", "swimming", "secluded", "beach", "cliff diving" ]
 draft: false
 activity: "Beach"
 ---
@@ -33,12 +33,12 @@ Praia de Carvalho has very limited parking.  The street access is through a resi
 Good for cooling off and families to enjoy the water.   The beach is rather small  and deep into the cliff side which means waves tend to be smaller than other cliff beaches. It also means that that seaweed tends to pile up sometimes on the beach making it difficult to get into the water to go for a swim.
 
 
-### "How Busy"
+### How Busy
 
 Like some other cliff beaches it can get tight for a place to lay your beach blanket in the summer, especially during high tide.
 
 
-### Activities"
+### Activities
 
 Plenty of activities to do at Carvalho beach.
 
@@ -47,8 +47,13 @@ Plenty of activities to do at Carvalho beach.
 - Picnicing on the beach
 - Watching sunsets.  
 - Walks.  It is a short walk to Benegil beach from here.  Consider going there by foot along the cliff walks if there is too much seaweed.  This beach is one the ones you will hike through on the Seven Hanging Valleys Trail. 
+- Cliff diving.   It isn't allowed but I have seen many young men cliff diving off the cliffs in Praia De Carvalho.  They climb around the fence tha blocks the entrance to the carved out rock passage ways that lead to deeper waters.    The cliff jumpers usually wait for the boat tour excursions that who egg the jumpers on to jump.  When they finally get the courage to jump, you can find their girl friends or mates recording the even on their mobile phone. 
 
 
 ### Cost
 
 Free.
+
+### Restrooms
+
+None.
