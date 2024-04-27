@@ -13,8 +13,6 @@ import { Post } from "../../../types/index";
 import Link from "next/link";
 import { FaRegClock, FaRegFolder, FaRegUserCircle } from "react-icons/fa";
 
-console.debug("blog page");
-
 
 const { blog_folder } = config.settings;
 //console.debug("Place Single Place blogfolder");
