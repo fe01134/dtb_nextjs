@@ -41,10 +41,14 @@ export default async function send(props:any) {
   
       //setStatus('Email sent successfully!');
       console.debug("Email sent successfully");
+      return (
+        { message: "Success"}
+      )
+
   } catch (error) {
     console.error('Error sending email:', error);
     return (
-    { message: "error sending email to AWS"}
+    { message: "Error"}
     //setStatus('Error sending email. Please try again.');
     )
   };

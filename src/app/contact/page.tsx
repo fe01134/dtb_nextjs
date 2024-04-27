@@ -1,7 +1,7 @@
 
 import { getListPage } from "src/lib/contentParser";
 import PageHeader from "src/layouts/partials/PageHeader";
-import SeoMeta from "src/layouts/partials/SeoMeta";
+//import SeoMeta from "src/layouts/partials/SeoMeta";
 import { RegularPage } from "../../types/index";
 
 // Server Action
@@ -12,6 +12,10 @@ import send from "../../actions/sendEmail";
   const data: RegularPage = getListPage("contact/_index.md");
   const { frontmatter } = data;
   const { title, description, meta_title, image } = frontmatter;
+  console.debug("title", title);
+  console.debug("description", description);
+  console.debug("meta_title", meta_title);
+  console.debug("image", image);
 
   // Server Component
   export default function Contact() {
@@ -33,18 +37,15 @@ import send from "../../actions/sendEmail";
     
    //console.debug("before sending to email service");
    //console.debug(rawFormData);
-    send(rawFormData);
+    const respond=send(rawFormData);
+    console.debug("email respond");
+    console.debug(respond.toString());
+  
 }
   
   
     return (
     <>
-      <SeoMeta
-        title={title}
-        meta_title={meta_title}
-        description={description}
-        image={image}
-      />
       <PageHeader title={title} />
       <section className="section-sm">
         <div className="container">
