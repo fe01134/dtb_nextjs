@@ -3,46 +3,22 @@ import { getListPage } from "src/lib/contentParser";
 import PageHeader from "src/layouts/partials/PageHeader";
 //import SeoMeta from "src/layouts/partials/SeoMeta";
 import { RegularPage } from "../../types/index";
+import ContactFormSubmit from "../../layouts/components/contact-form-submit";
 
 // Server Action
 // https://nextjs.org/docs/app/building-your-application/data-fetching/server-actions-and-mutations
-import send from "../../actions/sendEmail";
+import {send} from "../../actions/sendEmail";
 
+const data: RegularPage = getListPage("contact/_index.md");
+const { frontmatter } = data;
+const { title, description, meta_title, image } = frontmatter;
+console.debug("title", title);
+console.debug("description", description);
+console.debug("meta_title", meta_title);
+console.debug("image", image);
 
-  const data: RegularPage = getListPage("contact/_index.md");
-  const { frontmatter } = data;
-  const { title, description, meta_title, image } = frontmatter;
-  console.debug("title", title);
-  console.debug("description", description);
-  console.debug("meta_title", meta_title);
-  console.debug("image", image);
-
-  // Server Component
-  export default function Contact() {
-    async function sendEmail( formData: FormData) {
-      'use server'
+export default function Contact() {
     
-    const rawFormData = {
-      firstName: formData.get('firstName'),
-      lastName: formData.get('lastName'),
-      toEmail: formData.get('toEmail'),
-      fromEmail: 'help@pursuitassistant.com',
-      message: formData.get('message'),
-    };
-   //console.debug("ToEmail", rawFormData.toEmail);
-   //console.debug("firstName",rawFormData.firstName);
-   //console.debug("fromEmail", rawFormData.fromEmail);
-   //console.debug("message", rawFormData.message); 
-   //console.debug("messlastNameage", rawFormData.lastName);   
-    
-   //console.debug("before sending to email service");
-   //console.debug(rawFormData);
-    const respond=send(rawFormData);
-    console.debug("email respond");
-    console.debug(respond.toString());
-  
-}
-  
   
     return (
     <>
@@ -51,7 +27,8 @@ import send from "../../actions/sendEmail";
         <div className="container">
           <div className="row">
             <div className="mx-auto md:col-10 lg:col-6">
-            <form action={sendEmail}>
+              <img src={image}></img>
+            <form action={send}>
               <div className="mb-6">
                   <label htmlFor="name" className="form-label">
                     First Name <span className="text-red-500">*</span>
@@ -81,8 +58,8 @@ import send from "../../actions/sendEmail";
                     Working Mail <span className="text-red-500">*</span>
                   </label>
                   <input
-                    id="toEmail"
-                    name="toEmail"
+                    id="fromEmail"
+                    name="fromEmail"
                     className="form-input"
                     placeholder="carlosyells@yahoo.com"
                     type="email"
@@ -100,9 +77,7 @@ import send from "../../actions/sendEmail";
                     rows={8}
                   ></textarea>
                 </div>
-                <button type="submit" className="btn btn-primary">
-                  Submit
-                </button>
+                <ContactFormSubmit />
               </form>
             </div>
           </div>

@@ -3,6 +3,8 @@
 import { NextApiRequest, NextApiResponse } from 'next';
 import { SES } from 'aws-sdk';
 import { z } from 'zod'
+
+import { redirect } from 'next/navigation';
  
 const schema = z.object({
   email: z.string({
@@ -20,36 +22,43 @@ secretAccessKey: process.env.AWS_SECRET_ACCESS_KEY,
 region: 'us-east-1' // e.g., 'us-east-1'
 });
 
-export default async function send(props:any) {
- // State for the form fields
- console.debug("Entered Email Action Props");
- console.debug(props)
+export async function send(props:any) {
+  // State for the form fields
+  console.debug("Entered Email Action Props");
+  //console.debug(props)
+  const fromEmail = "help@pursuitassistant.com"
+  const toEmail = "carlosyells@yahoo.com"
 
- const toEmail = "help@pursuitassistant.com"
+  console.debug("Props ToEmail", props.get('toEmail') );
+  console.debug("firstName", props.get('firstName'));
+  console.debug("fromEmail", fromEmail);
+  console.debug("to Email", toEmail);
+  console.debug("message", props.get('message')); 
+  console.debug("messlastNameage", props.get('lastName'));   
+
+  //console.debug("before sending to email service");
+  //console.debug(rawFormData);
     
     try {
       //Here need to write email sending functionality
       const resp = await ses.sendEmail(
         {
-          Source: props.fromEmail,
-          Destination: { ToAddresses: [props.toEmail] },
+          Source: fromEmail,
+          Destination: { ToAddresses: [toEmail] },
           Message: {
-          Subject: { Data: 'Subject Line' },
-          Body: { Text: { Data: `From: ${props.firstName} \n\n${props.message}` } }
+          Subject: { Data: 'Test Email from' },
+          Body: { Text: { Data: `From: ${props.get('firstName')} \n\n${props.get('message')}` } }
         }
       }).promise();
   
       //setStatus('Email sent successfully!');
       console.debug("Email sent successfully");
-      return (
-        { message: "Success"}
-      )
+      
+      redirect('/success');
 
   } catch (error) {
     console.error('Error sending email:', error);
-    return (
-    { message: "Error"}
+    redirect('/contact');
     //setStatus('Error sending email. Please try again.');
-    )
   };
 };
