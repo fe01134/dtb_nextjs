@@ -58,6 +58,7 @@ export async function send(props:any) {
 
   } catch (error) {
     console.error('Error sending email:', error);
+    throw error;
     redirect('/contact');
     //setStatus('Error sending email. Please try again.');
   };
