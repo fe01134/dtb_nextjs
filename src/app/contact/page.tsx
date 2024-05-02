@@ -18,7 +18,6 @@ console.debug("meta_title", meta_title);
 console.debug("image", image);
 
 export default function Contact() {
-    
   
     return (
     <>
@@ -78,7 +77,6 @@ export default function Contact() {
                     className="form-input"
                     placeholder="Message goes here..."
                     rows={8}
-                    type="text"
                     required
                   ></textarea>
                 </div>
