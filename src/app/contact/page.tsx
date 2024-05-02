@@ -39,6 +39,7 @@ export default function Contact() {
                     className="form-input"
                     placeholder="John"
                     type="text"
+                    required
                   />
                 </div>
                 <div className="mb-6">
@@ -51,6 +52,7 @@ export default function Contact() {
                     className="form-input"
                     placeholder="John Doe"
                     type="text"
+                    required
                   />
                 </div>
                 <div className="mb-6">
@@ -63,6 +65,7 @@ export default function Contact() {
                     className="form-input"
                     placeholder="carlosyells@yahoo.com"
                     type="email"
+                    required
                   />
                 </div>
                 <div className="mb-6">
@@ -75,6 +78,8 @@ export default function Contact() {
                     className="form-input"
                     placeholder="Message goes here..."
                     rows={8}
+                    type="text"
+                    required
                   ></textarea>
                 </div>
                 <ContactFormSubmit />
