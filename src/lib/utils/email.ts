@@ -28,13 +28,17 @@ export async function sendSes(formData) {
         Body: { Text: { Data: `From: ${formData.get('firstName')} \n\n${formData.get('message')}` } }
         }
     }).promise().then(response => {
+        console.debug("Email promise");
+        console.debug(response);
         console.debug("Email sent successfully, message ID:", response.MessageId);
-        let status:boolean = true;
-        return (status );            
+        return ({
+            message: 'success',
+          } );            
     })
     .catch(error => {
-        console.error('Error sending email:', error);
-        let status:boolean = false;
-        return (status) ;
+        console.error('Error sending email:', error);  
+        return ({
+            message: 'error',
+          }) ;
     });
   }
