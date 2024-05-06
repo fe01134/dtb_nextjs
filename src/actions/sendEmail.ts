@@ -3,7 +3,7 @@
 
 import { revalidatePath } from 'next/cache';
 import { redirect } from 'next/navigation';
-import { sendSes } from '../lib/utils/email';
+import { sendSes } from '../lib/utils/email2';
 
 function isInvalidText(text) {
   return !text || text.trim() === '';
@@ -31,7 +31,7 @@ export async function send(prevState:any, formData) {
   try{
     let response =  await sendSes(formData).then(response => {
         prevState = response;
-        console.debug("response");
+        console.debug("response sendEmail Action");
         console.debug(response);
         console.debug("Email sent successfully or unsucess:");
 
