@@ -1,65 +1,59 @@
-// action/sendEmail.ts
+// actions/sendEmail.ts
 'use server';
-import { NextApiRequest, NextApiResponse } from 'next';
-import { SES } from 'aws-sdk';
-import { z } from 'zod'
 
+import { revalidatePath } from 'next/cache';
 import { redirect } from 'next/navigation';
- 
-const schema = z.object({
-  email: z.string({
-    invalid_type_error: 'Invalid Email',
-  }),
-})
+import { sendSes } from '../lib/utils/email';
 
-// Set the SES API key
-console.debug(process.env.AWS_ACCESS_KEY)
-console.debug(process.env.AWS_SECRET_ACCESS_KEY)
+function isInvalidText(text) {
+  return !text || text.trim() === '';
+}
 
-const ses = new SES({
-accessKeyId: process.env.AWS_ACCESS_KEY,
-secretAccessKey: process.env.AWS_SECRET_ACCESS_KEY,
-region: 'us-east-1' // e.g., 'us-east-1'
-});
+export async function send(prevState:any, formData) {
+  // Validate form values.  Set State for the form fields
 
-export async function send(props:any) {
-  // State for the form fields
-  console.debug("Entered Email Action Props");
-  //console.debug(props)
-  const fromEmail = "help@pursuitassistant.com"
-  const toEmail = "carlosyells@yahoo.com"
-
-  console.debug("Props ToEmail", props.get('toEmail') );
-  console.debug("firstName", props.get('firstName'));
-  console.debug("fromEmail", fromEmail);
-  console.debug("to Email", toEmail);
-  console.debug("message", props.get('message')); 
-  console.debug("messlastNameage", props.get('lastName'));   
-
-  //console.debug("before sending to email service");
-  //console.debug(rawFormData);
-    
-    try {
-      //Here need to write email sending functionality
-      const resp = await ses.sendEmail(
-        {
-          Source: fromEmail,
-          Destination: { ToAddresses: [toEmail] },
-          Message: {
-          Subject: { Data: 'Test Email from' },
-          Body: { Text: { Data: `From: ${props.get('firstName')} \n\n${props.get('message')}` } }
-        }
-      }).promise();
+  if (
+    isInvalidText(formData.get('firstName')) ||
+    isInvalidText(formData.get('fromEmail')) ||
+    isInvalidText(formData.get('message')) ||
+    isInvalidText(formData.get('lastName'))
+    ) {
+      prevState = {
+        message:('Invalid input'),
+      };
   
-      //setStatus('Email sent successfully!');
-      console.debug("Email sent successfully");
-      
-      redirect('/success');
-
-  } catch (error) {
-    console.error('Error sending email:', error);
-    throw error;
-    redirect('/contact');
-    //setStatus('Error sending email. Please try again.');
+    return {
+      prevState, formData
+    };
   };
+ 
+ 
+  try{
+    let response =  await sendSes(formData).then(response => {
+        prevState = response;
+        console.debug("Email sent successfully or unsucess:");
+
+        return {
+          message: 'success',
+        }
+      });
+    
+    revalidatePath('/contact');
+    console.debug("RevalidatePath1");
+    //redirect('/contact');
+  } catch (e) {
+      console.debug(e);
+      return {
+        message: 'failed',
+      }
+  } finally {
+    console.log("Email send attempt finished.");
+    return {
+      message: 'success',
+    }
+}
+
+
+
+
 };
