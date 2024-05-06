@@ -3,7 +3,7 @@
 
 import { revalidatePath } from 'next/cache';
 import { redirect } from 'next/navigation';
-import { sendSes } from '../lib/utils/email';
+import { sendSes } from '../lib/utils/email2';
 
 function isInvalidText(text) {
   return !text || text.trim() === '';
