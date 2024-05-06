@@ -5,7 +5,7 @@ export async function sendSes(formData) {
     const fromEmail = "help@pursuitassistant.com"
     const toEmail = "carlosyells@yahoo.com"
     // Set the SES API key
-    console.debug("debugging keys");
+    console.debug("debugging keys again");
     console.debug(process.env.NEXT_PUBLIC_AWS_ACCESS_KEY);
     console.debug(process.env.NEXT_PUBLIC_AWS_SECRET_ACCESS_KEY);
 
