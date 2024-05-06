@@ -5,12 +5,13 @@ export async function sendSes(formData) {
     const fromEmail = "help@pursuitassistant.com"
     const toEmail = "carlosyells@yahoo.com"
     // Set the SES API key
-    console.debug(process.env.AWS_ACCESS_KEY)
-    console.debug(process.env.AWS_SECRET_ACCESS_KEY)
+    console.debug("debugging keys");
+    console.debug(process.env.NEXT_PUBLIC_AWS_ACCESS_KEY);
+    console.debug(process.env.NEXT_PUBLIC_AWS_SECRET_ACCESS_KEY);
 
     const ses = new SES({
-    accessKeyId: process.env.AWS_ACCESS_KEY,
-    secretAccessKey: process.env.AWS_SECRET_ACCESS_KEY,
+    accessKeyId: process.env.NEXT_PUBLIC_AWS_ACCESS_KEY,
+    secretAccessKey: process.env.NEXT_PUBLIC_AWS_SECRET_ACCESS_KEY,
     region: 'us-east-1' // e.g., 'us-east-1'
     });
 
