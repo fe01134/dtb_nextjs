@@ -5,7 +5,7 @@ export async function sendSes(formData) {
     const fromEmail = "help@pursuitassistant.com"
     const toEmail = "carlosyells@yahoo.com"
     // Set the SES API key
-    console.debug("debugging keys");
+    console.debug("debugging keys again");
     console.debug(process.env.NEXT_PUBLIC_AWS_ACCESS_KEY);
     console.debug(process.env.NEXT_PUBLIC_AWS_SECRET_ACCESS_KEY);
 
@@ -28,13 +28,17 @@ export async function sendSes(formData) {
         Body: { Text: { Data: `From: ${formData.get('firstName')} \n\n${formData.get('message')}` } }
         }
     }).promise().then(response => {
+        console.debug("Email promise");
+        console.debug(response);
         console.debug("Email sent successfully, message ID:", response.MessageId);
-        let status:boolean = true;
-        return (status );            
+        return ({
+            message: 'success',
+          } );            
     })
     .catch(error => {
-        console.error('Error sending email:', error);
-        let status:boolean = false;
-        return (status) ;
+        console.error('Error sending email:', error);  
+        return ({
+            message: 'error',
+          }) ;
     });
   }
