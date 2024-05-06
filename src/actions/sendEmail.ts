@@ -31,7 +31,7 @@ export async function send(prevState:any, formData) {
   try{
     let response =  await sendSes(formData).then(response => {
         prevState = response;
-        console.debug("response");
+        console.debug("response sendEmail Action");
         console.debug(response);
         console.debug("Email sent successfully or unsucess:");
 

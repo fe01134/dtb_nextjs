@@ -9,6 +9,9 @@ export async function sendSes(formData) {
     console.debug(process.env.NEXT_PUBLIC_AWS_ACCESS_KEY);
     console.debug(process.env.NEXT_PUBLIC_AWS_SECRET_ACCESS_KEY);
 
+    console.debug("formData");
+    console.debug(formData);
+
     const ses = new SES({
     accessKeyId: process.env.NEXT_PUBLIC_AWS_ACCESS_KEY,
     secretAccessKey: process.env.NEXT_PUBLIC_AWS_SECRET_ACCESS_KEY,
