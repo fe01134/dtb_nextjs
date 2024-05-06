@@ -20,7 +20,12 @@ import {send} from "../../actions/sendEmail";
 //console.debug("image", image);
 
 export default function Contact() {
+  // Connect to action call send to do server side validation and call the AWS email service. 
   const [ state , formAction ] = useFormState(send,{message:null});
+  
+  //console.debug("state");
+  //console.debug(state);
+  //console.debug(state.message);
   const img_name = "/images/site/contactus.jpeg";
     return (
     <>
@@ -83,7 +88,7 @@ export default function Contact() {
                     required
                   ></textarea>
                 </div>
-                {state.message && <p> {state.message} </p>}
+                <p>{state?.message}</p>
                 <ContactFormSubmit />
               </form>
             </div>
