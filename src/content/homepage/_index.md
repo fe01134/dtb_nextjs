@@ -24,8 +24,8 @@ features:
       - "Marinas and much more!"
     button:
       enable: false
-      label: "Get Started Now"
-      link: "#"
+      label: "Chat Now on Messenger"
+      link: "https://m.me/115296681678036"
 
   - title: "Discover the Key Features Of AlgarveVisit"
     image: "/images/assistant_ui.png"
