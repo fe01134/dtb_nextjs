@@ -3,7 +3,7 @@ title: "Praia de Paraiso"
 meta_title: "Secluded Cliff beach in Carvoeiro Algarve Portugal"
 description: "Cliff beach located Carvoeiro near Vale de Milho"
 date: 2024-04-07T05:00:00Z
-image: "/images/beaches/carvalho.jpg"
+image: "/images/beaches/paraiso.jpg"
 locations: ["Lagoa", "Carvoeiro", "Quinta Do Paraiso"]
 trip: "Add Me"
 tags: ["sunrise", "swimming", "secluded", "sunset", "beach"]
@@ -20,7 +20,7 @@ While rock falls rarely happen in the summer it is worth considering not laying 
 
 ### Where to eat?
 
-While the Praia de Paraiso doesn't have a restaurant, there is a beautiful scenic restaruant at the top of the steps that lead down down the beach.  The restauruant is expensive for Portuguese standards but it's convience and views make it worth while for special occassions. 
+While the Praia de Paraiso beach doesn't has a restaurant, there is a beautiful scenic restaruant at the top of the steps that lead down down the beach.  The restauruant is relatively expensive for Portuguese standards but it's convience and views make it worth while for special occassions. 
 
 
 ### Parking
