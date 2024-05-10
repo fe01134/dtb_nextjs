@@ -65,6 +65,6 @@ There are plenty of activities to do at Carvoeiro beach.
 Free.
 
 
-### Restrooms"
+### Restrooms
 
 The town provides well maintained public bathrooms at the entrance to the beach. 
