@@ -31,8 +31,8 @@ export const generateStaticParams: () => { single: string }[] = () => {
 
   //console.debug(paths);
 
-  paths.forEach((path: any) => {
-    console.log(` Iterate Area: ${path}`)});
+  //paths.forEach((path: any) => {
+  //  console.log(` Iterate Area: ${path}`)});
 
   return paths;
 };
