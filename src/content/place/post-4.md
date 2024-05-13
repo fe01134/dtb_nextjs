@@ -9,6 +9,7 @@ trip: "Beach Diversity"
 tags: ["eating", "hiking","swimming", "beach"]
 draft: false
 activity: "Beach"
+map: "https://maps.app.goo.gl/wQ2eAGVvSaC9tNbb9"
 ---
 
 One of the top beaches in Carvoeiro.  Easy walk to many of the villas that are for rent nearby in Vale De milho.   Close proximity and easy walk to Tivoli Hotel.  Note the signs that show where the safe spots to sit are to avoid falling rocks. While rock falls rarely happen in the summer it is worth considering just to be safe. 

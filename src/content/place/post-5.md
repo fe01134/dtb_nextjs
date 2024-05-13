@@ -9,6 +9,7 @@ trip: "Add Me"
 tags: ["tunnel", "swimming", "secluded", "beach", "cliff diving" ]
 draft: false
 activity: "Beach"
+map: "https://maps.app.goo.gl/M2bpHgJQqZRnmaRv8"
 ---
 
 One of the more secluded beaches in Carvoeiro.  An easy walk to many of the villas that are for rent nearby in Vale de Milho Carvoeiro.   It is also in close proximity and easy walking distance to Rocha Brava Resort.  You have to walk down lots of steps to get to the beach.  People with less mobility may pass on this beach. Two tunnel were carved into the cliff to provide visitors access to the beach.  You might have to give way so that a single person can pass going down or up in the tunnel.  

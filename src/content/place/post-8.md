@@ -9,6 +9,7 @@ trip: "Add Me"
 tags: ["sunrise", "swimming", "sunset", "beach"]
 draft: false
 activity: "Beach"
+map: "https://maps.app.goo.gl/4hFAMf1LYqCSoRxt6"
 ---
 
 Carvoeiro beach is one of the my favorate beaches in Carvoeiro.  It's an easy walk from downtown Carvoeiro which was formerly a fisherman village. It now caters to vistors from all over the world who want to enjoy the Sun and surf.  Families will enjoy downtown Carvoeiro and Carvoeiro beach, especially those from the UK which seem to represent a large majority of the vistors and residents.   There are a few different pubs downtown that offer Guiness and the typical British pub experience. 

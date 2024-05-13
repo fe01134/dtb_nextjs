@@ -9,6 +9,7 @@ trip: "Beach Diversity"
 tags: ["beach", "surfing", "cliffs",  "Madeline"]
 draft: false
 activity: "Beach"
+map: "https://maps.app.goo.gl/pvgfX6WQ1hT8Kr487"
 ---
 
 Luz is part of the Lagos district and a close drive from Lagos Beach.  It's a great beach for families with spectacular views of the Rocha Negra cliff.  You will feel like you are somewhere along th in South Africa coast. There are plenty of walks to keep the family busy through the entire day at the beach. Climb to the top of Rocha Negra cliff.  Walk along the promoneda with Palm trees.  Enjoy a drink to tosta mistra at one of the nice cafes and bars on the board walk.  Sit outside so that you can people watch while having a bite to eat and a drink.  The beach is wide and deep so can accomodate lots of people.  Even if you come late to this beach if you are willing to walk a bit you will be able to find a place to lay your beach blanket and find some quiteness even in the summer.

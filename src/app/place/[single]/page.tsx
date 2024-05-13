@@ -11,7 +11,7 @@ import { humanize, markdownify, slugify } from "../../../lib/utils/textConverter
 import SeoMeta from "src/layouts/partials/SeoMeta";
 import { Post } from "../../../types/index";
 import Link from "next/link";
-import { FaRegClock, FaRegFolder, FaRegUserCircle } from "react-icons/fa";
+import { FaRegClock, FaRegMap, FaRegFolder, FaRegUserCircle } from "react-icons/fa";
 
 
 const { blog_folder } = config.settings;
@@ -50,6 +50,7 @@ const PostSingle = ({ params }: { params: { single: string } }) => {
     trip,
     locations,
     date,
+    map,
     tags,
   } = frontmatter;
   const similarPosts = similerItems(post, posts, post.slug!);
@@ -104,6 +105,12 @@ const PostSingle = ({ params }: { params: { single: string } }) => {
                   <li className="mr-4 inline-block">
                     <FaRegClock className="-mt-1 mr-2 inline-block" />
                     {dateFormat(date)}
+                  </li>
+                )}
+                {map && (
+                  <li className="mr-4 inline-block">
+                    <Link href={map}className="-mt-1 mr-2 inline-block"><FaRegMap className="-mt-1 mr-2 inline-block" />Map</Link>
+
                   </li>
                 )}
               </ul>

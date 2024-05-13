@@ -28,6 +28,7 @@ export type Post = {
     trip: string;
     tags: string[];
     date?: string;
+    map?: string;
     draft?: boolean;
   };
   slug?: string;
