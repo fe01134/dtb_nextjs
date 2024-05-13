@@ -9,6 +9,7 @@ trip: "Add Me"
 tags: ["sunrise", "swimming", "sunset", "beach"]
 draft: false
 activity: "Beach"
+map: "https://maps.app.goo.gl/btRozg2C83uHheQVA"
 ---
 
 Praia da Marinha beach is known for being one of the top 10 most beautful beaches in Europe.   As a result, it is very popular and often difficult to get parking close to the beach. It's an easy walk from Bengil beach if you want to see both beaches in a single day.  Anyone looking for the greatest selfies in Algarve frequent this beach for its specatular cliff views of the beach and surf.  

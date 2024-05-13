@@ -9,6 +9,7 @@ trip: "Food Trips"
 tags: ["shopping", "food", "supermarket"]
 draft: false
 activity: "Shopping"
+map: "https://maps.app.goo.gl/gVJw4dJU6VJGXRuc7"
 ---
 
 A french owned super market that offers both Portuguese and international food items.  The produce and fish are fresh.  You can get great frozen shell fish from South America and Asia Pacific here.  With digitial price tags be careful when buying goods to ensure you know what the price is.  Foriegn brands for foods like peanut butter, jelly or comsmetics tend to be more expensive than local brands.  If you are travelling from the State best to bring your go to medications like Advil, Neosporin.  The store also offers some hardware, electronics and seasonal products.  Its the goto store for people staying in Vale de Milho or at Carvalho and Centeanes beach. Its a short 3 km walk. Take an uber ride back to your place for less than 6 Euros.  Makes it easier to pick your own produce instead of a service that does it for you.  There is also a local Lagoa bus line that stops at Intermarche Lago called Pouco.

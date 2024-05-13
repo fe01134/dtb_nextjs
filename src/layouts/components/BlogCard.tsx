@@ -10,7 +10,7 @@ const BlogCard = ({ data }: { data: Post }) => {
   const { summary_length, blog_folder } = config.settings;
   //console.debug("Component BlogCard blogfolder");
   //console.debug(blog_folder);
-  const { title, image, trip, locations, date } = data.frontmatter;
+  const { title, image, trip, locations, date, map } = data.frontmatter;
   return (
     <div className="bg-body dark:bg-darkmode-body">
       {image && (
@@ -42,6 +42,7 @@ const BlogCard = ({ data }: { data: Post }) => {
           ))}
         </li>
         {date && <li className="inline-block">{dateFormat(date)}</li>}
+        {map && <li className="inline-block"><Link key={map} href={map}>Map</Link></li>}
       </ul>
       <p className="mb-6">
         {plainify(data.content!.slice(0, Number(summary_length)))}

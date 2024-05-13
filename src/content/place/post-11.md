@@ -1,15 +1,15 @@
 ---
-title: "Albufeira Marina Boat Tours"
-meta_title: "Albufeira Marina offer boat tours, parasailing, shopping restaurants and bars."
-description: "Multiple boat tours and excursions available throughout the day."
+title: "Praia Grande"
+meta_title: "Praia Grande, great beach."
+description: "Praia Grande is great beach for families, kids, swiming and dining exerpiences."
 date: 2024-04-09T05:00:00Z
-image: "/images/beaches/albufeira_marina.jpg"
-locations: ["Lagoa", "Oxideira", "Benegil"]
-trip: "Excurision"
-tags: ["para sailing", "boat", "tour", "excursion", "jet skiing", "fishing"]
+image: "/images/beaches/praia_grande.jpg"
+locations: ["Lagoa", "Ferragudo", "Praia Grande"]
+trip: "Beach Diversity"
+tags: ["beach", "dining", "swimming", "", "fishing"]
 draft: false
-activity: "Marina"
-map: "https://maps.app.goo.gl/y2Tqmyh9brD2LSin6"
+activity: "Beach"
+map: "https://maps.app.goo.gl/FJh7vFmaABTpuzgRA"
 ---
 
 Albufeira marina was built in 2003. Marina that was excavated into the cliffs west of the main beaches of Albufeira. As a result it is well protected from ocean wave actions. It is in a valley.  As a result of it's location, there is very little sea breezes that make their way back into the Marina.  It can get extremely hot in the summer.  

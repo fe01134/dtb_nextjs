@@ -9,6 +9,7 @@ trip: "Add Me"
 tags: ["sunrise", "swimming", "secluded", "sunset", "beach"]
 draft: false
 activity: "Beach"
+map: "https://maps.app.goo.gl/n9tx8xtFhyvYdnAv6"
 ---
 
 One of the more secluded beaches in Carvoeiro.  An easy walk from downtown Carvoeiro which was ormerly a fisherman village. It now caters vistors from all over the world who want to enjoy the Sun.  Families will enjoy Carvoeiro, especially those from the UK which seem to represent a large majority of the vistors and residents.   Praia de Paraiso is a short walk from down town Carvoeiro and Carvoeiro beach.  While the walk up the hill from downtown and then steps down to the Praia de Paraiso is great workout, it's also a beautiful secluded oasis.  Expecially in the non summer months.  The beach gets its name from the area which is called Quinta do Paraiso.  It is a sought after location for people looking to move to Carvoeiro.   If you are staying in downtown Carvoeiro and even if your not I highly recommend checking out this beach.   Be careful when you get to the bottom of the steps.  The step ladders at the base of the beach have been damaged and some of the stpes are missing or loose.  People with less mobility may have to pass on this beach.  The beach is small so don't come with lots of stuff.  

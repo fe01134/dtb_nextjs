@@ -11,7 +11,8 @@ draft: false
 district: "Lagoa"
 council: "Carvoeiro"
 area: "Vale Milho"
-activity: "Petting Zoo"
+activity: "Petting donky and goats."
+map: "https://maps.app.goo.gl/zxbQsYTPfDbWtpXD6"
 
 ---
 
