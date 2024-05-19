@@ -5,7 +5,7 @@ description: "Multiple boat tours and excursions available throughout the day."
 date: 2024-04-09T05:00:00Z
 image: "/images/beaches/albufeira_marina.jpg"
 locations: ["Lagoa", "Oxideira", "Benegil"]
-trip: "Excurision"
+trip: "Excursion"
 tags: ["para sailing", "boat", "tour", "excursion", "jet skiing", "fishing"]
 draft: false
 activity: "Marina"
@@ -16,9 +16,9 @@ Albufeira marina was built in 2003. Marina that was excavated into the cliffs we
 
 The Marina offers many activities including:
 
-- Excursions.  Explore the stunning coastline with a variety of boat tours available at the Marina. You can choose from relaxing sightseeing tours, dolphin watching excursions, or adventurous water sports including jet skiing and parasailing.
+- **Excursions**:  Explore the stunning coastline with a variety of boat tours available at the Marina. You can choose from relaxing sightseeing tours, dolphin watching excursions, or adventurous water sports including jet skiing and parasailing.
 
-- Shops, Restuarants and Bars.  You will find lots of quaint cafes, restaurants and shops along the perimeter of the marina. The marina is surrounded by colorful condominiums with shops, resteraunts located on the ground level floors. You can have a drink, eat and shop at while you wait for you time slot for your excursions.  Some places do offer live entertainment in the evening in the summer.  .
+- **Shops, Restuarants and Bars**:  You will find lots of quaint cafes, restaurants and shops along the perimeter of the marina. The marina is surrounded by colorful condominiums with shops, resteraunts located on the ground level floors. You can have a drink, eat and shop at while you wait for you time slot for your excursions.  Some places do offer live entertainment in the evening in the summer.  .
 
 
 # Location
@@ -49,27 +49,27 @@ You can usually find a place to park your car on the street or available parking
 
 There are plenty of excursions and activities to do at the Marina.
 
-- Boat Tours and ecursions of the Algarve Coastline.  The boats are depart from the docs in the marina. The tour provides excellent tours of the Benegil cave, Dolphins or whale watching.  The larger boats depart from this Marina which makes it unlikely you will be able to get onto the beach like Carvoeiro boat tours that allow visitors to see the cave from sandy beach inside the Benegil cave opening.  Advance booking is recommended, especially in August, as this is peak tourist season. Look for combo deals to enjoy multiple activities at a reduced rate. Call ahead and ask for early morning when is less hot or later in the afternoon to see sun sets.  In the winter and spring there are fewer people.  The water is colder and the waves bigger and greater chance of rain making it not worthwhile to book ahead but rather just calling to ahead that morning to see if they have opening that you can book when your arrive.  What to consider:
+- **Boat Tours**: Excursions of the Algarve Coastline.  The boats are depart from the docs in the marina. The tour provides excellent tours of the Benegil cave, Dolphins or whale watching.  The larger boats depart from this Marina which makes it unlikely you will be able to get onto the beach like Carvoeiro boat tours that allow visitors to see the cave from sandy beach inside the Benegil cave opening.  Advance booking is recommended, especially in August, as this is peak tourist season. Look for combo deals to enjoy multiple activities at a reduced rate. Call ahead and ask for early morning when is less hot or later in the afternoon to see sun sets.  In the winter and spring there are fewer people.  The water is colder and the waves bigger and greater chance of rain making it not worthwhile to book ahead but rather just calling to ahead that morning to see if they have opening that you can book when your arrive.  What to consider:
 
     - While some of the boats offer jackets to protect you from the waves splashing onto you they sometimes don't have zippers that work. Consider bringing your own plastic ponchoes if you don't want to get wet.
     - Make sure you go to the bathroom before you depart on your boat tour. Only some boats offer bathrooms.  The boats that do offer bathrooms may not make them available if the seas are too rough.
 
 
-- Parasailing can fit typically fit upto three people on an excursion.  Someone can join you and film from the boat.   The parasail lifts up from the take off and landing pad on the back of the boat.  The sail boat captain will intentionally slow dow the boat while in you are being towed so that you can dip your toes in the water.  This and the landing when you are rewound back to the take off and landing pad makes for a thrilling experience for the adventerous.
+- **Para-Sailing**:  Can fit typically fit upto three people on an excursion.  Someone can join you and film from the boat.   The parasail lifts up from the take off and landing pad on the back of the boat.  The sail boat captain will intentionally slow dow the boat while in you are being towed so that you can dip your toes in the water.  This and the landing when you are rewound back to the take off and landing pad makes for a thrilling experience for the adventerous.
 
-- Snorkling some of the boat tours do offer snorkling at only boat accessible beaches.   Benegil Cave tour is a  must-see natural attraction.  The caves are accessible only by water. Tours usually depart from Albufeira Marina and include stops for swimming and snorkeling.  What to bring: 
+- **Snorkling**:  Some of the boat tours do offer snorkling at only boat accessible beaches.   Benegil Cave tour is a  must-see natural attraction.  The caves are accessible only by water. Tours usually depart from Albufeira Marina and include stops for swimming and snorkeling.  What to bring: 
     - Swimwear
     - Sunblock
     - A waterproof camera to capture the stunning rock formations and azure waters.
 
-- Water sports.  Go tubing or Rent jet skis.   Jetskis can be rented for one driver or one driver and passenger.  You typically are limited to go around in a single direction on the bouys positioned in the near by waters for a specific time period.   Many excersions also offer action pictures of you riding the jet skies or while being pulled by a motor boat tubing.
+- **Water Sports**:  Go tubing or Rent jet skis.   Jetskis can be rented for one driver or one driver and passenger.  You typically are limited to go around in a single direction on the bouys positioned in the near by waters for a specific time period.   Many excersions also offer action pictures of you riding the jet skies or while being pulled by a motor boat tubing.
 
-- Swimming is not available at the Marina.
+- **Swimming**: Is not allowed at the Marina.
 
-- Sunbathing. Listening and watching the boats come into the marina from dock and people watching are great activities from an outdoor covered bar or restaurant in the Marina perimeter.
+- **Sunbathing**: Listening and watching the boats come into the marina from dock and people watching are great activities from an outdoor covered bar or restaurant in the Marina perimeter.
 
 
-- Take a walk along the rock break water bay.  Offers some nice views of the sea and the marina.  Bring your fishing pole and do some fishing off the rock break water pier.  
+- **Take a walk**:  Walk along the rock break water bay and board walk around the perimeter of the marina. It offers some nice views of the sea and the marina.  Bring your fishing pole and do some fishing off the rock break water pier.  
 
 
 ### Cost

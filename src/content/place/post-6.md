@@ -43,11 +43,11 @@ Like some other cliff beaches it can get very tight for a place to lay your beac
 
 Plenty of activities to do at Paraiso beach.
 
-- Swimming
-- Sunbathing. Listening and watching the surf come in.
-- Picnicing on the beach. 
-- Watching sunrises and sunsets. Some amazing views from the tops of the cliffs. Towards the west of Algarve you can see the sun set.   Towards the east of Algarve you can see the sun rise.  
-- Walks.  It is a short walk to Carvoeiro beach from here.  Consider going there by foot down the hitll to Carvoeiro beach.  Use an Ube to get to the beach if you don't want to deal with the hills.   Uber rides for short distances are very inexpensive in Algarve.
+- **Swimming**:
+- **Sun Bathing**: Listening and watching the surf come in.
+- **Picnicing**: On the beach. 
+- **Watching Sunrises and Sunsets**: Some amazing views from the tops of the cliffs. Towards the west of Algarve you can see the sun set.   Towards the east of Algarve you can see the sun rise.  
+- **Walks**:  It is a short walk to Carvoeiro beach from here.  Consider going there by foot down the hitll to Carvoeiro beach.  Use an Ube to get to the beach if you don't want to deal with the hills.   Uber rides for short distances are very inexpensive in Algarve.
 
 ### Cost
 

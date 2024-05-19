@@ -43,13 +43,13 @@ Unlike some other cliff beaches it doesn't get tight for a place to lay your bea
 
 Plenty of activities to do at Bengil beach.
 
-- Swimming - I wouldn't recommend this beach for swimming given that the waves here can be treacherous even in the summer.  Avoid swimming in the boat ramp where there are usually dozens of kayakers making their way into the water to paddle over to Benegil Cave.   I wouldn't risk trying to swim to the Benegil cave given how busy the entrance to the cave is with boat and kayak traffic. 
-- Sunbathing.
-- Picnicing on the beach. 
-- Watching sunrises and sunsets. Some amazing views from the tops of the cliffs. Towards the west of Algarve you can see the sun set.   Towards the east of Algarve you can see the sun rise.  
-- Walks.  If you get bored with Benegil beach, it's a short walk west Carvalho beach from here.  Consider going there by foot up the cliff walk way westward along Cliff.  It's also a short walk east to Praia de Marinha which was voted one of the top 10 beaches in all of Europe.  Use an Uber to get to the beach if you don't want to deal with the hills.   Uber rides for short distances are very inexpensive in Algarve.  Walk to to the top of the eastern side of Benegil beach cliffs to check out the Benegil cave from above. Be careful not to get to close to the cliff edges and cave openings. 
-- People watching.  It can be entertaining watching the kayakers entering the water and trying not to get wiped out by the big waves. 
-- Kayaking and standup paddle boarding.   With easy access to Benegil Cave it makes it appealing.  The craziness of dozenss of people trying to enter the waters and avoiding the tour boats will make you think twice about it.   Recently a kayaker was injured and the local government has passed new laws to limit the number of Kayak rentals that are allowed in the area. Carefully consider the risks injury as a result of kayaking with large boats around you with large waves before you choose this activity.
+- **Swimming**:  I wouldn't recommend this beach for swimming given that the waves here can be treacherous even in the summer.  Avoid swimming in the boat ramp where there are usually dozens of kayakers making their way into the water to paddle over to Benegil Cave.   I wouldn't risk trying to swim to the Benegil cave given how busy the entrance to the cave is with boat and kayak traffic. 
+- **Sun Bathing**: 
+- **Picnicing**:  On the beach. 
+- **Watching sunrises and sunsets**:  Some amazing views from the tops of the cliffs. Towards the west of Algarve you can see the sun set.   Towards the east of Algarve you can see the sun rise.  
+- **Walks**:   If you get bored with Benegil beach, it's a short walk west Carvalho beach from here.  Consider going there by foot up the cliff walk way westward along Cliff.  It's also a short walk east to Praia de Marinha which was voted one of the top 10 beaches in all of Europe.  Use an Uber to get to the beach if you don't want to deal with the hills.   Uber rides for short distances are very inexpensive in Algarve.  Walk to to the top of the eastern side of Benegil beach cliffs to check out the Benegil cave from above. Be careful not to get to close to the cliff edges and cave openings. 
+- **People watching**:  It can be entertaining watching the kayakers entering the water and trying not to get wiped out by the big waves. 
+- **Kayaking and standup paddle boarding**:   With easy access to Benegil Cave it makes it appealing.  The craziness of dozenss of people trying to enter the waters and avoiding the tour boats will make you think twice about it.   Recently a kayaker was injured and the local government has passed new laws to limit the number of Kayak rentals that are allowed in the area. Carefully consider the risks injury as a result of kayaking with large boats around you with large waves before you choose this activity.
 
 ### Cost
 

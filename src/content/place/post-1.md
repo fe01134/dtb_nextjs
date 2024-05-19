@@ -48,7 +48,7 @@ This isn't a busy spot or well known.  You will likely have the donkey and goats
 
 ### Activities
 
-- Pet the donkey and the baby goats at the site.
+- **Exploring** Pet the donkey and the baby goats at the site.
 
 
 ### Cost

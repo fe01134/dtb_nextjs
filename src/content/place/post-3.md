@@ -34,14 +34,14 @@ Good for cooling off and families to enjoy the water.  Good for surfing. As you 
 
 ### Activities 
 
-- Water sports:  Good for surfing.  Good for swimming
-- Swimming
-- Sunbathing
-- Dining
-- Cafes
-- Restaurants
-- Bars
-- Pubs
+- **Water Sports**:  Good for surfing.  Good for swimming
+- **Swimming**:
+- **Sunbathing**:
+- **Dining**:
+- **Cafes**:
+- **Restaurants**:
+- **Bars**:
+- **Pubs**:
 
 ### How busy
 
