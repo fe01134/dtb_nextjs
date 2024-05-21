@@ -20,13 +20,13 @@ Of course there is the normal activity you do at a super market, shop for food. 
 
 ### Services
 
-- Food coneirge service.   Intermarche Lagoa doesn't deliver, you can order your food shopping list on line and pick it up at back rear of the store.
+- **Food coneirge service**:   Intermarche Lagoa doesn't deliver, you can order your food shopping list on line and pick it up at back rear of the store.
 
-- Wine selection.    Like many of the supermarkets in Portugal they offer great and inexpensive selection of wines from all over Portuga, Eurpoe and the world.
+- **Wine selection**:  Like many of the supermarkets in Portugal they offer great and inexpensive selection of wines from all over Portuga, Eurpoe and the world.
 
-- Key service - Get keys made for your Villa or apartnement.  The cost varies depending on the type of key. I have had keys made fro 3 Euros a key.  Make sure you ask which key was the original so that when you make new keys in the future you know which one to use to make a copy.
+- **Key service**:  Get keys made for your Villa or apartnement.  The cost varies depending on the type of key. I have had keys made fro 3 Euros a key.  Make sure you ask which key was the original so that when you make new keys in the future you know which one to use to make a copy.
 
-- Dry cleaning service.    You can Drop off and pick up your laundry before or after doing your shopping. 
+- **Dry cleaning service**:  You can Drop off and pick up your laundry before or after doing your shopping. 
 
 
 ### Where to eat?

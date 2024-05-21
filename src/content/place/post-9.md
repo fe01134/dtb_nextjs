@@ -46,19 +46,21 @@ You can usually find a place to lay your beach blanket even in the summer.  You 
 
 There are plenty of activities to do at Carvoeiro beach.
 
-- Boat Tours and ecursions of the Algarve Coastline.  The boats are pulled right on to the sand when they aren't in use.  The tour passengers board the boat from the beach. The tour provides excellent tours of the Benegil cave.  Sometimes they even land on the beach to allow visitors to see the cave from sandy beach inside the Benegil cave opening. 
+- **Boat Tours**: Excursions of the Algarve Coastline.  The boats are pulled right on to the sand when they aren't in use.  The tour passengers board the boat from the beach. The tour provides excellent tours of the Benegil cave.  Sometimes they even land on the beach to allow visitors to see the cave from sandy beach inside the Benegil cave opening. 
 
-- Swimming
+- **Swimming**:
 
-- Sunbathing. Listening and watching to surf come into the beach from at the top of the westerly hill that overlooks the beach.
+- **Sun Bathing**:  Listening and watching to surf come into the beach from at the top of the westerly hill that overlooks the beach.
 
-- Picnicing on the beach. 
+- **Picnicing**:  On the beach. 
 
-- Watching sunrises and sunsets. Some amazing views from the tops of the cliffs. Towards the west of Algarve you can see the sun set.   Towards the east of Algarve you can see the sun rise.  
+- **Shopping**:  Shop for unique artisean and craft jewlery on the calcada steps down the the beach.
 
-- Walks. A small narrow sidewalk along a one way narrow road west leads you a short distance to Praia de Paraiso.  A similar walk is available on the east side cliff that give majestic view of the beach. Stop along the way on the benches to enjoy the views. You will find a playground, school and church at the top of the west side cliff.   Visitors flock to the top of the hill at dusk to enjoy the sunsets and views of Lagos and Sagres in the distance.  It is a short walk to Paraiso beach from here.  Consider going there by foot down the hitll to Carvoeiro beach.  Use an Ube to get to the beach if you don't want to deal with the hills.   Uber rides for short distances are very inexpensive in Algarve.
+- **Watching Sunrises and Sunsets**: Some amazing views from the tops of the cliffs. Towards the west of Algarve you can see the sun set.   Towards the east of Algarve you can see the sun rise.  
 
-- Walk into town to get some of the best cremey chocolate Gelato you have had.
+- **Walks**:  A small narrow sidewalk along a one way narrow road west leads you a short distance to Praia de Paraiso.  A similar walk is available on the east side cliff that give majestic view of the beach. Stop along the way on the benches to enjoy the views. You will find a playground, school and church at the top of the west side cliff.   Visitors flock to the top of the hill at dusk to enjoy the sunsets and views of Lagos and Sagres in the distance.  It is a short walk to Paraiso beach from here.  Consider going there by foot down the hitll to Carvoeiro beach.  Use an Ube to get to the beach if you don't want to deal with the hills.   Uber rides for short distances are very inexpensive in Algarve.
+
+- **Walk**: Up the stairs to get icecreams and drinks and fresh fruit from the food truck vendors in the summer.
 
 
 ### Cost
@@ -68,4 +70,4 @@ Free.
 
 ### Restrooms
 
-The town provides well maintained public bathrooms at the entrance to the beach. 
+The town provides well maintained public bathrooms at the entrance to the beach at the base of the long set of steps down to the beach. 

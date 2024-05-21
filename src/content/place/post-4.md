@@ -25,7 +25,7 @@ There is only one restaurant by the beach.  It offers indoor and outdoor seating
 
 ### Parking
 
-Beach has parking and street parking. 
+Beach has free parking and street parking. 
 
 ### Surf
 
@@ -37,12 +37,12 @@ It's a larger size beach for a Cliff beach. However, like some other cliff beach
 
 ### Activities
 
-- Water sports:  Not good for surfing.  Good for swimming
-- Swimming
-- Sunbathing
-- Dining
-- Watching sunsets. There are spectacular sunsets are visible by walking up the stairs to either side of the beach.
-- Get a selfie.  The beach has a large an iconic Instagramable table and chairs at the top of teh cliff that overlooks the beach.  
+- **Water Sports**:  Not good for surfing.  Good for swimming
+- **Swimming**:
+- **Sun Bathing**:
+- **Dining**:
+- **Watching Sunsets**:  There are spectacular sunsets are visible by walking up the stairs to either side of the beach.
+- **Get a selfie**:  The beach has a large an iconic Instagramable table and chairs at the top of teh cliff that overlooks the beach.  
 
 ###  Cost
 

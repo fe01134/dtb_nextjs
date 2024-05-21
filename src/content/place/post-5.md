@@ -43,12 +43,12 @@ Like some other cliff beaches it can get tight for a place to lay your beach bla
 
 Plenty of activities to do at Carvalho beach.
 
-- Swimming
-- Sunbathing. Be very careful walking along the cliffs as very few areas are actually fenced.
-- Picnicing on the beach
-- Watching sunsets.  
-- Walks.  It is a short walk to Benegil beach from here.  Consider going there by foot along the cliff walks if there is too much seaweed.  This beach is one the ones you will hike through on the Seven Hanging Valleys Trail. 
-- Cliff diving.   It isn't allowed but I have seen many young men cliff diving off the cliffs in Praia De Carvalho.  They climb around the fence tha blocks the entrance to the carved out rock passage ways that lead to deeper waters.    The cliff jumpers usually wait for the boat tour excursions that who egg the jumpers on to jump.  When they finally get the courage to jump, you can find their girl friends or mates recording the even on their mobile phone. 
+- **Swimming**:
+- **Sun Bathing**: Be very careful walking along the cliffs as very few areas are actually fenced.
+- **Picnicing**: Is available on the beach
+- **Watching sunsets**:  Climb to the top of the beach cliffs to see the sun setting.
+- **Walks**:  It is a short walk to Benegil beach from here.  Consider going there by foot along the cliff walks if there is too much seaweed.  This beach is one the ones you will hike through on the Seven Hanging Valleys Trail. 
+- **Cliff diving**:   It isn't allowed but I have seen many young men cliff diving off the cliffs in Praia De Carvalho.  They climb around the fence tha blocks the entrance to the carved out rock passage ways that lead to deeper waters.    The cliff jumpers usually wait for the boat tour excursions that who egg the jumpers on to jump.  When they finally get the courage to jump, you can find their girl friends or mates recording the even on their mobile phone. 
 
 
 ### Cost
