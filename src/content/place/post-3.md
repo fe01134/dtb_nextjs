@@ -5,7 +5,7 @@ description: "A family friendly beach that has views of Rocha Negra cliff and a 
 date: 2024-04-07T05:00:00Z
 image: "/images/beaches/luz.jpg"
 locations: ["Lagos", "Luz"]
-trip: "Beach Diversity"
+event: "Sun, Sand and Surf"
 tags: ["beach", "surfing", "cliffs",  "Madeline"]
 draft: false
 activity: "Beach"

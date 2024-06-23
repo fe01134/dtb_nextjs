@@ -4,8 +4,8 @@ meta_title: "Is known for being one of the top 10 most beautful beaches in Europ
 description: "Top 10 beach located in Oxideira Algarve "
 date: 2024-04-07T05:00:00Z
 image: "/images/beaches/praia_de_marinha.jpg"
-locations: ["Lagoa", "Oxideira", "Benegil"]
-trip: "Add Me"
+locations: ["Lagoa", "Caramujeira", "Praia da Marinha"]
+event: "Sun, Sand and Surf"
 tags: ["sunrise", "swimming", "sunset", "beach"]
 draft: false
 activity: "Beach"

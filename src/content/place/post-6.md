@@ -5,7 +5,7 @@ description: "Cliff beach located Carvoeiro near Vale de Milho"
 date: 2024-04-07T05:00:00Z
 image: "/images/beaches/paraiso.jpg"
 locations: ["Lagoa", "Carvoeiro", "Quinta Do Paraiso"]
-trip: "Add Me"
+event: "Sun, Sand and Surf"
 tags: ["sunrise", "swimming", "secluded", "sunset", "beach"]
 draft: false
 activity: "Beach"

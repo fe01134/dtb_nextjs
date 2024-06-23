@@ -29,8 +29,8 @@
 
   "navigation_button": {
     "enable": true,
-    "label": "Get Started",
-    "link": "https://algarvevisit.com/things_to_do"
+    "label": "Find a Villa",
+    "link": "https://www.facebook.com/villavalemilho/"
   },
 
   "disqus": {
@@ -40,7 +40,7 @@
   },
 
   "metadata": {
-    "meta_trip": "Themefisher",
+    "meta_event": "Themefisher",
     "meta_image": "/images/og-image.png",
     "meta_description": "AlgarveVisit website for travellers planning to visit Algarve Portugal."
   }

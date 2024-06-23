@@ -10,7 +10,7 @@ const BlogCard = ({ data }: { data: Post }) => {
   const { summary_length, blog_folder } = config.settings;
   //console.debug("Component BlogCard blogfolder");
   //console.debug(blog_folder);
-  const { title, image, trip, locations, date, map } = data.frontmatter;
+  const { title, image, event, locations, date, map } = data.frontmatter;
   return (
     <div className="bg-body dark:bg-darkmode-body">
       {image && (
@@ -27,9 +27,9 @@ const BlogCard = ({ data }: { data: Post }) => {
       </h4>
       <ul className="mb-4">
         <li className="mr-4 inline-block">
-          <Link href={`/trips/${slugify(trip)}`}>
+          <Link href={`/events/${slugify(event)}`}>
             <FaRegUserCircle className={"-mt-1 mr-2 inline-block"} />
-            {humanize(trip)}
+            {humanize(event)}
           </Link>
         </li>
         <li className="mr-4 inline-block">

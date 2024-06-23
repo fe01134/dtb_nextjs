@@ -5,7 +5,7 @@ description: "Intermarche is a french owned super market that is a short 3.5 km 
 date: 2024-04-07T05:00:00Z
 image: "/images/shopping/intermarche.jpg"
 locations: ["Lagoa", "Carvoeiro", "Vale de Milho"]
-trip: "Food Trips"
+event: "Authentic Portuguese Food"
 tags: ["shopping", "food", "supermarket"]
 draft: false
 activity: "Shopping"
@@ -16,7 +16,7 @@ A french owned super market that offers both Portuguese and international food i
 
 ## Good to know
 
-Of course there is the normal activity you do at a super market, shop for food.  There are also some other essential things can to do at the Intermarche Lagoa.  Being able to accomplish multiple to do's in a single trip is a time saver.
+Of course there is the normal activity you do at a super market, shop for food.  There are also some other essential things can to do at the Intermarche Lagoa.  Being able to accomplish multiple to do's in a single event is a time saver.
 
 ### Services
 

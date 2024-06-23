@@ -5,8 +5,8 @@
       "url": "/"
     },
     {
-      "name": "Things To Do",
-      "url": "/things_to_do"
+      "name": "Place",
+      "url": "/place"
     },
     {
       "name": "Plan Travel",
@@ -18,12 +18,8 @@
           "url": "/contact"
         },
         {
-          "name": "Place",
-          "url": "/place"
-        },
-        {
-          "name": "Trips",
-          "url": "/trips"
+          "name": "Activities",
+          "url": "/events"
         },
         {
           "name": "Locations",
@@ -32,10 +28,6 @@
         {
           "name": "Tags",
           "url": "/tags"
-        },
-        {
-          "name": "404 Page",
-          "url": "/404"
         }
       ]
     }
