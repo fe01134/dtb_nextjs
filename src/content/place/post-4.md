@@ -5,7 +5,7 @@ description: "Cliff beach located Carvoeiro near Vale de Milho"
 date: 2024-04-07T05:00:00Z
 image: "/images/beaches/vale_centeanes.jpg"
 locations: ["Lagoa", "Carvoeiro", "Vale de Milho"]
-trip: "Beach Diversity"
+event: "Sun, Sand and Surf"
 tags: ["eating", "hiking","swimming", "beach"]
 draft: false
 activity: "Beach"

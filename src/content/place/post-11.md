@@ -4,7 +4,7 @@ meta_title: "A Relaxing Family-Friendly Beach in Ferragudo"
 description: "Discover Praia Grande, a beautiful and tranquil beach in Ferragudo, Algarve, perfect for families and relaxation."ate: 2024-04-09T05:00:00Z
 image: "/images/beaches/praia_grande.jpg"
 locations: ["Lagoa", "Ferragudo", "Praia Grande"]
-trip: "Beach Diversity"
+event: "Sun, Sand and Surf"
 tags: ["family-friendly", "sunbathing", "swimming", "beach"]
 draft: false
 activity: "Beach"

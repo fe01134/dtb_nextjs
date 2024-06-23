@@ -1,47 +1,70 @@
-import { SES } from 'aws-sdk';
+import { SendEmailCommand } from "@aws-sdk/client-ses";
+import { sesClient } from "./sesClient";
+
+// Reference SES v3
+// https://docs.aws.amazon.com/sdk-for-javascript/v3/developer-guide/ses-examples-sending-email.html
+// https://docs.aws.amazon.com/sdk-for-javascript/v3/developer-guide/migrating.html#using_v3_commands
 
 export async function sendSes(formData) {
 
-    const fromEmail = "help@pursuitassistant.com"
-    const toEmail = "carlosyells@yahoo.com"
-    // Set the SES API key
-    console.debug("debugging keys again");
-    console.debug(process.env.NEXT_PUBLIC_AWS_ACCESS_KEY);
-    console.debug(process.env.NEXT_PUBLIC_AWS_SECRET_ACCESS_KEY);
+    const fromAddress = "help@pursuitassistant.com";
+    const toAddress = "carlosyells@yahoo.com";
 
-    console.debug("formData");
-    console.debug(formData);
-
-    const ses = new SES({
-    accessKeyId: process.env.NEXT_PUBLIC_AWS_ACCESS_KEY,
-    secretAccessKey: process.env.NEXT_PUBLIC_AWS_SECRET_ACCESS_KEY,
-    region: 'us-east-1' // e.g., 'us-east-1'
-    });
-
-    //@param onfulfilled — The callback to execute when the Promise is resolved.
-    //@param onrejected — The callback to execute when the Promise is rejected.
-
-    //Call AWS SES email service.
-    const response = ses.sendEmail(
-        {
-        Source: fromEmail,
-        Destination: { ToAddresses: [toEmail] },
+    const createSendEmailCommand = (toAddress, fromAddress) => {
+      return new SendEmailCommand({
+        Destination: {
+          /* required */
+          CcAddresses: [
+            /* more items */
+          ],
+          ToAddresses: [
+            toAddress,
+            /* more To-email addresses */
+          ],
+        },
         Message: {
-        Subject: { Data: 'Test Email from' },
-        Body: { Text: { Data: `From: ${formData.get('firstName')} \n\n${formData.get('message')}` } }
-        }
-    }).promise().then(response => {
-        console.debug("Email promise");
-        console.debug(response);
-        console.debug("Email sent successfully, message ID:", response.MessageId);
-        return ({
-            message: 'success',
-          } );            
-    })
-    .catch(error => {
-        console.error('Error sending email:', error);  
-        return ({
+          /* required */
+          Body: {
+            /* required */
+            Html: {
+              Charset: "UTF-8",
+              Data: "HTML_FORMAT_BODY",
+            },
+            Text: {
+              Charset: "UTF-8",
+              Data: "TEXT_FORMAT_BODY",
+            },
+          },
+          Subject: {
+            Charset: "UTF-8",
+            Data: "EMAIL_SUBJECT",
+          },
+        },
+        Source: fromAddress,
+        ReplyToAddresses: [
+            toAddress
+        ],
+      });
+    };
+    
+    const run = async () => {
+      const sendEmailCommand = createSendEmailCommand(
+        toAddress,
+        fromAddress,
+      );
+    
+      try {
+        return await sesClient.send(sendEmailCommand);
+      } catch (caught) {
+        if (caught instanceof Error && caught.name === "MessageRejected") {
+          /** @type { import('@aws-sdk/client-ses').MessageRejected} */
+          const messageRejectedError = caught;
+          console.error('Error sending email:', messageRejectedError);
+          return ({
             message: 'error',
-          }) ;
-    });
-  }
+          });
+        }
+        throw caught;
+      }
+    };
+}

@@ -64,7 +64,7 @@ export default function Contact() {
                 </div>
                 <div className="mb-6">
                   <label htmlFor="toEmail" className="form-label">
-                    Working Mail <span className="text-red-500">*</span>
+                    Your Email Mail <span className="text-red-500">*</span>
                   </label>
                   <input
                     id="fromEmail"
@@ -77,13 +77,13 @@ export default function Contact() {
                 </div>
                 <div className="mb-6">
                   <label htmlFor="message" className="form-label">
-                    Anything else? <span className="text-red-500">*</span>
+                    How can we help you? <span className="text-red-500">*</span>
                   </label>
                   <textarea
                     id="message"
                     name="message"
                     className="form-input"
-                    placeholder="Message goes here..."
+                    placeholder="Enter message here..."
                     rows={8}
                     required
                   ></textarea>

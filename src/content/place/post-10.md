@@ -4,8 +4,8 @@ meta_title: "Albufeira Marina offer boat tours, parasailing, shopping restaurant
 description: "Multiple boat tours and excursions available throughout the day."
 date: 2024-04-09T05:00:00Z
 image: "/images/beaches/albufeira_marina.jpg"
-locations: ["Lagoa", "Oxideira", "Benegil"]
-trip: "Excursion"
+locations: ["Albufeira", "Cerro da Piedade", "Marina De Albufeira"]
+event: "Excursion"
 tags: ["para sailing", "boat", "tour", "excursion", "jet skiing", "fishing"]
 draft: false
 activity: "Marina"
@@ -29,7 +29,7 @@ R. Marina de Albufeira 3B, 8201-918 Albufeira, Portugal
 
 ### Where to eat?
 
-The marina has many sit down restaurants and bars that overlook the Marina.   If you book an excursion they sometime offer drink discounts to the local marina bars and restaurants.  Checkin first with your excursion before you vist the bars and restaurants for your trip to take advantage of the discounts.
+The marina has many sit down restaurants and bars that overlook the Marina.   If you book an excursion they sometime offer drink discounts to the local marina bars and restaurants.  Checkin first with your excursion before you vist the bars and restaurants for your event to take advantage of the discounts.
 
 
 ### Parking

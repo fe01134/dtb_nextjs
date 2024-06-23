@@ -4,8 +4,8 @@ meta_title: "Old fishing town Cliff beach in Downtown Carvoeiro Algarve Portugal
 description: "Cliff beach located Carvoeiro near Vale de Milho"
 date: 2024-04-07T05:00:00Z
 image: "/images/beaches/carvoeiro.jpg"
-locations: ["Lagoa", "Carvoeiro", "Downtowan Carvoeiro"]
-trip: "Add Me"
+locations: ["Lagoa", "Carvoeiro", "Downtown Carvoeiro"]
+event: "Sun, Sand and Surf"
 tags: ["sunrise", "swimming", "sunset", "beach"]
 draft: false
 activity: "Beach"

@@ -13,6 +13,8 @@ import { Post } from "../../../types/index";
 import Link from "next/link";
 import { FaRegClock, FaRegMap, FaRegFolder, FaRegUserCircle } from "react-icons/fa";
 
+import React from 'react';
+import FeedbackModal from '../../../layouts/components/FeedbackModal';
 
 const { blog_folder } = config.settings;
 //console.debug("Place Single Place blogfolder");
@@ -47,7 +49,7 @@ const PostSingle = ({ params }: { params: { single: string } }) => {
     meta_title,
     description,
     image,
-    trip,
+    event,
     locations,
     date,
     map,
@@ -84,9 +86,9 @@ const PostSingle = ({ params }: { params: { single: string } }) => {
               />
               <ul className="mb-4">
                 <li className="mr-4 inline-block">
-                  <Link href={`/trips/${slugify(trip)}`}>
+                  <Link href={`/events/${slugify(event)}`}>
                     <FaRegUserCircle className={"-mt-1 mr-2 inline-block"} />
-                    {humanize(trip)}
+                    {humanize(event)}
                   </Link>
                 </li>
                 <li className="mr-4 inline-block">
@@ -160,6 +162,10 @@ const PostSingle = ({ params }: { params: { single: string } }) => {
           </div>
         </div>
       </section>
+      <div>
+      <h1>Provide Feedback on This</h1>
+      <FeedbackModal />
+    </div>
     </>
   );
 };

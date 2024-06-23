@@ -19,12 +19,15 @@ const Share = ({
 }) => {
   const { base_url } = config.site;
 
+  console.debug({base_url})
+  console.debug({slug})
+
   return (
     <ul className={className}>
       <li className="inline-block">
         <a
           aria-label="facebook share button"
-          href={`https://facebook.com/sharer/sharer.php?u=${base_url}/${slug}`}
+          href={`https://facebook.com/sharer/sharer.php?u=${base_url}/place/${slug}`}
           target="_blank"
           rel="noreferrer noopener"
         >

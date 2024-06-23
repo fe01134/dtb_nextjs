@@ -4,8 +4,8 @@ meta_title: "Cliff beach in Carvoeiro Algarve Portugal"
 description: "Cliff beach located Carvoeiro near Vale de Milho"
 date: 2024-04-07T05:00:00Z
 image: "/images/beaches/carvalho.jpg"
-locations: ["Lagoa", "Carvoeiro", "Vale de El-Rei"]
-trip: "Add Me"
+locations: ["Lagoa", "Carvoeiro", "Vale De El-Rei"]
+event: "Sun, Sand and Surf"
 tags: ["tunnel", "swimming", "secluded", "beach", "cliff diving" ]
 draft: false
 activity: "Beach"

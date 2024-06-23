@@ -6,8 +6,8 @@ banner:
   image: "/images/seaviews.jpeg"
   button:
     enable: true
-    label: "Find things to do!"
-    link: "/things_to_do"
+    label: "Find a Base Location"
+    link: "/locations"
 
 # Features
 features:
@@ -31,13 +31,13 @@ features:
     image: "/images/assistant_ui.png"
     content: "Some of the key features are:"
     bulletpoints:
-      - "AI Assistant to answer other questions you have regarding planning your trip to the Algarve."
+      - "AI Assistant to answer other questions you have regarding planning your event to the Algarve."
       - "Organized simply by things to do and the places you can do them at."
       - "We are thinking about adding events too. Let us know if we should or if you would like to see something else."
     button:
       enable: true
       label: "Make a Suggestion"
-      link: "https://github.com/zeon-studio/nextplate"
+      link: "/contact"
 
   - title: "The Top Reasons to Choose AlgarveVist to Plan Your Next Trip"
     image: "/images/trust.png"

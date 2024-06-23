@@ -4,8 +4,8 @@ meta_title: "Extremely busy cliff beach in Carvoeiro Algarve Portugal"
 description: "Cliff beach located Carvoeiro near Vale de Milho"
 date: 2024-04-07T05:00:00Z
 image: "/images/beaches/benegil.jpg"
-locations: ["Lagoa", "Estômbar e Parchal", "Benegil"]
-trip: "Add Me"
+locations: ["Lagoa", "Caramujeira", "Benegil"]
+event: "Sun, Sand and Surf"
 tags: ["sunrise", "swimming", "secluded", "sunset", "beach", "cave"]
 draft: false
 activity: "Beach"

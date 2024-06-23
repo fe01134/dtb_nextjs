@@ -25,7 +25,7 @@ export type Post = {
     description?: string;
     image?: string;
     locations: string[];
-    trip: string;
+    event: string;
     tags: string[];
     date?: string;
     map?: string;
@@ -35,7 +35,7 @@ export type Post = {
   content?: string;
 };
 
-export type Trip = {
+export type Event = {
   frontmatter: {
     title: string;
     image?: string;
