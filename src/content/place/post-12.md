@@ -3,7 +3,7 @@ title: "Favorate Cafes in Carvoeiro"
 meta_title: " Portugal"
 description: "Every town has so many Cafe but here are my favorates in Carvoeiro"
 date: 2024-06-01T05:00:00Z
-image: "/images/beaches/earth.jpg"
+image: "/images/restaurants/earth.jpg"
 locations: ["Lagoa", "Carvoeiro", "Downtown Carvoeiro"]
 event: "Authentic Portuguese Food"
 tags: ["coffee", "cafe",]

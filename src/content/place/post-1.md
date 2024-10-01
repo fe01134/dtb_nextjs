@@ -6,7 +6,7 @@ date: 2024-04-07T05:00:00Z
 image: "/images/excursions/carlitos.jpg"
 locations: ["Lagoa", "Carvoeiro", "Vale de Milho"]
 event: "Willife and Nature"
-tags: ["kids", "animals", "excursion"]
+tags: ["kids", "animals"]
 draft: false
 district: "Lagoa"
 council: "Carvoeiro"
