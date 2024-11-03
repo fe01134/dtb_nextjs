@@ -21,7 +21,7 @@ While rock falls rarely happen in the summer it is worth considering not laying 
 
 ### Where to eat?
 
-There is only one restaurant by the beach.  It offers indoor and outdoor seating with great views of beach. It has good food and cold drinks icluding Super Bock beer on tap. There is also a beautiful picinic area with tables at the entrance to the beach and parking area.  Bring a picinic lunch and enjoy the shade under the Olive trees.
+There is only one restaurant by the beach called O Stop.  It offers indoor and outdoor seating with great views of beach. It has good food and cold drinks icluding Super Bock beer on tap. There is also a beautiful picinic area with tables at the entrance to the beach near the parking area.  Bring a picinic lunch and enjoy the shade under the Olive trees.
 
 ### Parking
 
@@ -37,12 +37,12 @@ It's a larger size beach for a Cliff beach. However, like some other cliff beach
 
 ### Activities
 
-- **Water Sports**:  Not good for surfing.  Good for swimming
-- **Swimming**:
-- **Sun Bathing**:
-- **Dining**:
-- **Watching Sunsets**:  There are spectacular sunsets are visible by walking up the stairs to either side of the beach.
-- **Get a selfie**:  The beach has a large an iconic Instagramable table and chairs at the top of teh cliff that overlooks the beach.  
+- **Water Sports**  Not good for surfing.  Good for swimming
+- **Swimming**
+- **Sun Bathing**
+- **Dining** O Stop restaurant and bar open from lunch to dining time in the evening.
+- **Watching Sunsets**  There are spectacular sunsets are visible by walking up the stairs to either side of the beach.
+- **Take a Selfie**  The beach has a large an iconic Instagramable table and chairs at the top of teh cliff that overlooks the beach.  
 
 ###  Cost
 
@@ -50,4 +50,4 @@ Free
 
 ### Restrooms
 
-Are available behind the restaurant and bar that is on the beach.  
+Are available behind the O Stop restaurant and bar that is on the beach.  

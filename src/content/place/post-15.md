@@ -29,7 +29,7 @@ R. Marina de Albufeira 3B, 8201-918 Albufeira, Portugal
 
 ### Where to eat?
 
-The marina has many sit down restaurants and bars that overlook the Marina.   If you book an excursion they sometime offer drink discounts to the local marina bars and restaurants.  Checkin first with your excursion before you vist the bars and restaurants for your event to take advantage of the discounts.
+The marina has many sit down restaurants and bars that overlook the Marina.   If you book an excursion they sometime offer drink discounts to the local marina bars and restaurants.  Checkin first with your excursion provider before you visit the bars and restaurants. Many of them offer free drink or discount coupons with the marina bars and restaurants.
 
 
 ### Parking
